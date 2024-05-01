@@ -24,8 +24,7 @@ The Moral Science Lab is fundamentally interdisciplinary, requiring the integrat
 
 2. Social and personality psychology: the MSIDLAB project draws heavily on the use of the experimental and quasi-experimental methods that have been developed in the psychological sciences (see Miller, Hannikainen & Cushman, 2014; Hannikainen, 2019).
 
-3. Law and politics: the project sets out to employ the normative insights (distilled through a critical assessment of the cognitive science of moral disagreement) for the betterment of controversies arising in institutional context, such as the law (see, e.g.,
-Struchiner, Almeida & Hannikainen, 2020, for an example of the role of empathy in judicial discretion).Welcome to my website! Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+3. Law and politics: the project sets out to employ the normative insights (distilled through a critical assessment of the cognitive science of moral disagreement) for the betterment of controversies arising in institutional context, such as the law (see, e.g. Struchiner, Almeida & Hannikainen, 2020, for an example of the role of empathy in judicial discretion).Welcome to my website! Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
