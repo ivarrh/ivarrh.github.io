@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Department of Philosophy I. <a href='https://www.ugr.es/'>University of Granada</a>. experimental philosophy, cognitive science, moral psychology.
+subtitle: experimental philosophy, cognitive science, moral psychology. <a href='https://www.ugr.es/'>University of Granada</a>.
 
 profile:
   align: right
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-The Moral Science Lab is fundamentally interdisciplinary, requiring the integration of three distinct academic disciplines and the collaboration between a network of scholars with complementary skill sets:
+The Moral Science Lab is an interdisciplinary research lab, based in the Department of Philosophy I at the University of Granada.
 
 1. Normative ethics: at one level, objective of the MSIDLAB project is to advance normative ethical questions, such as, how to distinguish killing from letting die (see Rodriguez-Arias et al., 2020), or the proper standards for critical care triage (see Rueda et al., 2020).
 
