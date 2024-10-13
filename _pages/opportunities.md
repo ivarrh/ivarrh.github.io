@@ -1,18 +1,18 @@
 ---
 layout: page
 permalink: /opportunities/
-title: openings
-description: Postdoctoral Researcher in Experimental Jurisprudence and Moral Psychology
-nav: true
-nav_order: 10
+title: moral science lab
+description: Department of Philosophy I, [University of Granada](www.ugr.es)
+nav: false
+nav_order: 8
 ---
 
   <div class="header-bar">
     <h1>Opportunities</h1>
-    <h2>:balance_scale: Postdoctoral Researcher :brain:</h2>
+    <h2>:balance_scale: Postdoctoral Researcher in Experimental Jurisprudence and Moral Psychology :brain:</h2>
   </div>
 
-The **Moral Science Lab**, at the University of Granada, is seeking a **Postdoctoral Researcher** to join our team. The project explores the psychological processes that influence legal and moral cognition, drawing on survey experiments, and [process tracing](https://escholarship.org/uc/item/737187j2) and [behavioral economic](https://www.pnas.org/doi/abs/10.1073/pnas.2206531119) methods.
+The **Moral Science Lab**, in the Department of Philosophy I at the University of Granada, is seeking a **Postdoctoral Researcher** to join our team. The project explores the psychological processes that influence legal and moral cognition, drawing on survey experiments, and [process tracing](https://escholarship.org/uc/item/737187j2) and [behavioral economic](https://www.pnas.org/doi/abs/10.1073/pnas.2206531119) methods.
 
 ### Key Responsibilities:
 
