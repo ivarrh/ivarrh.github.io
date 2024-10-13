@@ -1,15 +1,16 @@
 ---
 layout: page
-permalink: /opportunities/
+permalink: /openings/
 title: moral science lab
-description: Department of Philosophy I, [University of Granada](www.ugr.es)
+description: Department of Philosophy I, University of Granada
 nav: false
 nav_order: 8
 ---
 
   <div class="header-bar">
-    <h1>Opportunities</h1>
-    <h2>:balance_scale: Postdoctoral Researcher in Experimental Jurisprudence and Moral Psychology :brain:</h2>
+    <h1>Openings</h1>
+    <h2>Postdoctoral Researcher</h2>
+    <h2>:balance_scale: Experimental Jurisprudence and Moral Psychology :brain:</h2>
   </div>
 
 The **Moral Science Lab**, in the Department of Philosophy I at the University of Granada, is seeking a **Postdoctoral Researcher** to join our team. The project explores the psychological processes that influence legal and moral cognition, drawing on survey experiments, and [process tracing](https://escholarship.org/uc/item/737187j2) and [behavioral economic](https://www.pnas.org/doi/abs/10.1073/pnas.2206531119) methods.
@@ -23,7 +24,7 @@ The **Moral Science Lab**, in the Department of Philosophy I at the University o
 
 ### Position Details:
 
-This is a **full-time**, one-year position, with the possibility of renewal contingent on funding. The anticipated start date is _January 1, 2025_, though later start dates may be considered. Candidates must hold a PhD in philosophy, psychology, economics, or a closely related field. Experience with experimental design and statistical analysis is highly desirable.
+This is a **full-time**, one-year position, with the possibility of renewal contingent on funding. The ideal start date is **January 1st, 2025**, though later start dates are possible. Candidates must hold a PhD in philosophy, psychology, economics, or a closely related field. Experience with experimental design and statistical analysis is highly desirable.
 
 ### Application Process:
 
