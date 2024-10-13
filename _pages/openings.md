@@ -24,7 +24,7 @@ The **Moral Science Lab**, in the Department of Philosophy I at the University o
 
 ### Position Details:
 
-This is a **full-time**, one-year position, with the possibility of renewal contingent on funding. The ideal start date is **January 1st, 2025**, though later start dates are possible. Candidates must hold a PhD in philosophy, psychology, economics, or a closely related field. Experience with experimental design and statistical analysis is highly desirable.
+This is a **full-time**, one-year position, with the possibility of renewal contingent on funding. The ideal start date is **January 1st, 2025**, though later start dates are possible. Candidates must hold a PhD in philosophy, psychology, economics, or a closely related field. Experience with experimental design and statistical analysis is highly desirable. Proficiency in both Spanish and English is preferred.
 
 ### Application Process:
 
