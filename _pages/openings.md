@@ -28,7 +28,7 @@ This is a **full-time**, one-year position, with the possibility of renewal cont
 
 ### Application Process:
 
-Interested candidates should submit the following documents to Ivar R. Hannikainen ([ivar@ugr.es](mailto:ivar@ugr.es)) and Rosa López ([rosall@ugr.es](mailto:rosall@ugr.es)):
+Interested candidates should submit the following documents to Ivar R. Hannikainen ([ivar@ugr.es](mailto:ivar@ugr.es)) and Rosa López ([rosall@ugr.es](mailto:rosall@ugr.es)) by November 4th 2024:
 
 1. A cover letter,
 2. A curriculum vitae (including contact details for two referees),
