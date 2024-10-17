@@ -10,28 +10,32 @@ nav_order: 6
   <div class="header-bar">
     <h1>Openings</h1>
     <h2>Investigador/a Posdoctoral</h2>
-    <h2>:balance_scale: Experimental Jurisprudence and Moral Psychology :brain:</h2>
+    <h2>:balance_scale: Jurisprudencia y Psicología Moral :brain:</h2>
   </div>
 
-The **Moral Science Lab**, in the Department of Philosophy I at the University of Granada, is seeking a **Postdoctoral Researcher** to join our team. The project explores the psychological processes that influence legal and moral cognition, drawing on survey experiments, and [process tracing](https://escholarship.org/uc/item/737187j2) and [behavioral economic](https://www.pnas.org/doi/abs/10.1073/pnas.2206531119) methods.
+El **Moral Science Lab**, en el Departamento de Filosofía I de la Universidad de Granada, busca un/a **Investigador/a Postdoctoral** para unirse al equipo del proyecto de Consolidación Investigadora 2023 _Legal Interpretation and Moral Reasoning_ (CNS2023.144543) financiada por MICIU/AEI/10.13039/501100011033 y por la Unión Europea NextGenerationEU/PRTR. El proyecto se centra en analizar los procesos cognitivos que influyen en la toma de decisión moral y legal, empleando diversos métodos experimentales, desde técnicas de [_process tracing_](https://escholarship.org/uc/item/737187j2) hasta [juegos económicos](https://www.pnas.org/doi/abs/10.1073/pnas.2206531119).
 
-### Key Responsibilities:
+### Responsabilidades principales:
 
-- Designing and conducting experiments,
-- Developing manuscripts for publication,
-- Presenting research findings at academic conferences,
-- Supporting the organization of workshops and public engagement initiatives.
+- Diseñar experimentos, utilizando los métodos señalados,
+- Elaborar manuscritos para su publicación en revistas científicas,
+- Presentar los hallazgos de la investigación en conferencias académicas,
+- Apoyar la organización de talleres e iniciativas de divulgación.
 
-### Position Details:
+### ¿Qué ofrecemos?
 
-This is a **full-time**, one-year position, with the possibility of renewal contingent on funding. The ideal start date is **January 1st, 2025**, though later start dates are possible. Candidates must hold a PhD in philosophy, psychology, economics, or a closely related field. Experience with experimental design and statistical analysis is highly desirable. Proficiency in both Spanish and English is preferred.
+Se trata de un contrato a **jornada completa**, con una duración inicial de un año, y posibilidad de renovación en función de la disponibilidad de fondos. La fecha de inicio ideal es el **1 de enero de 2025**, aunque se pueden considerar fechas posteriores.
 
-### Application Process:
+### Requisitos del puesto:
 
-Interested candidates should submit the following documents to Ivar R. Hannikainen ([ivar@ugr.es](mailto:ivar@ugr.es)) and Rosa López ([rosall@ugr.es](mailto:rosall@ugr.es)) by November 4th 2024:
+Los candidatos deben tener un Doctorado en Filosofía, Psicología, Economía o campo relacionado. Se requiere experiencia en diseño experimental y análisis estadístico, así como el dominio tanto del **español** como del **inglés**.
 
-1. A cover letter,
-2. A curriculum vitae (including contact details for two referees),
-3. A writing sample.
+### Proceso de solicitud:
 
-Prospective applicants are welcome to reach out with any questions before applying. We look forward to reviewing your application!
+Si estás interesado/a, debes enviar la siguiente documentación por correo electrónico antes del 4 de noviembre 2024 a Ivar Rodríguez Hannikainen ([ivar@ugr.es](mailto:ivar@ugr.es)) y Rosa López ([rosall@ugr.es](mailto:rosall@ugr.es)).
+
+1. Una **carta de presentación** (destacando tu adecuación al puesto),
+2. Un **currículum vitae** (con los datos de contacto de dos referencias),
+3. Una **publicación o preprint** (preferiblemente de primera autoría).
+
+No dudes en escribirnos si tienes cualquier duda. ¡Esperamos recibir tu candidatura!
