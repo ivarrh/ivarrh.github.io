@@ -28,7 +28,7 @@ Se trata de un contrato a **jornada completa**, con una duración inicial de un 
 
 ### Requisitos del puesto:
 
-Es indispensable el título de Doctor en Filosofía, Psicología, Economía o disciplinas afines. Se valorará muy posivitamente la experiencia previa en diseño experimental, competencia estadística, conocimientos de programación (e.j., en R, Python, Javascript), y el dominio de español e inglés.
+Es indispensable el título de Doctor en Filosofía, Psicología, Economía o disciplinas afines. Se valorará muy positivamente la experiencia previa en diseño experimental, competencia estadística, conocimientos de programación (e.j., en R, Python, Javascript), y el dominio de español e inglés.
 
 ### Proceso de solicitud:
 
