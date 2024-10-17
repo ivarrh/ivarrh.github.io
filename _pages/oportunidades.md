@@ -10,7 +10,7 @@ nav_order: 6
   <div class="header-bar">
     <h1>Ofertas</h1>
     <h2>Investigador/a Posdoctoral</h2>
-    <h2>:balance_scale: Jurisprudencia y Psicología Moral :brain:</h2>
+    <h2>:balance_scale: Jurisprudencia Experimental y Psicología Moral :brain:</h2>
   </div>
 
 El **Moral Science Lab**, en el Departamento de Filosofía I de la Universidad de Granada, busca un/a **Investigador/a Postdoctoral** para unirse al equipo del proyecto de Consolidación Investigadora 2023 _Legal Interpretation and Moral Reasoning_ (CNS2023.144543) financiada por MICIU/AEI/10.13039/501100011033 y por la Unión Europea NextGenerationEU/PRTR. El proyecto se centra en analizar los procesos cognitivos que influyen en la toma de decisión moral y legal, empleando diversos métodos experimentales, desde técnicas de _[process tracing](https://escholarship.org/uc/item/737187j2)_ hasta [juegos económicos](https://www.pnas.org/doi/abs/10.1073/pnas.2206531119).
