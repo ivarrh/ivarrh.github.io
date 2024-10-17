@@ -28,7 +28,7 @@ Se trata de un contrato a **jornada completa**, con una duración inicial de un 
 
 ### Requisitos del puesto:
 
-Los candidatos deben tener un Doctorado en Filosofía, Psicología, Economía o campo relacionado. Se requiere experiencia en diseño experimental y análisis estadístico, así como el dominio tanto del **español** como del **inglés**.
+Es indispensable el título de Doctor en Filosofía, Psicología, Economía o disciplinas afines. Se valorará muy posivitamente la experiencia previa en diseño experimental, competencia estadística, conocimientos de programación (e.j., en R, Python, Javascript), y el dominio de español e inglés.
 
 ### Proceso de solicitud:
 
