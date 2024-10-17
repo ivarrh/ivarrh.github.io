@@ -4,7 +4,7 @@ permalink: /openings/
 title: moral science lab
 description: Department of Philosophy I, University of Granada
 nav: false
-nav_order: 9
+nav_order: 6
 ---
 
   <div class="header-bar">
