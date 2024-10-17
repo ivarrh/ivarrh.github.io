@@ -8,7 +8,7 @@ nav_order: 6
 ---
 
   <div class="header-bar">
-    <h1>Openings</h1>
+    <h1>Ofertas</h1>
     <h2>Investigador/a Posdoctoral</h2>
     <h2>:balance_scale: Jurisprudencia y Psicología Moral :brain:</h2>
   </div>
