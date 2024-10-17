@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /openings/
+permalink: /oportunidades/
 title: moral science lab
 description: Department of Philosophy I, University of Granada
 nav: false
