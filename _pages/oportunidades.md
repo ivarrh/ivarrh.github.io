@@ -32,7 +32,7 @@ Es indispensable el título de Doctor en Filosofía, Psicología, Economía o di
 
 ### Proceso de solicitud:
 
-Si estás interesado/a, debes enviar la siguiente documentación por correo electrónico antes del 4 de noviembre 2024 a Ivar Rodríguez Hannikainen ([ivar@ugr.es](mailto:ivar@ugr.es)) y Rosa López ([rosall@ugr.es](mailto:rosall@ugr.es)).
+Si estás interesado/a, debes enviar la siguiente documentación por correo electrónico antes del 18 de noviembre 2024 a Ivar Rodríguez Hannikainen ([ivar@ugr.es](mailto:ivar@ugr.es)) y Rosa López ([rosall@ugr.es](mailto:rosall@ugr.es)).
 
 1. Una **carta de presentación** (destacando tu adecuación al puesto),
 2. Un **currículum vitae** (con los datos de contacto de dos referencias),
