@@ -2,9 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Ivar Rodríguez Hannikainen
     - name: Date of Birth
-      value: 14th March 1879
+      value: 22nd August 1985
     - name: Languages
       value: English, Spanish
 
@@ -12,8 +12,8 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Sheffield, United Kingdom
+      year: 2014
       description:
         - Description 1.
         - Description 2.
@@ -21,19 +21,13 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Ramón y Cajal Senior Research Fellow
+      institution: Department of Philosophy I, University of Granada
+      year: 2022 -
       description:
         - Description 1.
         - Description 2.
@@ -90,8 +84,3 @@
       items:
         - Description 1.
         - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
