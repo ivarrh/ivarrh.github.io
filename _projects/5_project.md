@@ -4,7 +4,7 @@ title: verbal offense
 description: how do people evaluate offensive speech?
 img: assets/img/offspeech.jpg
 importance: 3
-category: former
+category: previous
 ---
 
 Every project has a beautiful feature showcase page.

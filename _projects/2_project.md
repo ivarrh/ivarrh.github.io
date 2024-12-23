@@ -4,7 +4,7 @@ title: the experimental philosophy of migration
 description: we need a background image and giscus comments
 img: assets/img/7.jpg
 importance: 2
-category: work
+category: current
 giscus_comments: true
 ---
 

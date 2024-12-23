@@ -5,7 +5,7 @@ description: how do we resolve moral dilemmas involving different animal and pla
 img: assets/img/ad1.jpg
 permalink: /projects/animaldilemmas/
 importance: 2
-category: work
+category: current
 ---
 
 Every project has a beautiful feature showcase page.

@@ -5,7 +5,7 @@ description: 2018-2023 study swap involving fifteen countries
 redirect: https://osf.io/sk7r3/
 img:
 importance: 3
-category: former
+category: previous
 ---
 
 Every project has a beautiful feature showcase page.
