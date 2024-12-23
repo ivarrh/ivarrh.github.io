@@ -2,7 +2,7 @@
 layout: page
 title: animal dilemmas
 description: a project that redirects to another website
-img: assets/img/ad1.png
+img: assets/img/ad1.jpg
 permalink: /projects/animaldilemmas/
 importance: 2
 category: work
