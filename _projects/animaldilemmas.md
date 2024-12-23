@@ -2,8 +2,8 @@
 layout: page
 title: animal dilemmas
 description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+img: assets/img/ad1.png
+permalink: /projects/animaldilemmas/
 importance: 2
 category: work
 ---
