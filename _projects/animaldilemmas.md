@@ -1,7 +1,7 @@
 ---
 layout: page
 title: animal dilemmas
-description: a project that redirects to another website
+description: how do we resolve moral dilemmas involving different animal and plant species?
 img: assets/img/ad1.jpg
 permalink: /projects/animaldilemmas/
 importance: 2
