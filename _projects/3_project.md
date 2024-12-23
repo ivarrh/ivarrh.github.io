@@ -4,7 +4,7 @@ title: animal dilemmas
 description: a project that redirects to another website
 img: assets/img/7.jpg
 redirect: https://unsplash.com
-importance: 3
+importance: 2
 category: work
 ---
 

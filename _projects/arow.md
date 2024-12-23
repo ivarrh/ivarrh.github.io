@@ -2,6 +2,7 @@
 layout: page
 title: aRoW Validation
 description: validating animated stimuli for use in cross-cultural research
+permalink: /projects/arow/
 img: /assets/img/storyboard.jpg
 importance: 3
 category: work
