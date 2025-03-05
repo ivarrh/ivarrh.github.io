@@ -8,9 +8,21 @@ importance: 2
 category: current
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Who do we consider when making everyday moral decisions: family, friends, strangers? What if there is more to the story? Some philosophers have conceptualised these moral boundaries under the term the 'moral circle', understood as distinct moral domains that reflect the separation between those beings that are morally important to us and those that are not.
+
+This research seeks to understand how personal characteristics (such as dietary preferences or which charity to donate to) influence the way people prioritise and value different entities, both human and non-human. In a first experiment, we analysed how people made decisions in a hypothetical critical situation where they had to decide whether to save one of two entities. Both the participants' choices and their reaction times were recorded. This experiment focused on individual, dilemmatic decisions, i.e. each person had to choose between two options without considering previous decisions or the context of other choices. The idea was to understand how people prioritise different entities in an isolated scenario.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/moralcircle.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The moral circle of participants according to their preferred charity.
+</div>
+
+In a second experiment, we plan to contrast the individual decision with a situation in which people have to take previous decisions into account. This means that they will not only be asked to choose between two entities, but they will also have to consider which entities have been saved before. This will allow us to analyse whether there is a marginal or relative value in prioritising entities when the context of other decisions is taken into account. For example, does a person's choice change if they know that certain entities have been saved before?
+In short, this research seeks to understand not only how we prioritise individually, but also how our decisions may be influenced by the context of previous choices, which may reveal more complex patterns in the way we value different entities.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -37,7 +49,7 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/moralcircle.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
