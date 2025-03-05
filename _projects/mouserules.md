@@ -1,24 +1,24 @@
 ---
 layout: page
-title: animal dilemmas
-description: how do we resolve moral dilemmas involving different animal and plant species?
+title: mouse-tracking rules
+description: we use process-tracing methods to examine how people enforce rules
 img: assets/img/ad1.jpg
-permalink: /projects/animaldilemmas/
-importance: 2
+permalink: /projects/mouserules/
+importance: 3
 category: current
 ---
 
-Who do we consider when making everyday moral decisions: family, friends, strangers? What if there is more to the story? Some philosophers have conceptualised these moral boundaries under the term the 'moral circle', understood as distinct moral domains that reflect the separation between those beings that are morally important to us and those that are not.
+Stemming from the philosophical debate on how to interpret laws, this study aims at investigating the temporal unfolding of rules’ interpretation by taking advantage of knowledge and methodologies coming from different fields of research.
 
-This research seeks to understand how personal characteristics (such as dietary preferences or which charity to donate to) influence the way people prioritise and value different entities, both human and non-human. In a first experiment, we analysed how people made decisions in a hypothetical critical situation where they had to decide whether to save one of two entities. Both the participants' choices and their reaction times were recorded. This experiment focused on individual, dilemmatic decisions, i.e. each person had to choose between two options without considering previous decisions or the context of other choices. The idea was to understand how people prioritise different entities in an isolated scenario.
+In detail, the project will adopt the tracking of mouse movements as a proxy of cognitive processes, coupled with an online approach to data collection and the use of innovative techniques of data analysis, to disentangle the different weight of a rule’s literal text and of its moral purpose in determining laypeople’s judgments of whether it has been infringed or not. Hence, the questions that we will address have the potential of informing everyday legal practices as well as our general understanding of dynamics taking place in the court, with fundamental implications for society at large, bridging what happens in the lab and what occurs in everyday life by in turn narrowing the divide between experimental philosophy and cognitive sciences.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/moralcircle.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/IncongruentMT.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    The moral circle of participants according to their preferred charity.
+    Mouse trajectories of conviction and acquittal judgments.
 </div>
 
 In a second experiment, we plan to contrast the individual decision with a situation in which people have to take previous decisions into account. This means that they will not only be asked to choose between two entities, but they will also have to consider which entities have been saved before. This will allow us to analyse whether there is a marginal or relative value in prioritising entities when the context of other decisions is taken into account. For example, does a person's choice change if they know that certain entities have been saved before?

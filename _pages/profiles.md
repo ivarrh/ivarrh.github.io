@@ -15,8 +15,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Principal Investigator</p>
-      <p>UGR</p>
-      <p>Your City, State 12345</p>
+      <p>University of Granada</p>
   - align: left
     image: carme.png
     content: about_carme.md
@@ -24,21 +23,26 @@ profiles:
     more_info: >
       <p>Assistant Professor</p>
       <p>UIB</p>
-      <p>Your City, State 12345</p>
   - align: right
     image: jorge.png
     content: about_jorge.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>PhD student</p>
-      <p>UGR</p>
-      <p>Your City, State 12345</p>
+      <p>PhD Student</p>
+      <p>University of Granada</p>
   - align: left
     image: dani.png
     content: about_dani.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>PhD student</p>
-      <p>UGR</p>
+      <p>PhD Student</p>
+      <p>University of Granada</p>
+  - align: right
+    image: paolo.png
+    content: about_paolo.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Research Assistant</p>
+      <p>University of Granada</p>
       <p>Your City, State 12345</p>
 ---
