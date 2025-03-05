@@ -1,5 +1,4 @@
-DANIEL MARTÍN. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+DANIEL MARTÍN. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m Daniel Martin, a PhD student at the University of Granada. I hold a Master’s degree in Applied Ethics from the Complutense University of Madrid and a Bachelor’s degree in Philosophy from the University of Granada. My research focuses on how people form and justify their moral preferences, particularly regarding animals, plants, and other entities. I also investigate how perceptions of normality, reasonableness, and social norms influence moral prioritization and decision-making. Combining insights from philosophy and psychology, I use experimental methods to understand the processes behind moral reasoning, with the goal of informing ethical discussions in climate change and human-animal relationships.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
