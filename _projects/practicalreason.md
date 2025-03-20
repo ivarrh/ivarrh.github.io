@@ -12,13 +12,13 @@ Over the past few decades, we have witnessed how certain practices that were onc
 
 This research examines how perceptions of normality and reasonableness are influenced by two types of frequency: how common something is (descriptive) and how desirable it is (prescriptive). In two studies, we analyse how these estimates are related and which of them is more influential.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm" style="max-width: 600px; width: 100%;">
         {% include figure.liquid loading="eager" path="assets/img/RAIN1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Empirical cumulative density plots of reasonable, average, ideal and normal estimations.
+    <b>Empirical cumulative density plots of reasonable, average, ideal and normal estimations.</b>
 </div>
 
 Preliminary results show that both frequencies play a key role, but with nuances: ideal estimates weigh more heavily on reasonableness, while average estimates are more influential on perceptions of normality. Moreover, these differences have different effects on moral judgments, suggesting that our judgments are shaped by both the frequency with which something happens and the desirability we attribute to it.
