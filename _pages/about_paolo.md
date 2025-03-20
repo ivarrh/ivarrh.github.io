@@ -1,4 +1,4 @@
-Paolo BUTTAZZONI.
+<h3> Paolo BUTTAZZONI </h3> 
 
 My name is Paolo Buttazzoni and I am a junior researcher from Italy. I have obtained a bachelor’s degree in Cognitive Psychology & Psychobiology at the University of Padova, followed by a master’s double degree in Cognitive Neuroscience & Clinical Neuropsychology in collaboration with the University of Granada.
 

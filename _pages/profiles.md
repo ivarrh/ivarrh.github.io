@@ -44,5 +44,4 @@ profiles:
     more_info: >
       <p>Research Assistant</p>
       <p>University of Granada</p>
-      <p>Your City, State 12345</p>
 ---
