@@ -15,7 +15,7 @@ For example, Gerver et al. (2023) introduced the concept of “Experimental Immi
 Our project builds on this emerging literature to further investigate how experimental philosophy can provide robust evidence on the effects that are crucial to normative debates about the justification of migration policies and the potential discrimination that immigrants may face in host countries.
 
 <div class="row justify-content-center">
-    <div class="col-sm" style="max-width: 600px; width: 100%;">
+    <div class="col-sm" style="max-width: 500px; width: 100%;">
         {% include figure.liquid loading="eager" path="assets/img/migration.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
