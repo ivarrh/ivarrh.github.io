@@ -13,7 +13,7 @@ Who do we consider when making everyday moral decisions: family, friends, strang
 This research seeks to understand how personal characteristics (such as dietary preferences or which charity to donate to) influence the way people prioritise and value different entities, both human and non-human. In a first experiment, we analysed how people made decisions in a hypothetical critical situation where they had to decide whether to save one of two entities. Both the participants' choices and their reaction times were recorded. This experiment focused on individual, dilemmatic decisions, i.e. each person had to choose between two options without considering previous decisions or the context of other choices. The idea was to understand how people prioritise different entities in an isolated scenario.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 600px; width: 100%;">
         {% include figure.liquid loading="eager" path="assets/img/moralcircle.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
