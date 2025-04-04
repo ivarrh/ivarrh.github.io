@@ -17,7 +17,7 @@ The storyboard in Figure 1 illustrates the key elements of the animation: how th
         {% include figure.liquid loading="eager" path="assets/img/storyboard.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="font-size: 1.1em; max-width: 750px;"><strong>Figure 1. Storyboard created by <a href="https://www.wearecognitive.com/whiteboard-animation-videos" target="_blank" rel="noopener">We are Cognitive</a>.</strong></div>
+<div class="caption" style="font-size: 1.1em; text-align: center; max-width: 750px;"><strong>Figure 1. Storyboard created by <a href="https://www.wearecognitive.com/whiteboard-animation-videos" target="_blank" rel="noopener">We are Cognitive</a>.</strong></div>
 
 In our proof-of-concept studies, participants are assigned to either the animation-based or a text-based analogue in a between-subjects design. We will not only focus on participants’ violation judgments, but also on their subjective perception of the experiment, thus evaluating differences in experimental design from a qualitative standpoint.
 
@@ -30,7 +30,7 @@ Follow-up questions about participants' experience indicate multiple preferences
         {% include figure.liquid loading="eager" path="assets/img/arow-figure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="font-size: 1.1em; max-width: 750px;">
+<div class="caption" style="font-size: 1.1em; text-align: center; max-width: 750px;">
     <b>Figure 2. Results of Proof-of-Concept Study (<i>N</i> = 815).</b> (A) Scatter plot of effect sizes by condition. (B) Grouped histogram of participant experience by condition with overlaid means. (C) Violin plot of expected payment by condition on a base-10 logarithmic scale.
 </div>
 
