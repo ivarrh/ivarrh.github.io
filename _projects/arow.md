@@ -13,13 +13,11 @@ The A-ROW (Animated Rules of the World) project investigates judgments of rule v
 The storyboard in Figure 1 illustrates the key elements of the animation: how the rule originated, a protagonist's behavior and the consequences of their behavior.
 
 <div class="row justify-content-center">
-    <div class="col-sm" style="max-width: 600px; width: 100%;">
+    <div class="col-sm" style="max-width: 750px; width: 100%;">
         {% include figure.liquid loading="eager" path="assets/img/storyboard.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption" style="font-size: 1.1em;">
-    <strong>Storyboard by <a href="https://www.wearecognitive.com/whiteboard-animation-videos" target="_blank" rel="noopener">We are Cognitive</a>.</strong>
-    </div>
 </div>
+<div class="caption" style="font-size: 1.1em; max-width: 750px;"><strong>Figure 1. Storyboard created by <a href="https://www.wearecognitive.com/whiteboard-animation-videos" target="_blank" rel="noopener">We are Cognitive</a>.</strong></div>
 
 In our proof-of-concept studies, participants are assigned to either the animation-based or a text-based analogue in a between-subjects design. We will not only focus on participants’ violation judgments, but also on their subjective perception of the experiment, thus evaluating differences in experimental design from a qualitative standpoint.
 
@@ -28,12 +26,12 @@ Thus far, the results indicate that the magnitude of the effect sizes are strong
 Follow-up questions about participants' experience indicate multiple preferences for the animation-based delivery: The animations are less boring (Cohen's _d_ = -0.28), less silly (Cohen's _d_ = 0.19), more entertaining (Cohen's _d_ = 0.29), more interesting (Cohen's _d_ = 0.29) and more engaging (Cohen's _d_ = 0.42) than text-based vignettes (Figure 2B), all *p*s < .001. Figure 2C also shows a lower expected payment among participants in the animation condition (_Mdn_ = £7.62 per hour) than in the text-based vignette (_Mdn_ = £11.00 per hour) condition (rank-sum test: _W_ = 100615, _p_ < .001).
 
 <div class="row justify-content-center">
-    <div class="col-sm" style="max-width: 600px; width: 100%;">
+    <div class="col-sm" style="max-width: 750px; width: 100%;">
         {% include figure.liquid loading="eager" path="assets/img/arow-figure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption" style="font-size: 1.1em;">
-    <b>Results of Validation Study (<i>N</i> = 815).</b> (A) Scatter plot of effect sizes by condition. (B) Grouped histogram of participant experience by condition with overlaid means. (C) Violin plot of expected payment by condition on a base-10 logarithmic scale.
-    </div>
+</div>
+<div class="caption" style="font-size: 1.1em; max-width: 750px;">
+    <b>Figure 2. Results of Proof-of-Concept Study (<i>N</i> = 815).</b> (A) Scatter plot of effect sizes by condition. (B) Grouped histogram of participant experience by condition with overlaid means. (C) Violin plot of expected payment by condition on a base-10 logarithmic scale.
 </div>
 
 A live version of the study is available [here](https://pgxjol5vil.cognition.run/). You are welcome to take part and share the study link with your friends!
