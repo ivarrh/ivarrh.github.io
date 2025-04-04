@@ -2,7 +2,7 @@
 layout: page
 title: animal dilemmas
 description: how do we resolve moral dilemmas involving different animal and plant species?
-img: assets/img/ad1.jpg
+img: assets/img/ad1.png
 permalink: /projects/animaldilemmas/
 importance: 2
 category: current
@@ -14,7 +14,7 @@ This research seeks to understand how personal characteristics (such as dietary 
 
 <div class="row justify-content-center">
     <div class="col-sm" style="max-width: 750px; width: 100%;">
-        {% include figure.liquid loading="eager" path="assets/img/moralcircle.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/moralcircle.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
