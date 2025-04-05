@@ -2,9 +2,9 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+description: lab members
 nav: true
-nav_order: 7
+nav_order: 3
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -14,8 +14,8 @@ profiles:
     content: about_ivar.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Principal Investigator</p>
-      <p>ivar@ugr.es</p>
+      <p>Principal Investigator<br>
+      ivar@ugr.es</p>
   - align: left
     image: carme.png
     content: about_carme.md
