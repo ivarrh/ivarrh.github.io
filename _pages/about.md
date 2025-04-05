@@ -18,10 +18,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to our website! The Moral Science Lab is an interdisciplinary research lab based in the Department of Philosophy I at the University of Granada.
+Welcome to our website! The Moral Science Lab is an interdisciplinary research lab based in the Department of Philosophy I at the University of Granada. We combine experimental and observational research methods to investigate issues in:
 
-1. <b>experimental philosophy</b>: at one level, objective of the Moral Science Lab is to advance normative ethical questions, such as, how to distinguish killing from letting die (see Rodriguez-Arias et al., 2020), or the proper standards for critical care triage (see Rueda et al., 2020).
+1. <b>philosophy</b>: Our research has examined the cognitive processes that subserve people's reasoning about various philosophical questions, such as the [compatibility between free will and determinism](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02428/full) or what it means to [be self-deceived](https://link.springer.com/article/10.1007/s13164-024-00743-y) or to [consent](https://www.researchgate.net/publication/381715657_Agency_Desire_and_the_Conceptual_Representation_of_Consent).
 
-2. <b>moral psychology</b>: the Moral Science Lab draws heavily on the use of the experimental and quasi-experimental methods that have been developed in the psychological sciences (see Miller, Hannikainen & Cushman, 2014; Hannikainen, 2019).
+2. <b>psychology</b>: Our ongoing studies examine how people reason about [the moral status of non-human species](/projects/animaldilemmas/), how we perceive non-native and [migrant individuals](/projects/migration/). We have also documented generational or [cohort differences](https://www.irishtimes.com/culture/would-you-kill-one-person-to-save-five-depends-if-you-re-a-millennial-or-not-1.4173661) in moral judgment.
 
-3. <b>cognitive science</b>: the project sets out to employ the normative insights (distilled through a critical assessment of the cognitive science of moral disagreement) for the betterment of controversies arising in institutional context, such as the law (see, e.g. Struchiner, Almeida & Hannikainen, 2020, for an example of the role of empathy in judicial discretion). 
+3. <b>jurisprudence</b>: Some of our studies examine what people consider to be [law](https://onlinelibrary.wiley.com/doi/10.1111/cogs.13024), how they interpret rules, and how law and morality are [related](https://www.pnas.org/doi/full/10.1073/pnas.2406823121).
+
+You can learn more about our research on the [projects](/_projects/) page. And also take one of our studies [here](studies/){:target="\_blank"}!
+
+The Moral Science Lab is generously funded by a 2023 Research Consolidation Project (_Legal Interpretation and Moral Reasoning_; **CNS2023.144543**), funded the _Spanish Ministry of Science and Innovation_ (MICIU/AEI/10.13039/501100011033) and the _European Union NextGenerationEU/PRTR_.

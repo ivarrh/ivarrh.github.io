@@ -4,7 +4,7 @@ title: A-ROW proof of concept
 description: validating animated stimuli for use in cross-cultural research
 permalink: /projects/arow/
 img: /assets/img/storyboard.jpg
-importance: 3
+importance: 4
 category: current
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: x-jur study swap
 description: 2018-2023 study swap involving fifteen countries
 redirect: https://osf.io/sk7r3/
-img:
+img: assets/img/xjur.png
 importance: 3
 category: previous
 ---

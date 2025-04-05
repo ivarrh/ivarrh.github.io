@@ -4,7 +4,7 @@ title: the practical reason project
 description: how often should we carry out various virtuous and vicious behaviors?
 permalink: /projects/practicalreason/
 img: assets/img/RAIN2.png
-importance: 3
+importance: 5
 category: current
 ---
 
