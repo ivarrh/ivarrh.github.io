@@ -29,7 +29,7 @@ horizontal: true
 <div class="row justify-content-center" style="max-width: 800px; margin: 0 auto;">
     <div class="col-12">
         <p style="font-size: 1.1em; text-align: center;">
-            In this study, you witness a disagreement and decide who is right.
+            In this study, you will witness a disagreement between two social media users and your job is to decide who is right.
         </p>
     </div>
 </div>
