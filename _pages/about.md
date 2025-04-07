@@ -26,6 +26,6 @@ Welcome to our website! The Moral Science Lab is an interdisciplinary research l
 
 3. <b>jurisprudence</b>: Some of our studies examine what people consider to be [law](https://onlinelibrary.wiley.com/doi/10.1111/cogs.13024), how they interpret rules, and how law and morality are [related](https://www.pnas.org/doi/full/10.1073/pnas.2406823121).
 
-You can learn more about our research on the [projects](/projects/) page. And also take one of our studies [here](https://mscilab.com/studies/){:target="\_blank"}!
+You can learn more about our research on the [projects](/projects/) page. And also take one of our studies [here](/studies/)!
 
 The Moral Science Lab is generously funded by a 2023 Research Consolidation Project (_Legal Interpretation and Moral Reasoning_; **CNS2023.144543**), funded the _Spanish Ministry of Science and Innovation_ (MICIU/AEI/10.13039/501100011033) and the _European Union NextGenerationEU/PRTR_.
