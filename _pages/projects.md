@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: a collection of the lab's ongoing and previous work
+description: A collection of the lab's ongoing and previous work
 nav: true
 nav_order: 2
 display_categories: [current, previous]

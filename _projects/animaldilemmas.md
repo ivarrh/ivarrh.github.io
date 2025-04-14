@@ -1,7 +1,7 @@
 ---
 layout: page
 title: animal dilemmas
-description: how do we resolve moral dilemmas involving different animal and plant species?
+description: How do we resolve moral dilemmas involving different animal and plant species?
 img: assets/img/ad1.png
 permalink: /projects/animaldilemmas/
 importance: 2

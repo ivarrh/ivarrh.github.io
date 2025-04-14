@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: experimental philosophy, cognitive science, moral psychology. <a href='https://www.ugr.es/'>University of Granada</a>.
+subtitle: Experimental philosophy, cognitive science, moral psychology at the <a href='https://www.ugr.es/'>University of Granada</a>.
 
 profile:
   align: right
@@ -29,3 +29,7 @@ Welcome to our website! The Moral Science Lab is an interdisciplinary research l
 You can learn more about our research on the [projects](/projects/) page. And also take one of our studies [here](/studies/)!
 
 The Moral Science Lab is generously funded by a 2023 Research Consolidation Project (_Legal Interpretation and Moral Reasoning_; **CNS2023.144543**), funded the _Spanish Ministry of Science and Innovation_ (MICIU/AEI/10.13039/501100011033) and the _European Union NextGenerationEU/PRTR_.
+
+<div style="text-align: left; width: 600px; max-width: 100%">
+{% include figure.liquid loading="eager" path="assets/img/mciu.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>

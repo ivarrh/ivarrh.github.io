@@ -1,7 +1,7 @@
 ---
 layout: page
 title: verbal offense
-description: how do people evaluate offensive speech?
+description: How do people evaluate offensive speech?
 img: assets/img/offspeech.jpg
 importance: 3
 category: previous

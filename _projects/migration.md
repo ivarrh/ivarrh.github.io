@@ -1,7 +1,7 @@
 ---
 layout: page
 title: the experimental philosophy of migration
-description: how do people morally judge foreign and migrant individuals?
+description: How do people morally judge foreign and migrant individuals?
 img: assets/img/migration.png
 permalink: /projects/migration/
 importance: 3

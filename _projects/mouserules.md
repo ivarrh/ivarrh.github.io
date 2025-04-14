@@ -1,7 +1,7 @@
 ---
 layout: page
 title: mouse-tracking rules
-description: we use process-tracing methods to examine how people enforce rules
+description: We use process-tracing methods to examine how people enforce rules
 img: assets/img/mousecover.png
 permalink: /projects/mouserules/
 importance: 1

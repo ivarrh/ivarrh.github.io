@@ -1,7 +1,7 @@
 ---
 layout: page
 title: the practical reason project
-description: how often should we carry out various virtuous and vicious behaviors?
+description: How often should we carry out various virtuous and vicious behaviors?
 permalink: /projects/practicalreason/
 img: assets/img/RAIN2.png
 importance: 5

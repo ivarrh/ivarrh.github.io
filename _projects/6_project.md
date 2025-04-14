@@ -1,7 +1,7 @@
 ---
 layout: page
 title: x-jur study swap
-description: 2018-2023 study swap involving fifteen countries
+description: A cross-cultural study swap involving fifteen countries (2018-2023)
 redirect: https://osf.io/sk7r3/
 img: assets/img/xjur.png
 importance: 3
