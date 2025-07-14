@@ -96,7 +96,7 @@ The workshop will be held form **Wednesday 5th to Friday 7th November 2025 in th
 
 [](<[Website](/people/)> "Website")
 
-[](/assets/img/ivar.png)
+[](/assets/img/dani.png)
 
 #### Daniel Martín
 
