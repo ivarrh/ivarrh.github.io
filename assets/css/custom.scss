@@ -1,46 +1,160 @@
+// _profile-cards.scss
+// Horizontal Grid Layout
+
+// Configuration
+$card-width: 280px; // Width of each card
+$card-height: 380px; // Fixed height for uniform cards
+$img-size: 200px; // Square image size
+$row-gap: 2rem; // Vertical space between rows
+$column-gap: 1.5rem; // Horizontal space between cards
+$max-cards-per-row: 4; // Maximum cards in one row
+
+// Grid Container
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($card-width, 1fr));
+  gap: $column-gap $row-gap;
+  justify-items: center;
+  padding: 1rem 0;
+
+  // Limit to 2 rows max
+  grid-auto-rows: $card-height;
+  grid-template-rows: repeat(2, $card-height);
+
+  // Center the grid when not full
+  justify-content: center;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr); // 2 columns on tablet
+    gap: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr; // Single column on mobile
+  }
+}
+
+// Profile Card
 .profile-card {
+  width: $card-width;
+  height: $card-height;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  max-width: 250px;
-  margin: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  overflow: hidden;
-  padding: 1rem;
-  background-color: #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    min-height: 360px;
+  }
 }
 
+// Square Image
 .profile-img-container {
-  width: 100%;
-  max-width: 180px;
-  aspect-ratio: 1;
+  width: $img-size;
+  height: $img-size;
+  margin-bottom: 1.2rem;
   overflow: hidden;
-  border-radius: 50%;
-  margin-bottom: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid #f0f0f0;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 768px) {
+    width: 180px;
+    height: 180px;
+  }
 }
 
-.profile-img {
+// Content Area
+.profile-content {
+  text-align: center;
   width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 50%;
-  display: block;
+
+  h3 {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+  }
+
+  .affiliation {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    min-height: 2.8em; // For 2 lines of text
+  }
 }
 
-.profile-info {
-  padding: 0 0.5rem;
+// Links Container
+.profile-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: auto; // Pushes links to bottom
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    color: #007acc;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: rgba(0, 122, 204, 0.08);
+    }
+
+    i {
+      margin-right: 0.3rem;
+    }
+  }
 }
 
-.profile-link {
-  display: inline-block;
-  margin-top: 0.4rem;
-  font-size: 0.9rem;
-  color: #007acc;
+.workshop-container h1 {
+  margin-bottom: 2rem; /* space below the title */
 }
 
-.profile-link i {
-  margin-right: 0.3rem;
+.workshop-container hr {
+  margin: 2rem 0; /* space above and below the horizontal line */
+}
+
+.workshop-meta {
+  margin-bottom: 2rem; /* space below the meta section */
+}
+
+.workshop-description {
+  margin-bottom: 3rem; /* optional: more breathing room after intro */
+}
+
+.workshop-section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.workshop-section ul li {
+  margin-bottom: 0.75rem;
 }
