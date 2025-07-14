@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "2025 Workshop"
+title: "2025 workshop"
 permalink: /workshop/
 nav: true
 order: 6
@@ -223,12 +223,9 @@ The workshop will be held form **Wednesday 5th to Friday 7th November 2025 in th
 </div>
 
   </div>
-  </section>
 
   <section class="contact-section">
     <h2>Questions?</h2>
     <p>Contact us at <a href="mailto:damartin@ugr.es">damartin@ugr.es</a></p>
     <p class="last-updated">Last updated: July 14, 2023</p>
   </section>
-
-</div>
