@@ -5,111 +5,47 @@
   padding: 2rem;
 }
 
-.workshop-meta {
-  background: #f8f9fa;
-  padding: 1.5rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-
-  p {
-    margin: 0.5rem 0;
-  }
-}
-
-.btn {
-  display: inline-block;
-  background: #0066cc;
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-  margin-top: 1rem;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-/* Profile Grid Styles */
-.speakers-grid,
-.organizers-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
-}
-
-.profile-card {
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
-}
-
+/* Profile Image Fixes */
 .profile-img-container {
-  height: 200px;
+  height: 200px; /* Fixed height for all speaker images */
+  width: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5; /* Fallback background */
 }
 
 .profile-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top;
+  object-position: top center; /* Ensures faces are always visible */
 }
 
-.organizer .profile-img-container {
-  height: 160px;
-}
+/* Organizer specific styles */
+/* Add this to your custom.scss */
+.profile-card {
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: 1px solid transparent;
 
-.profile-info {
-  padding: 1.5rem;
+  &:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow:
+      0 14px 28px rgba(0, 0, 0, 0.1),
+      0 10px 10px rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 102, 204, 0.2);
 
-  h3 {
-    margin: 0 0 0.5rem;
-    font-size: 1.2rem;
+    /* Optional: Lighten image on hover */
+    .profile-img {
+      opacity: 0.9;
+    }
   }
 
-  .affiliation {
-    color: #666;
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-  }
-}
-
-.profile-link {
-  display: inline-flex;
-  align-items: center;
-  color: #0066cc;
-  text-decoration: none;
-  font-size: 0.9rem;
-
-  i {
-    margin-right: 5px;
-  }
-}
-
-/* Section Styling */
-section {
-  margin: 3rem 0;
-
-  h2 {
-    border-bottom: 2px solid #eee;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
-  }
-}
-
-.contact-section {
-  text-align: center;
-  margin-top: 4rem;
-
-  .last-updated {
-    color: #888;
-    font-size: 0.9rem;
-    margin-top: 1rem;
+  /* Smooth image transition */
+  .profile-img {
+    transition: opacity 0.3s ease;
   }
 }
