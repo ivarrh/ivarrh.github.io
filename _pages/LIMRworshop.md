@@ -2,7 +2,7 @@
 layout: page
 title: "2025 workshop"
 permalink: /workshop/
-nav: true
+nav: false
 order: 6
 ---
 
