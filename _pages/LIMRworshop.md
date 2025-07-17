@@ -149,6 +149,32 @@ order: 6
       </div>
     </div>
   </div>
+    <!-- Kathryn B. Francis -->
+  <div class="profile-card">
+    <div class="profile-img-container">
+      <img src="/assets/img/workshop/francis.png" alt="Kathryn B. Francis">
+    </div>
+    <div class="profile-content">
+      <h3>Kathryn B. Francis</h3>
+      <p class="affiliation">University of Oxford</p>
+      <div class="profile-links">
+        <a href="https://www.kathrynfrancis.com/home" target="_blank"><i class="fas fa-globe"></i> Website</a>
+      </div>
+    </div>
+  </div>
+      <!-- Carme  -->
+  <div class="profile-card">
+    <div class="profile-img-container">
+      <img src="/assets/img/carme.png" alt="Carme Isern Mas">
+    </div>
+    <div class="profile-content">
+      <h3>Carme Isern Mas</h3>
+      <p class="affiliation">Universidad de las Islas Baleares</p>
+      <div class="profile-links">
+        <a href="https://www.uib.es/es/personal/ABjIyMjIzNg/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+      </div>
+    </div>
+  </div>
 
 </div>
 
@@ -162,13 +188,17 @@ order: 6
     <ul>
       <li><strong>Shaun Nichols:</strong> “Speak about rule learning”</li>
       <li><strong>Neele Engelmann:</strong> "Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments"</li>
-      <li><strong>Edmond Awad:</strong>To be anounced</li>
+      <li><strong>Edmond Awad:</strong>To be anounced.</li>
       <li><strong>Salima Issina-Shorman:</strong> “Coordination by Precedent in Judicial Decision-Making”</li>
       <li><strong>Kevin Tobia:</strong> Chapter from a new book on "Statutory Textualism"</li>
       <li><strong>Karolina Prochownik:</strong> “Law and Morality in Evolutionary Perspective”</li>
-      <li><strong>Piotr Bystranowski:</strong> To be anounced</li>
-      <li><strong>Ana Belén Gómez-Bellvís:</strong> To be anounced</li>
+      <li><strong>Piotr Bystranowski:</strong> To be anounced.</li>
+      <li><strong>Ana Belén Gómez-Bellvís:</strong> To be anounced.</li>
+      <li><strong>Katheryn B. Frnacis:</strong> To be anounced.</li>
+      <li><strong>Carmen Isrn Mas:</strong> To be anounced.</li>
+
     </ul>
+
   </section>
 
   <hr>
@@ -235,8 +265,10 @@ order: 6
 
   </section>
 
-  <section class="contact-section">
+<section class="contact-section">
+  <div class="contact-inner">
     <h2>Contact us!</h2>
-    <p>Contact us at <a href="mailto:damartin@ugr.es">damartin@ugr.es</a></p>
-    <p class="last-updated">Last updated: July 14, 2023</p>
-  </section>
+    <p>Email us at <a href="mailto:damartin@ugr.es">damartin@ugr.es</a></p>
+    <p class="last-updated">Last updated: July 17, 2025</p>
+  </div>
+</section>

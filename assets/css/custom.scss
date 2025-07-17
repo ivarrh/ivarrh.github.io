@@ -2,6 +2,20 @@
 // Horizontal Grid Layout
 
 // Configuration
+:root {
+  --card-bg: white;
+  --card-color: black;
+  --card-shadow: rgba(0, 0, 0, 0.08);
+  --card-link: #0066cc;
+}
+
+[data-theme="dark"] {
+  --card-bg: #333333;
+  --card-color: #f0f0f0;
+  --card-shadow: rgba(75, 75, 75, 0.143);
+  --card-link: #66bfff;
+}
+
 $card-width: 280px; // Width of each card
 $card-height: 380px; // Fixed height for uniform cards
 $img-size: 200px; // Square image size
@@ -43,6 +57,7 @@ $max-cards-per-row: 4; // Maximum cards in one row
   width: $card-width;
   height: $card-height;
   padding: 1.5rem;
+  margin-bottom: 1.2rem;
   background: white;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
@@ -64,6 +79,16 @@ $max-cards-per-row: 4; // Maximum cards in one row
   }
 }
 
+[data-theme="dark"] .profile-card {
+  background: #1e1e1e; // Or a dark neutral tone like #2a2a2a
+  color: #f0f0f0;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.05); // optional
+}
+
+.profile-card .profile-link {
+  color: var(--card-link);
+}
+
 // Square Image
 .profile-img-container {
   width: $img-size;
@@ -71,7 +96,7 @@ $max-cards-per-row: 4; // Maximum cards in one row
   margin-bottom: 1.2rem;
   overflow: hidden;
   border-radius: 4px;
-  border: 1px solid #f0f0f0;
+  border: 0px solid #ffffff00;
 
   img {
     width: 100%;
@@ -157,4 +182,18 @@ $max-cards-per-row: 4; // Maximum cards in one row
 }
 .workshop-section ul li {
   margin-bottom: 0.75rem;
+}
+
+.contact-section {
+  font-size: 0.85rem; /* Smaller text */
+  text-align: left; /* Align text to the left */
+  max-width: 600px; /* Optional: limit width */
+  margin-top: 2rem;
+  margin-left: 0; /* Optional: align flush to the left */
+  padding-left: 1rem; /* Optional: add some left padding */
+}
+
+.contact-inner {
+  margin: 0 auto 0 0; /* Align to left inside a centered block */
+  width: fit-content;
 }
