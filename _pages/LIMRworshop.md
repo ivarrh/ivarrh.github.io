@@ -186,7 +186,7 @@ order: 6
   <section id="talk-titles" class="workshop-section">
     <h2>Talk Titles</h2>
     <ul>
-      <li><strong>Shaun Nichols:</strong> “Speak about rule learning”</li>
+      <li><strong>Shaun Nichols:</strong> “Rule learning”</li>
       <li><strong>Neele Engelmann:</strong> "Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments"</li>
       <li><strong>Edmond Awad:</strong>To be anounced.</li>
       <li><strong>Salima Issina-Shorman:</strong> “Coordination by Precedent in Judicial Decision-Making”</li>
@@ -262,8 +262,6 @@ order: 6
       </div>
     </div>
   </div>
-
-  </section>
 
 <section class="contact-section">
   <div class="contact-inner">
