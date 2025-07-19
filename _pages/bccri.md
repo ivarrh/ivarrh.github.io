@@ -2,7 +2,7 @@
 layout: default
 title: "Bioxphi Cross-Cultural"
 permalink: /bccri/
-nav: true
+nav: false
 order: 8
 ---
 
