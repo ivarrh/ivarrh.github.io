@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "2025 workshop"
+title: workshop
 permalink: /workshop/
 nav: true
-order: 6
+nav_order: 2
 ---
 
-  <h1><strong>Legal Interpretation and Moral Reasoning</strong> — 2025 Workshop</h1>
+  <h1>2025 <strong>Legal Interpretation and Moral Reasoning</strong> Workshop</h1>
   <hr>
 
   <div class="workshop-meta">

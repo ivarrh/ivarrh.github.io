@@ -1,71 +1,42 @@
 ---
 layout: default
-title: "Bioxphi Cross-Cultural"
+title: "Global BioXphi Research Initiative"
 permalink: /bccri/
 nav: false
-order: 8
 ---
 
 <br>
-  <h1><strong>Bioxphi Cross-Cultural Research Initiative</strong></h1>
+  <h1><strong>Global BioXphi Research Initiative</strong></h1>
 <hr>
 
   <div class="workshop-description">
   <p>
-    The <strong>BioXphi Cross-Cultural Research Initiative</strong> seeks to expand BioXphi research across diverse cultural contexts around the world. 
-    By conducting studies internationally, we want explore both cultural variations and shared patterns in cognition, building a richer understanding of how culture shapes our responses to bioethical questions.
+    The <strong>Global BioXphi Research Initiative</strong> seeks to expand <a href="https://www.researchgate.net/publication/337196406_Experimental_Philosophical_Bioethics">experimental bioethics</a> research across diverse cultural contexts around the world. How does culture shape our responses to bioethical issues? We are assembling a team of collaborators to conduct studies internationally, with the aim of understanding the degree to which bioethical intuitions vary across cultures. 
   </p>
   <p>
-    Our previous <a href = "https://osf.io/sk7r3/">cross-cultural efforts in experimental jurisprudence</a> have yielded some notable outcomes: <a href = "http://dx.doi.org/10.2139/ssrn.5185137">The Nature of Reasonableness??</a>, <a href = "http://dx.doi.org/10.2139/ssrn.5185137">Another one</a>. We are now excited to apply this methodology to the field of BioXphi.
+    The Global BioXphi Research Initiative draws inspiration from the previous <a href = "https://osf.io/sk7r3/">cross-cultural study swap in experimental jurisprudence</a>, which replicated published study findings in roughly 10 to 15 countries and yielded valuable insights into the degree of cultural variation in questions of jurisprudential interest (see Exhibits <a href = "http://dx.doi.org/10.2139/ssrn.5185137">1</a> and <a href = "https://www.pnas.org/doi/full/10.1073/pnas.2206531119">2</a>).
   </p>
-  <p>
-    Are you currently working on BioXphi topics? <strong>Would you be interested in joining this global initiative?</strong>
-  </p>
-  <p>
-    We are currently gathering expressions of interest until <strong>1 September 2025</strong>.
+  <p style="text-align:center;">
+    <strong>Would you like to take part in cross-cultural research in bioxphi?</strong><br>We are currently gathering expressions of interest until <strong>1 September 2025</strong>.
   </p>
 <br>
-  <h3><strong>Expresion of Interest</strong><h3>
+  <h3><strong>Expressions of Interest</strong><h3>
 <p><small>
   We may not be able to accommodate every proposed idea or replicate the experiment in the same countries. 
   </small></p>
 <form 
-  action="https://formspree.io/f/your-form-id" 
+  action="https://mscilab.com/forms/submit.php" 
   method="POST" 
   class="full-width-form"
   data-theme="light">
-  <!-- Checkbox for proposing a study -->
-<label class="form-checkbox-container">
-  <input type="checkbox" name="propose_study" class="form-checkbox">
-  <span class="form-checkbox-label">I want to propose a study.</span>
-</label>
-
-  <!-- Study link input -->
-<label class="form-field">
-  <span class="form-label">The study is:</span>
-  <input 
-    type="url" 
-    name="study_link" 
-    class="form-input" 
-    placeholder="[LINK to preprint/publication]"
-  >
-</label>
-
-  <!-- Hypothesis & design textarea -->
-  <label class="form-field">
-    <span class="form-label">Hypothesis and design:</span>
-    <textarea name="hypothesis_design" class="form-textarea"></textarea>
-  </label>
-
-  <!-- Checkbox for data collection -->
+<!-- Checkbox for data collection -->
 <label class="form-checkbox-container">
     <input type="checkbox" name="collect_data" class="form-checkbox"> 
-    <span class="form-label">I want to collect data.</span>
+    <span class="form-label">I want to collect data for the Global BioXphi Research Initiative.</span>
   </label>
-
   <!-- Location dropdown -->
   <label class="form-field">
-    <span class="form-label">I would collect data in:</span>
+    <span class="form-label">The country I would collect data in is:</span>
    <select name="country" class="form-control" id="country">
         <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
         <optgroup id="country-optgroup-Africa" label="Africa">
@@ -333,27 +304,59 @@ order: 8
     </select>
   </label>
 
+  <label class="form-field">
+    <span class="form-label">What local language would you translate the materials into?</span>
+    <input type="text" name="language" class="form-input">
+  </label>
+
+  <label class="form-field">
+    <span class="form-label">Briefly describe the sample you would recruit.</span>
+    <input type="text" name="sample" class="form-input">
+  </label>
+
+<label class="form-checkbox-container">
+  <input type="checkbox" name="propose_study" class="form-checkbox">
+  <span class="form-checkbox-label">I also want to propose a study for cross-cultural replication.</span>
+</label>
+
+  <!-- Study link input -->
+<label class="form-field">
+  <span class="form-label">The study I would like to propose can be found here:</span>
+  <input 
+    type="url" 
+    name="study_link" 
+    class="form-input" 
+    placeholder="[Preprint or publication URL]"
+  >
+</label>
+
+  <!-- Hypothesis & design textarea -->
+  <label class="form-field">
+    <span class="form-label">Briefly describe the design and study finding:</span>
+    <textarea name="study_description" class="form-textarea"></textarea>
+  </label>
+
   <!-- Name input -->
   <label class="form-field">
-    <span class="form-label">Name:</span>
+    <span class="form-label">Your name:</span>
     <input type="text" name="name" class="form-input">
   </label>
 
   <!-- Institution input -->
   <label class="form-field">
-    <span class="form-label">Institution:</span>
-    <input type="text" name="institution" class="form-input">
+    <span class="form-label">Your affiliation:</span>
+    <input type="text" name="affiliation" class="form-input">
   </label>
 
   <!-- Email input -->
   <label class="form-field">
-    <span class="form-label">Email address:</span>
+    <span class="form-label">Your email address:</span>
     <input type="email" name="email" class="form-input">
   </label>
 
   <!-- Additional comments -->
   <label class="form-field">
-    <span class="form-label">Additional comments:</span>
+    <span class="form-label">Any additional comments?</span>
     <textarea name="comments" class="form-textarea"></textarea>
   </label>
 
