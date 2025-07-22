@@ -10,32 +10,23 @@ nav_order: 2
   <hr>
 
   <div class="workshop-meta">
-    <p><strong>Dates:</strong> Wednesday 5th to Friday 7th November 2025</p>
-    <p><strong>Location:</strong> Carmen de la Victoria, Granada</p>
-
+    <p><strong>Dates:</strong> Wednesday 5<sup>th</sup> to Friday 7<sup>th</sup> of November 2025</p>
+    <p><strong>Location:</strong> Salón de Actos, <a href="https://carmendelavictoria.ugr.es/">Carmen de la Victoria</a>, University of Granada, Spain</p>
   </div>
+
+<div class="row justify-content-center">
+    <div class="col-sm" style="max-width: 1000px; width: 100%;">
+{% include figure.liquid loading="eager" path="https://carmendelavictoria.ugr.es/sites/serv/carmenvictoria/public/styles/home_slider_2dpr_896_/public/imagenes/cabecera/2020-04/carmen-de-la-victoria-mgs.webp?itok=npnLPtF8" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
   <div class="workshop-description">
-    <p>This workshop brings together researchers from philosophy, law, and cognitive science to explore the interplay between legal interpretation and moral reasoning. Attendees can expect a dynamic program of talks, discussions, and collaborative sessions.</p>
-
+    <p>This workshop brings together <a href="#confirmed-speakers">ten speakers</a> from philosophy, law, and cognitive science to explore the interplay between legal interpretation and moral reasoning. Attendees can expect a dynamic <a href="#program">program</a> of talks, discussions, and collaborative sessions.</p>
   </div>
-
-  <hr>
-
-  <!-- Index -->
-  <nav class="workshop-toc">
-    <h2>Contents</h2>
-    <ul>
-      <li><a href="#confirmed-speakers">Confirmed Speakers</a></li>
-      <li><a href="#talk-titles">Talk Titles</a></li>
-      <li><a href="#schedule">Schedule</a></li>
-    </ul>
-  </nav>
-
   <hr>
  <!-- Speakers -->
   <section id="confirmed-speakers" class="workshop-section">
-    <h2>Confirmed Speakers</h2>
+    <h2>Our Speakers</h2>
 <div class="profile-grid">
 
   <!-- Shaun Nichols -->
@@ -131,7 +122,7 @@ nav_order: 2
       <h3>Piotr Bystranowski</h3>
       <p class="affiliation">Jagiellonian University</p>
       <div class="profile-links">
-        <a href="https://holdenlee.github.io" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="https://incet.uj.edu.pl/piotr-bystranowski" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
@@ -182,31 +173,25 @@ nav_order: 2
 
   <hr>
 
- <!-- Talk Titles -->
-  <section id="talk-titles" class="workshop-section">
-    <h2>Talk Titles</h2>
+<!-- Program -->
+  <section id="program" class="workshop-section">
+    <h2><b>Workshop Program</b></h2>
+    <h3>Thursday 6<sup>th</sup></h3>
     <ul>
-      <li><strong>Shaun Nichols:</strong> “Rule learning”</li>
-      <li><strong>Neele Engelmann:</strong> "Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments"</li>
-      <li><strong>Edmond Awad:</strong>To be anounced.</li>
-      <li><strong>Salima Issina-Shorman:</strong> “Coordination by Precedent in Judicial Decision-Making”</li>
-      <li><strong>Kevin Tobia:</strong> Chapter from a new book on "Statutory Textualism"</li>
-      <li><strong>Karolina Prochownik:</strong> “Law and Morality in Evolutionary Perspective”</li>
-      <li><strong>Piotr Bystranowski:</strong> To be anounced.</li>
-      <li><strong>Ana Belén Gómez-Bellvís:</strong> To be anounced.</li>
-      <li><strong>Katheryn B. Frnacis:</strong> To be anounced.</li>
-      <li><strong>Carmen Isrn Mas:</strong> To be anounced.</li>
-
+      <li><strong>Karolina Prochownik:</strong> Law and Morality in Evolutionary Perspective</li>
+      <li><strong>Kathryn B. Francis:</strong> <i>TBA</i> </li>
+      <li><strong>Piotr Bystranowski:</strong> <i>TBA</i> </li>
+      <li><strong>Ana Belén Gómez-Bellvís:</strong> <i>TBA</i> </li>
+      <li><strong>Kevin Tobia:</strong> Statutory Textualism</li>
     </ul>
-
-  </section>
-
-  <hr>
-
-  <!-- Schedule -->
-  <section id="schedule" class="workshop-section">
-    <h2>Schedule</h2>
-    <p>To be anounced.</p>
+    <h3>Friday 7<sup>th</sup></h3>
+    <ul>
+      <li><strong>Neele Engelmann:</strong> "Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments"</li>
+      <li><strong>Carme Isern-Mas:</strong> <i>TBA</i> </li>
+      <li><strong>Edmond Awad:</strong> <i>TBA</i> </li>
+      <li><strong>Salima Issina-Shorman:</strong> Coordination by Precedent in Judicial Decision-Making</li>
+      <li><strong>Shaun Nichols:</strong> Rule Learning </li>
+    </ul>
   </section>
 
   <hr>
@@ -264,9 +249,11 @@ nav_order: 2
   </div>
 
 <section class="contact-section">
-  <div class="contact-inner">
+<div class="row justify-content-center">
+  <div class="contact-inner"> 
     <h2>Contact us!</h2>
     <p>Email us at <a href="mailto:damartin@ugr.es">damartin@ugr.es</a></p>
-    <p class="last-updated">Last updated: July 17, 2025</p>
+    <p class="last-updated">Last updated: July 22nd, 2025</p>
+  </div>
   </div>
 </section>
