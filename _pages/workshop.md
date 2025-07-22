@@ -21,7 +21,7 @@ nav_order: 2
 </div>
 
   <div class="workshop-description">
-    <p>This workshop brings together <a href="#confirmed-speakers">ten speakers</a> from philosophy, law, and cognitive science to explore the interplay between legal interpretation and moral reasoning. Attendees can expect a dynamic <a href="#program">program</a> of talks, discussions, and collaborative sessions.</p>
+    <p>This workshop brings together <a href="#confirmed-speakers">eleven speakers</a> from philosophy, law, and cognitive science to explore the interplay between legal interpretation and moral reasoning. Attendees can expect a dynamic <a href="#program">program</a> of talks, discussions, and collaborative sessions.</p>
   </div>
   <hr>
  <!-- Speakers -->
@@ -163,6 +163,19 @@ nav_order: 2
       <p class="affiliation">Universidad de las Islas Baleares</p>
       <div class="profile-links">
         <a href="https://www.uib.es/es/personal/ABjIyMjIzNg/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+      </div>
+    </div>
+  </div>
+        <!-- Vilius  -->
+  <div class="profile-card">
+    <div class="profile-img-container">
+      <img src="/assets/img/workshop/vilius.png" alt="Vilius Dranseika">
+    </div>
+    <div class="profile-content">
+      <h3>Vilius Dranseika</h3>
+      <p class="affiliation">Jagiellonian University</p>
+      <div class="profile-links">
+        <a href="https://www.dranseika.lt" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
