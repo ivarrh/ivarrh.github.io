@@ -22,7 +22,7 @@ nav: false
 <br>
   <h3><strong>Expressions of Interest</strong><h3>
 <p><small>
-  The coordinating committee will discuss all the proposals and send invitations by October 2025.<br>We aim at maximizing global coverage, which means that may not be able to accommodate multiple proposals from the same cultural group. 
+  The coordinating committee will discuss all the proposals and send invitations by October 2025.<br>We aim at maximizing global coverage, linguistically and culturally, which means that may not be able to accommodate multiple proposals from the same cultural and linguistic region. 
   </small></p>
 <form 
   action="https://mscilab.com/forms/submit.php" 
@@ -32,10 +32,10 @@ nav: false
 <!-- Checkbox for data collection -->
 <label class="form-checkbox-container">
     <input type="checkbox" name="collect_data" class="form-checkbox"> 
-    <span class="form-label">I want to collect data for the Global BioXphi Research Initiative.</span>
+    <span class="form-checkbox-label">I want to collect data for the Global BioXphi Research Initiative.</span>
   </label>
   <!-- Location dropdown -->
-  <label class="form-field">
+  <label class="form-field" style="max-width: 400px;">
     <span class="form-label">The country I would collect data in is:</span>
    <select name="country" class="form-control" id="country">
         <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
@@ -304,19 +304,21 @@ nav: false
     </select>
   </label>
 
-  <label class="form-field">
-    <span class="form-label">What local language would you translate the materials into?</span>
-    <input type="text" name="language" class="form-input">
+  <label class="form-field"  style="max-width: 400px;">
+    <span class="form-label">What language would you translate the materials into?</span>
+    <input type="text" name="language" class="form-input"
+    placeholder="(e.g, German, Swahili, ...)">
   </label>
 
   <label class="form-field">
-    <span class="form-label">Briefly describe the sample you would recruit.</span>
-    <input type="text" name="sample" class="form-input">
+    <span class="form-label">Briefly describe the sample you plan to recruit.</span>
+    <input type="text" name="sample" class="form-input"
+    placeholder="(e.g, convenience online sample, university medical students, ...)">
   </label>
 
 <label class="form-checkbox-container">
   <input type="checkbox" name="propose_study" class="form-checkbox">
-  <span class="form-checkbox-label">I also want to propose a study for cross-cultural replication.</span>
+  <span class="form-checkbox-label">I also want to propose a study for the Global BioXphi Research Initiative.</span>
 </label>
 
   <!-- Study link input -->
@@ -326,9 +328,21 @@ nav: false
     type="url" 
     name="study_link" 
     class="form-input" 
-    placeholder="[Preprint or publication URL]"
+    placeholder="Provide a preprint or publication URL."
+    id="study_link"
   >
 </label>
+
+<script>
+  const input = document.getElementById('study_link');
+
+  input.addEventListener('blur', function () {
+    const val = input.value.trim();
+    if (val && !/^https?:\/\//i.test(val)) {
+      input.value = 'https://' + val;
+    }
+  });
+</script>
 
   <!-- Hypothesis & design textarea -->
   <label class="form-field">
@@ -337,19 +351,19 @@ nav: false
   </label>
 
   <!-- Name input -->
-  <label class="form-field">
+  <label class="form-field"  style="max-width: 400px;">
     <span class="form-label">Your name:</span>
     <input type="text" name="name" class="form-input">
   </label>
 
   <!-- Institution input -->
-  <label class="form-field">
+  <label class="form-field"  style="max-width: 400px;"> 
     <span class="form-label">Your affiliation:</span>
     <input type="text" name="affiliation" class="form-input">
   </label>
 
   <!-- Email input -->
-  <label class="form-field">
+  <label class="form-field"  style="max-width: 400px;">
     <span class="form-label">Your email address:</span>
     <input type="email" name="email" class="form-input">
   </label>
