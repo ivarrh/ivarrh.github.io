@@ -57,6 +57,34 @@ $max-cards-per-row: 4; // Maximum cards in one row
   }
 }
 
+.profile-grid-workshop {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($card-width, 1fr));
+  gap: $column-gap $row-gap;
+  justify-items: center;
+  padding: 1rem 0;
+
+  // Limit to 2 rows max
+  //grid-auto-rows: $card-height;
+  //grid-template-rows: repeat(2, $card-height);
+
+  // Center the grid when not full
+  justify-content: center;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr); // 2 columns on tablet
+    gap: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr; // Single column on mobile
+  }
+}
+
 // Profile Card
 .profile-card {
   width: $card-width;

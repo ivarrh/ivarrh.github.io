@@ -11,7 +11,11 @@ nav_order: 2
 
   <div class="workshop-meta">
     <p><strong>Dates:</strong> Wednesday 5<sup>th</sup> to Friday 7<sup>th</sup> of November 2025</p>
-    <p><strong>Location:</strong> Salón de Actos, <a href="https://carmendelavictoria.ugr.es/">Carmen de la Victoria</a>, University of Granada, Spain</p>
+    <p><strong>Location:</strong> Salón de Actos, <a href="https://carmendelavictoria.ugr.es/" target="_blank">Carmen de la Victoria</a>, University of Granada, Spain.
+    <span style="margin-left: 1em;"><small>
+    <a href="https://maps.app.goo.gl/rXzx385aCBZv5hmt5" target="_blank">
+      <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
+      </small></span></p>
   </div>
 
 <div class="row justify-content-center">
@@ -189,21 +193,25 @@ nav_order: 2
 <!-- Program -->
   <section id="program" class="workshop-section">
     <h2><b>Workshop Program</b></h2>
+    <p>The workshop will take place in the Salón de Actos, at the <a href="https://carmendelavictoria.ugr.es/">Carmen de la Victoria</a>.</p> 
     <h3>Thursday 6<sup>th</sup></h3>
-    <ul>
-      <li><strong>Karolina Prochownik:</strong> Law and Morality in Evolutionary Perspective</li>
-      <li><strong>Kathryn B. Francis:</strong> <i>TBA</i> </li>
-      <li><strong>Piotr Bystranowski:</strong> <i>TBA</i> </li>
-      <li><strong>Ana Belén Gómez-Bellvís:</strong> <i>TBA</i> </li>
-      <li><strong>Kevin Tobia:</strong> Statutory Textualism</li>
+    <ul style="list-style: none;">
+      <li> <time>9:30</time>.  <strong>Karolina Prochownik</strong>: Law and Morality in Evolutionary Perspective</li>
+      <li><time>10:30</time>.  <strong>Vilius Dranseika</strong>: <i>TBA</i> </li>
+      <li><time>11:30</time>.  <strong>Kathryn B. Francis</strong>: <i>TBA</i> </li>
+      <h4><i> ~ Lunch break ~ </i></h4>
+      <li><time>15:30</time>.  <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
+      <li><time>16:30</time>.  <strong>Piotr Bystranowski</strong>: <i>TBA</i> </li>
+      <li><time>17:30</time>.  <strong>Kevin Tobia</strong>: Statutory Textualism</li>
     </ul>
     <h3>Friday 7<sup>th</sup></h3>
-    <ul>
-      <li><strong>Neele Engelmann:</strong> "Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments"</li>
-      <li><strong>Carme Isern-Mas:</strong> <i>TBA</i> </li>
-      <li><strong>Edmond Awad:</strong> <i>TBA</i> </li>
-      <li><strong>Salima Issina-Shorman:</strong> Coordination by Precedent in Judicial Decision-Making</li>
-      <li><strong>Shaun Nichols:</strong> Rule Learning </li>
+    <ul style="list-style: none;">
+      <li> <time>9:30</time>.  <strong>Ana Belén Gómez-Bellvís</strong>: <i>TBA</i> </li>
+      <li><time>10:30</time>.  <strong>Carme Isern-Mas</strong>: <i>TBA</i> </li>
+      <li><time>11:30</time>.  <strong>Edmond Awad</strong>: <i>AI in the Wild</i> </li>
+      <h4><i> ~ Lunch break ~ </i></h4>
+      <li><time>15:30</time>.  <strong>Neele Engelmann</strong>: Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments</li>
+      <li><time>16:30</time>.  <strong>Shaun Nichols</strong>: Rule Learning </li>
     </ul>
   </section>
 
@@ -212,7 +220,37 @@ nav_order: 2
   <!-- Organizers -->
   <section class="organizers-section">
     <h2>Organizers</h2>
-    <div class="profile-grid">
+    <div class="profile-grid-workshop">
+
+  <!-- Organizer: Daniel Martín -->
+  <div class="profile-card">
+    <div class="profile-img-container">
+      <img src="/assets/img/dani.png" alt="Daniel Martín">
+    </div>
+    <div class="profile-content">
+      <h3>Daniel Martín</h3>
+      <p class="affiliation">University of Granada</p>
+      <div class="profile-links">
+        <a href="/people/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="mailto:damartin@ugr.es"><i class="fas fa-envelope"></i> Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Organizer: Rosa López -->
+  <div class="profile-card">
+    <div class="profile-img-container">
+      <img src="/assets/img/rosa.jpeg" alt="Rosa López">
+    </div>
+    <div class="profile-content">
+      <h3>Rosa López</h3>
+      <p class="affiliation">University of Granada</p>
+      <div class="profile-links">
+        <a href="/people/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="mailto:rosall@ugr.es"><i class="fas fa-envelope"></i> Contact</a>
+      </div>
+    </div>
+  </div>
 
   <!-- Organizer: Ivar R. Hannikainen -->
   <div class="profile-card">
@@ -231,42 +269,9 @@ nav_order: 2
 
   </div>
 
-  <!-- Organizer: Rosa López -->
-  <div class="profile-card">
-    <div class="profile-img-container">
-      <img src="/assets/img/rosa.jpeg" alt="Rosa López">
-    </div>
-    <div class="profile-content">
-      <h3>Rosa López</h3>
-      <p class="affiliation">University of Granada</p>
-      <div class="profile-links">
-        <a href="/people/" target="_blank"><i class="fas fa-globe"></i> Website</a>
-        <a href="mailto:rosall@ugr.es"><i class="fas fa-envelope"></i> Contact</a>
-      </div>
-    </div>
   </div>
+<h2><i class="fas fa-envelope"></i> Contact Us</h2>
+<p>For any queries, feel free to contact <a href="mailto:damartin@ugr.es?subject=Workshop%20Inquiry">Daniel Martín</a>.<br>
+Last updated: July 22<sup>nd</sup>, 2025</p>
 
-  <!-- Organizer: Daniel Martín -->
-  <div class="profile-card">
-    <div class="profile-img-container">
-      <img src="/assets/img/dani.png" alt="Daniel Martín">
-    </div>
-    <div class="profile-content">
-      <h3>Daniel Martín</h3>
-      <p class="affiliation">University of Granada</p>
-      <div class="profile-links">
-        <a href="/people/" target="_blank"><i class="fas fa-globe"></i> Website</a>
-        <a href="mailto:damartin@ugr.es"><i class="fas fa-envelope"></i> Contact</a>
-      </div>
-    </div>
-  </div>
-
-<section class="contact-section">
-<div class="row justify-content-center">
-  <div class="contact-inner"> 
-    <h2>Contact us!</h2>
-    <p>Email us at <a href="mailto:damartin@ugr.es">damartin@ugr.es</a></p>
-    <p class="last-updated">Last updated: July 22nd, 2025</p>
-  </div>
-  </div>
 </section>
