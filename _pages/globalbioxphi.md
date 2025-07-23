@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Global BioXphi Research Initiative"
-permalink: /bccri/
+permalink: /globalbioxphi/
 nav: false
 ---
 
@@ -14,15 +14,15 @@ nav: false
     The <strong>Global BioXphi Research Initiative</strong> seeks to expand <a href="https://www.researchgate.net/publication/337196406_Experimental_Philosophical_Bioethics">experimental bioethics</a> research across diverse cultural contexts around the world. How does culture shape our responses to bioethical issues? We are assembling a team of collaborators to conduct studies internationally, with the aim of understanding the degree to which bioethical intuitions vary across cultures. 
   </p>
   <p>
-    The Global BioXphi Research Initiative draws inspiration from the previous <a href = "https://osf.io/sk7r3/">cross-cultural study swap in experimental jurisprudence</a>, which replicated published study findings in roughly 10 to 15 countries and yielded valuable insights into the degree of cultural variation in questions of jurisprudential interest (see Exhibits <a href = "http://dx.doi.org/10.2139/ssrn.5185137">1</a> and <a href = "https://www.pnas.org/doi/full/10.1073/pnas.2206531119">2</a>).
+    The Global BioXphi Research Initiative draws inspiration from the previous <a href = "https://osf.io/sk7r3/">cross-cultural study swap in experimental jurisprudence</a>, which replicated previously published findings in roughly 10 to 15 countries and yielded valuable insights into the degree of cultural variation on questions of jurisprudential interest (see Exhibits <a href = "http://dx.doi.org/10.2139/ssrn.5185137">1</a> and <a href = "https://www.pnas.org/doi/full/10.1073/pnas.2206531119">2</a>). This new initiative will take similar steps: from selecting a set of studies, to translating the materials, pre-registering our hypotheses and analysis plans, and collecting data across all participating study sites.
   </p>
   <p style="text-align:center;">
-    <strong>Would you like to take part in cross-cultural research in bioxphi?</strong><br>We are currently gathering expressions of interest until <strong>1 September 2025</strong>.
+    <strong>Would you like to take part in cross-cultural research in BioXPhi?</strong><br>We are currently gathering expressions of interest until <strong>1 September 2025</strong>.
   </p>
 <br>
   <h3><strong>Expressions of Interest</strong><h3>
 <p><small>
-  We may not be able to accommodate every proposed idea or replicate the experiment in the same countries. 
+  The coordinating committee will discuss all the proposals and send invitations by October 2025.<br>We aim at maximizing global coverage, which means that may not be able to accommodate multiple proposals from the same cultural group. 
   </small></p>
 <form 
   action="https://mscilab.com/forms/submit.php" 
@@ -332,7 +332,7 @@ nav: false
 
   <!-- Hypothesis & design textarea -->
   <label class="form-field">
-    <span class="form-label">Briefly describe the design and study finding:</span>
+    <span class="form-label">Briefly describe the study design, the main finding, and its relevance for bioethics.</span>
     <textarea name="study_description" class="form-textarea"></textarea>
   </label>
 
