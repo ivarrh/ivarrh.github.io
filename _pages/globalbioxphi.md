@@ -23,7 +23,7 @@ nav_order: 6
 <br>
   <h3><strong>Expressions of Interest</strong><h3>
 <p><small>
-  The coordinating committee will discuss all the proposals and send invitations by October 2025.<br>We aim at maximizing global coverage, linguistically and culturally, which means that may not be able to accommodate multiple proposals from the same cultural and linguistic region. 
+  The coordinating committee will discuss all the proposals and send invitations by October 2025.<br>We aim at maximizing global coverage, linguistically and culturally, which means that we may not be able to accommodate multiple proposals from the same cultural and linguistic region. 
   </small></p>
 <form 
   action="https://mscilab.com/forms/submit.php" 
@@ -38,7 +38,7 @@ nav_order: 6
   <!-- Location dropdown -->
   <label class="form-field" style="max-width: 400px;">
     <span class="form-label">The country I would collect data in is:</span>
-   <select name="country" class="form-control" id="country">
+   <select name="country" class="form-select" id="country">
         <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
         <optgroup id="country-optgroup-Africa" label="Africa">
             <option value="DZ" label="Algeria">Algeria</option>
