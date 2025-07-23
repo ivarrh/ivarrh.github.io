@@ -270,6 +270,18 @@ nav_order: 2
   </div>
 
   </div>
+
+<div class="row justify-content-center" style="align-items: center; max-width: 750px; margin: auto;">
+  <p style="text-align: left;">
+    The workshop is generously funded by a 2023 Research Consolidation grant (<i>Legal Interpretation and Moral Reasoning</i>; <b>CNS2023.144543</b>), awarded by the <i>Spanish Ministry of Science and Innovation</i> (MICIU/AEI/10.13039/501100011033) and the <i>European Union NextGenerationEU/PRTR</i>.
+  </p>
+  <div style="width: 100%; text-align: center;">
+    {% include figure.liquid loading="eager" path="assets/img/mciu.jpg" title="MICINN" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+<hr>
+
 <h2><i class="fas fa-envelope"></i> Contact Us</h2>
 <p>For any queries, feel free to contact <a href="mailto:damartin@ugr.es?subject=Workshop%20Inquiry">Daniel Martín</a>.<br>
 Last updated: July 22<sup>nd</sup>, 2025</p>
