@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: workshop
 permalink: /workshop/
 nav: true

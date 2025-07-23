@@ -3,7 +3,7 @@ layout: page
 permalink: /studies/
 title: take a study
 nav: true
-nav_order: 6
+nav_order: 7
 horizontal: true
 ---
 

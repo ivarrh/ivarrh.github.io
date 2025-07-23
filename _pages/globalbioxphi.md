@@ -1,12 +1,13 @@
 ---
 layout: default
-title: "Global BioXphi Research Initiative"
+title: "global-bioXphi"
 permalink: /globalbioxphi/
-nav: false
+nav: true
+nav_order: 6
 ---
 
 <br>
-  <h1><strong>Global BioXphi Research Initiative</strong></h1>
+  <h1>The <strong>Global BioXphi</strong> Research Initiative</h1>
 <hr>
 
   <div class="workshop-description">
