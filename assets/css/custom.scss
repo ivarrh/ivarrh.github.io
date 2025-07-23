@@ -7,18 +7,18 @@
   --card-bg: white;
   --card-color: black;
   --card-shadow: rgba(0, 0, 0, 0.08);
-  --card-link: #0066cc;
+  --card-link: #b414ac;
   --input-border: #ddd;
-  --input-focus: #0066cc;
+  --input-focus: #b414ac;
 }
 
 [data-theme="dark"] {
   --card-bg: #333333;
   --card-color: #f0f0f0;
-  --card-shadow: rgba(75, 75, 75, 0.143);
-  --card-link: #66bfff;
+  --card-shadow: rgba(71, 21, 21, 0.143);
+  --card-link: #307d95;
   --input-border: #555;
-  --input-focus: #66bfff;
+  --input-focus: #307d95;
 }
 
 $card-width: 280px; // Width of each card
