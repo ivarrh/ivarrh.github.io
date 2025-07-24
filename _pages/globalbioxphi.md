@@ -37,9 +37,9 @@ nav_order: 6
   </label>
   <!-- Location dropdown -->
   <label class="form-field" style="max-width: 400px;">
-    <span class="form-label">The country I would collect data in is:</span>
+    <span class="form-label">The country/territory I would collect data in is:</span>
    <select name="country" class="form-select" id="country">
-        <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
+        <option value="0" label="Select a country/territory... " selected="selected">Select a country/territory... </option>
         <optgroup id="country-optgroup-Africa" label="Africa">
             <option value="DZ" label="Algeria">Algeria</option>
             <option value="AO" label="Angola">Angola</option>
@@ -59,6 +59,7 @@ nav_order: 6
             <option value="EG" label="Egypt">Egypt</option>
             <option value="GQ" label="Equatorial Guinea">Equatorial Guinea</option>
             <option value="ER" label="Eritrea">Eritrea</option>
+            <option value="SZ" label="Eswatini">Eswatini</option>
             <option value="ET" label="Ethiopia">Ethiopia</option>
             <option value="GA" label="Gabon">Gabon</option>
             <option value="GM" label="Gambia">Gambia</option>
@@ -89,7 +90,6 @@ nav_order: 6
             <option value="SO" label="Somalia">Somalia</option>
             <option value="ZA" label="South Africa">South Africa</option>
             <option value="SD" label="Sudan">Sudan</option>
-            <option value="SZ" label="Swaziland">Swaziland</option>
             <option value="ST" label="São Tomé and Príncipe">São Tomé and Príncipe</option>
             <option value="TZ" label="Tanzania">Tanzania</option>
             <option value="TG" label="Togo">Togo</option>
@@ -109,6 +109,7 @@ nav_order: 6
             <option value="BZ" label="Belize">Belize</option>
             <option value="BM" label="Bermuda">Bermuda</option>
             <option value="BO" label="Bolivia">Bolivia</option>
+            <option value="BQ" label="Bonaire">Bonaire</option>
             <option value="BR" label="Brazil">Brazil</option>
             <option value="VG" label="British Virgin Islands">British Virgin Islands</option>
             <option value="CA" label="Canada">Canada</option>
@@ -117,6 +118,7 @@ nav_order: 6
             <option value="CO" label="Colombia">Colombia</option>
             <option value="CR" label="Costa Rica">Costa Rica</option>
             <option value="CU" label="Cuba">Cuba</option>
+            <option value="CW" label="Curaçao">Curaçao</option>
             <option value="DM" label="Dominica">Dominica</option>
             <option value="DO" label="Dominican Republic">Dominican Republic</option>
             <option value="EC" label="Ecuador">Ecuador</option>
@@ -134,7 +136,6 @@ nav_order: 6
             <option value="MQ" label="Martinique">Martinique</option>
             <option value="MX" label="Mexico">Mexico</option>
             <option value="MS" label="Montserrat">Montserrat</option>
-            <option value="AN" label="Netherlands Antilles">Netherlands Antilles</option>
             <option value="NI" label="Nicaragua">Nicaragua</option>
             <option value="PA" label="Panama">Panama</option>
             <option value="PY" label="Paraguay">Paraguay</option>
@@ -146,6 +147,7 @@ nav_order: 6
             <option value="MF" label="Saint Martin">Saint Martin</option>
             <option value="PM" label="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
             <option value="VC" label="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+            <option value="SX" label="Sint Maarten">Sint Maarten</option>
             <option value="SR" label="Suriname">Suriname</option>
             <option value="TT" label="Trinidad and Tobago">Trinidad and Tobago</option>
             <option value="TC" label="Turks and Caicos Islands">Turks and Caicos Islands</option>
@@ -184,12 +186,10 @@ nav_order: 6
             <option value="MN" label="Mongolia">Mongolia</option>
             <option value="MM" label="Myanmar [Burma]">Myanmar [Burma]</option>
             <option value="NP" label="Nepal">Nepal</option>
-            <option value="NT" label="Neutral Zone">Neutral Zone</option>
             <option value="KP" label="North Korea">North Korea</option>
             <option value="OM" label="Oman">Oman</option>
             <option value="PK" label="Pakistan">Pakistan</option>
             <option value="PS" label="Palestinian Territories">Palestinian Territories</option>
-            <option value="YD" label="People's Democratic Republic of Yemen">People's Democratic Republic of Yemen</option>
             <option value="PH" label="Philippines">Philippines</option>
             <option value="QA" label="Qatar">Qatar</option>
             <option value="SA" label="Saudi Arabia">Saudi Arabia</option>
@@ -218,9 +218,8 @@ nav_order: 6
             <option value="BG" label="Bulgaria">Bulgaria</option>
             <option value="HR" label="Croatia">Croatia</option>
             <option value="CY" label="Cyprus">Cyprus</option>
-            <option value="CZ" label="Czech Republic">Czech Republic</option>
+            <option value="CZ" label="Czechia">Czechia</option>
             <option value="DK" label="Denmark">Denmark</option>
-            <option value="DD" label="East Germany">East Germany</option>
             <option value="EE" label="Estonia">Estonia</option>
             <option value="FO" label="Faroe Islands">Faroe Islands</option>
             <option value="FI" label="Finland">Finland</option>
@@ -239,13 +238,12 @@ nav_order: 6
             <option value="LI" label="Liechtenstein">Liechtenstein</option>
             <option value="LT" label="Lithuania">Lithuania</option>
             <option value="LU" label="Luxembourg">Luxembourg</option>
-            <option value="MK" label="Macedonia">Macedonia</option>
             <option value="MT" label="Malta">Malta</option>
-            <option value="FX" label="Metropolitan France">Metropolitan France</option>
             <option value="MD" label="Moldova">Moldova</option>
             <option value="MC" label="Monaco">Monaco</option>
             <option value="ME" label="Montenegro">Montenegro</option>
             <option value="NL" label="Netherlands">Netherlands</option>
+            <option value="MK" label="North Macedonia">North Macedonia</option>
             <option value="NO" label="Norway">Norway</option>
             <option value="PL" label="Poland">Poland</option>
             <option value="PT" label="Portugal">Portugal</option>
@@ -253,25 +251,18 @@ nav_order: 6
             <option value="RU" label="Russia">Russia</option>
             <option value="SM" label="San Marino">San Marino</option>
             <option value="RS" label="Serbia">Serbia</option>
-            <option value="CS" label="Serbia and Montenegro">Serbia and Montenegro</option>
             <option value="SK" label="Slovakia">Slovakia</option>
             <option value="SI" label="Slovenia">Slovenia</option>
             <option value="ES" label="Spain">Spain</option>
-            <option value="SJ" label="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
             <option value="SE" label="Sweden">Sweden</option>
             <option value="CH" label="Switzerland">Switzerland</option>
             <option value="UA" label="Ukraine">Ukraine</option>
-            <option value="SU" label="Union of Soviet Socialist Republics">Union of Soviet Socialist Republics</option>
             <option value="GB" label="United Kingdom">United Kingdom</option>
-            <option value="VA" label="Vatican City">Vatican City</option>
             <option value="AX" label="Åland Islands">Åland Islands</option>
         </optgroup>
         <optgroup id="country-optgroup-Oceania" label="Oceania">
             <option value="AS" label="American Samoa">American Samoa</option>
-            <option value="AQ" label="Antarctica">Antarctica</option>
             <option value="AU" label="Australia">Australia</option>
-            <option value="BV" label="Bouvet Island">Bouvet Island</option>
-            <option value="IO" label="British Indian Ocean Territory">British Indian Ocean Territory</option>
             <option value="CX" label="Christmas Island">Christmas Island</option>
             <option value="CC" label="Cocos [Keeling] Islands">Cocos [Keeling] Islands</option>
             <option value="CK" label="Cook Islands">Cook Islands</option>
@@ -279,7 +270,6 @@ nav_order: 6
             <option value="PF" label="French Polynesia">French Polynesia</option>
             <option value="TF" label="French Southern Territories">French Southern Territories</option>
             <option value="GU" label="Guam">Guam</option>
-            <option value="HM" label="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
             <option value="KI" label="Kiribati">Kiribati</option>
             <option value="MH" label="Marshall Islands">Marshall Islands</option>
             <option value="FM" label="Micronesia">Micronesia</option>
@@ -291,14 +281,11 @@ nav_order: 6
             <option value="MP" label="Northern Mariana Islands">Northern Mariana Islands</option>
             <option value="PW" label="Palau">Palau</option>
             <option value="PG" label="Papua New Guinea">Papua New Guinea</option>
-            <option value="PN" label="Pitcairn Islands">Pitcairn Islands</option>
             <option value="WS" label="Samoa">Samoa</option>
             <option value="SB" label="Solomon Islands">Solomon Islands</option>
-            <option value="GS" label="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
             <option value="TK" label="Tokelau">Tokelau</option>
             <option value="TO" label="Tonga">Tonga</option>
             <option value="TV" label="Tuvalu">Tuvalu</option>
-            <option value="UM" label="U.S. Minor Outlying Islands">U.S. Minor Outlying Islands</option>
             <option value="VU" label="Vanuatu">Vanuatu</option>
             <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
         </optgroup>
