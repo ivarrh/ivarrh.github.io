@@ -183,7 +183,7 @@ nav_order: 2
       <h3>Jorge Suárez</h3>
       <p class="affiliation">Universidad de Granada</p>
       <div class="profile-links">
-        <a href="https://www.uib.es/es/personal/ABjIyMjIzNg/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="https://www.researchgate.net/profile/Jorge-Suarez-34" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
