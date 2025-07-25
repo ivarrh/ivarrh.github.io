@@ -144,7 +144,24 @@ nav_order: 2
       </div>
     </div>
   </div>
+
+         <!-- Vilius  -->
+
+  <div class="profile-card">
+    <div class="profile-img-container">
+      <img src="/assets/img/workshop/vilius.png" alt="Vilius Dranseika">
+    </div>
+    <div class="profile-content">
+      <h3>Vilius Dranseika</h3>
+      <p class="affiliation">Jagiellonian University</p>
+      <div class="profile-links">
+        <a href="https://www.dranseika.lt" target="_blank"><i class="fas fa-globe"></i> Website</a>
+      </div>
+    </div>
+  </div>
+
     <!-- Kathryn B. Francis -->
+
   <div class="profile-card">
     <div class="profile-img-container">
       <img src="/assets/img/workshop/francis.png" alt="Kathryn B. Francis">
@@ -157,7 +174,22 @@ nav_order: 2
       </div>
     </div>
   </div>
+
+  <div class="profile-card">
+    <div class="profile-img-container">
+      <img src="/assets/img/jorge.png" alt="Jorge Suárez">
+    </div>
+    <div class="profile-content">
+      <h3>Jorge Suárez</h3>
+      <p class="affiliation">Universidad de Granada</p>
+      <div class="profile-links">
+        <a href="https://www.uib.es/es/personal/ABjIyMjIzNg/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+      </div>
+    </div>
+  </div>
+
       <!-- Carme  -->
+
   <div class="profile-card">
     <div class="profile-img-container">
       <img src="/assets/img/carme.png" alt="Carme Isern Mas">
@@ -167,19 +199,6 @@ nav_order: 2
       <p class="affiliation">Universidad de las Islas Baleares</p>
       <div class="profile-links">
         <a href="https://www.uib.es/es/personal/ABjIyMjIzNg/" target="_blank"><i class="fas fa-globe"></i> Website</a>
-      </div>
-    </div>
-  </div>
-        <!-- Vilius  -->
-  <div class="profile-card">
-    <div class="profile-img-container">
-      <img src="/assets/img/workshop/vilius.png" alt="Vilius Dranseika">
-    </div>
-    <div class="profile-content">
-      <h3>Vilius Dranseika</h3>
-      <p class="affiliation">Jagiellonian University</p>
-      <div class="profile-links">
-        <a href="https://www.dranseika.lt" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
@@ -208,10 +227,11 @@ nav_order: 2
     <ul style="list-style: none;">
       <li> <time>9:30</time>.  <strong>Ana Belén Gómez-Bellvís</strong>: <i>TBA</i> </li>
       <li><time>10:30</time>.  <strong>Carme Isern-Mas</strong>: <i>TBA</i> </li>
-      <li><time>11:30</time>.  <strong>Edmond Awad</strong>: <i>AI in the Wild</i> </li>
+      <li><time>11:30</time>.  <strong>Edmond Awad</strong>: AI in the Wild </li>
       <h4><i> ~ Lunch break ~ </i></h4>
-      <li><time>15:30</time>.  <strong>Neele Engelmann</strong>: Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments</li>
-      <li><time>16:30</time>.  <strong>Shaun Nichols</strong>: Rule Learning </li>
+      <li><time>15:30</time>.  <strong>Jorge Suárez</strong>: <i>TBA</i> </li>
+      <li><time>16:30</time>.  <strong>Neele Engelmann</strong>: Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments</li>
+      <li><time>17:30</time>.  <strong>Shaun Nichols</strong>: Rule Learning </li>
     </ul>
   </section>
 
