@@ -4,8 +4,8 @@ title: epistemic injustice in mental health
 description: A Grífols Research Grant in Bioethics
 img: assets/img/eimh.jpg
 permalink: /projects/eimh/
-importance: 6
-category: current
+importance: 1
+category: previous
 related_publications: true
 ---
 

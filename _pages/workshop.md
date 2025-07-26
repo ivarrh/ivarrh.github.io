@@ -25,7 +25,7 @@ nav_order: 2
 </div>
 
   <div class="workshop-description">
-    <p>This workshop brings together <a href="#confirmed-speakers">eleven speakers</a> from philosophy, law, and cognitive science to explore the interplay between legal interpretation and moral reasoning. Attendees can expect a dynamic <a href="#program">program</a> of talks, discussions, and collaborative sessions.</p>
+    <p>This workshop brings together <a href="#confirmed-speakers">12 speakers</a> from philosophy, law, and cognitive science to explore the interplay between legal interpretation and moral reasoning. Attendees can expect a dynamic <a href="#program">program</a> of talks, discussions, and collaborative sessions.</p>
   </div>
   <hr>
  <!-- Speakers -->
@@ -226,7 +226,7 @@ nav_order: 2
     <h3>Friday 7<sup>th</sup></h3>
     <ul style="list-style: none;">
       <li> <time>9:30</time>.  <strong>Ana Belén Gómez-Bellvís</strong>: <i>TBA</i> </li>
-      <li><time>10:30</time>.  <strong>Carme Isern-Mas</strong>: <i>TBA</i> </li>
+      <li><time>10:30</time>.  <strong>Carme Isern-Mas</strong>: Affective Transgressions </li>
       <li><time>11:30</time>.  <strong>Edmond Awad</strong>: AI in the Wild </li>
       <h4><i> ~ Lunch break ~ </i></h4>
       <li><time>15:30</time>.  <strong>Jorge Suárez</strong>: <i>TBA</i> </li>

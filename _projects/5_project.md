@@ -2,6 +2,7 @@
 layout: page
 title: verbal offense
 description: How do people evaluate offensive speech?
+redirect: https://journals.sagepub.com/doi/abs/10.1177/01461672211026128
 img: assets/img/offspeech.jpg
 importance: 3
 category: previous
