@@ -216,8 +216,8 @@ nav_order: 2
     <h3>Thursday 6<sup>th</sup></h3>
     <ul style="list-style: none;">
       <li> <time>9:30</time>.  <strong>Karolina Prochownik</strong>: Law and Morality in Evolutionary Perspective</li>
-      <li><time>10:30</time>.  <strong>Vilius Dranseika</strong>: <i>TBA</i> </li>
-      <li><time>11:30</time>.  <strong>Kathryn B. Francis</strong>: <i>TBA</i> </li>
+      <li><time>10:30</time>.  <strong>Vilius Dranseika</strong>: Personal identity and practical interests</li>
+      <li><time>11:30</time>.  <strong>Kathryn B. Francis</strong>: The Transformative Potential of VR Ethics Research: Permeation versus Role-Play </li>
       <h4><i> ~ Lunch break ~ </i></h4>
       <li><time>15:30</time>.  <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
       <li><time>16:30</time>.  <strong>Piotr Bystranowski</strong>: <i>TBA</i> </li>
