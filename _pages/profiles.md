@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: lab members
+description: <h3>lab members</h3>
 nav: true
 nav_order: 3
 
@@ -14,8 +14,7 @@ profiles:
     content: about_ivar.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Principal Investigator<br>
-      ivar@ugr.es</p>
+      <p>Principal Investigator</p>
   - align: left
     image: carme.png
     content: about_carme.md

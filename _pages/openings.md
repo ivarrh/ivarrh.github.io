@@ -2,7 +2,7 @@
 layout: default
 permalink: /openings/
 title: openings
-description: Department of Philosophy I, University of Granada
+description: <h3>Apply to work with us!</h3>
 nav: true
 nav_order: 5
 ---
@@ -10,12 +10,11 @@ nav_order: 5
 <h1><strong>Openings</strong></h1>
 
 The **Moral Science Lab**, in the Department of Philosophy I at the University of Granada, is seeking <a href="#ra">a Research Assistant</a> and <a href="#phd">a PhD Student</a> to join our team.
-
 Prospective applicants are welcome to reach out with any questions before applying. We look forward to reviewing your application!
 
 <hr>
-
-<h2 id="ra"><b>Research Assistantship</b></h2>
+<br>
+<h2 id="ra" style="text-align:center;"><b>Research Assistantship</b></h2>
 
 This is a **full-time**, six-month position with the possibility of renewal contingent on funding. The start date is flexible, though **January 1st, 2026** is ideal.
 
@@ -39,7 +38,7 @@ You will receive training in experimental research methods and the opportunity t
 
 ### Application Process
 
-Interested candidates should submit the following documents to ([Ivar R. Hannikainen](mailto:ivar@ugr.es)) and ([Rosa López](mailto:rosall@ugr.es)):
+Interested candidates should submit the following documents to [Ivar R. Hannikainen](mailto:ivar@ugr.es) and [Rosa López](mailto:rosall@ugr.es):
 
 1. A cover letter introducing yourself, your interest and suitability (max: 1 page), and
 2. A curriculum vitae (with contact details for 2 references).
@@ -47,7 +46,7 @@ Interested candidates should submit the following documents to ([Ivar R. Hannika
 <hr>
 <br>
 
-<h2 id="phd"><b>PhD Studentship</b></h2>
+<h2 id="phd" style="text-align:center;"><b>PhD Studentship</b></h2>
 
 This is a **full-time**, three-year position, with yearly renewal contingent on adequate progress. The ideal start date is **September 1st, 2026**, though later start dates are possible.
 
@@ -62,14 +61,14 @@ Candidates must...
 
 ### Key Responsibilities
 
-- Designing and conducting experiments,
-- Developing manuscripts for publication,
-- Presenting research findings at academic conferences,
-- Supporting the organization of workshops and public engagement initiatives.
+1. Designing and conducting experiments,
+2. Developing manuscripts for publication,
+3. Presenting research findings at academic conferences,
+4. Supporting the organization of workshops and public engagement initiatives.
 
 ### Application Process
 
-Interested candidates should submit the following documents to ([Ivar R. Hannikainen](mailto:ivar@ugr.es)) and ([Rosa López](mailto:rosall@ugr.es)):
+Interested candidates should submit the following documents to [Ivar R. Hannikainen](mailto:ivar@ugr.es) and [Rosa López](mailto:rosall@ugr.es):
 
 1. A cover letter introducing yourself, your interest and suitability (max: 1 page),
 2. A curriculum vitae (with contact details for 2 references), and
