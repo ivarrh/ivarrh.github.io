@@ -1,37 +1,76 @@
 ---
-layout: page
+layout: default
 permalink: /openings/
-title: moral science lab
+title: openings
 description: Department of Philosophy I, University of Granada
-nav: false
-nav_order: 8
+nav: true
+nav_order: 5
 ---
 
-  <div class="header-bar">
-    <h1>Openings</h1>
-    <h2>Postdoctoral Researcher</h2>
-    <h2>:balance_scale: Experimental Jurisprudence and Moral Psychology :brain:</h2>
-  </div>
+<h1><strong>Openings</strong></h1>
 
-The **Moral Science Lab**, in the Department of Philosophy I at the University of Granada, is seeking a **Postdoctoral Researcher** to join our team. The project explores the psychological processes that influence legal and moral cognition, drawing on survey experiments, and [process tracing](https://escholarship.org/uc/item/737187j2) and [behavioral economic](https://www.pnas.org/doi/abs/10.1073/pnas.2206531119) methods.
+The **Moral Science Lab**, in the Department of Philosophy I at the University of Granada, is seeking <a href="#ra">a Research Assistant</a> and <a href="#phd">a PhD Student</a> to join our team.
 
-### Key Responsibilities:
+Prospective applicants are welcome to reach out with any questions before applying. We look forward to reviewing your application!
+
+<hr>
+
+<h2 id="ra"><b>Research Assistantship</b></h2>
+
+This is a **full-time**, six-month position with the possibility of renewal contingent on funding. The start date is flexible, though **January 1st, 2026** is ideal.
+
+### Qualifications
+
+Candidates must...
+
+- hold an **undergraduate degree** in philosophy, psychology, economics, or a closely related field.
+- have a demonstrable interest in **experimental philosophy**.
+- be proficient in both **Spanish and English**.
+
+Experience with social science research methods, statistical analysis and programming are <i>desirable</i>, but not required.
+
+### Key Responsibilities
+
+1. Provide administrative support in conference organization and public engagement initiatives,
+2. Assist lab members with participant recruitment and online data collection, and
+3. Participate in study design and implementation.
+
+You will receive training in experimental research methods and the opportunity to co-author manuscripts.
+
+### Application Process
+
+Interested candidates should submit the following documents to ([Ivar R. Hannikainen](mailto:ivar@ugr.es)) and ([Rosa López](mailto:rosall@ugr.es)):
+
+1. A cover letter introducing yourself, your interest and suitability (max: 1 page), and
+2. A curriculum vitae (with contact details for 2 references).
+
+<hr>
+<br>
+
+<h2 id="phd"><b>PhD Studentship</b></h2>
+
+This is a **full-time**, three-year position, with yearly renewal contingent on adequate progress. The ideal start date is **September 1st, 2026**, though later start dates are possible.
+
+### Qualifications
+
+Candidates must...
+
+- hold a **Master's degree** in philosophy, psychology, economics, or a closely related field.
+- have a demonstrable interest and experience in **experimental philosophy**.
+- be proficient in both **Spanish and English**.
+- have some training in empirical research methods and statistical analysis.
+
+### Key Responsibilities
 
 - Designing and conducting experiments,
 - Developing manuscripts for publication,
 - Presenting research findings at academic conferences,
 - Supporting the organization of workshops and public engagement initiatives.
 
-### Position Details:
+### Application Process
 
-This is a **full-time**, one-year position, with the possibility of renewal contingent on funding. The ideal start date is **January 1st, 2025**, though later start dates are possible. Candidates must hold a PhD in philosophy, psychology, economics, or a closely related field. Experience with experimental design and statistical analysis is highly desirable. Proficiency in both Spanish and English is preferred.
+Interested candidates should submit the following documents to ([Ivar R. Hannikainen](mailto:ivar@ugr.es)) and ([Rosa López](mailto:rosall@ugr.es)):
 
-### Application Process:
-
-Interested candidates should submit the following documents to Ivar R. Hannikainen ([ivar@ugr.es](mailto:ivar@ugr.es)) and Rosa López ([rosall@ugr.es](mailto:rosall@ugr.es)) by November 18th 2024:
-
-1. A cover letter,
-2. A curriculum vitae (including contact details for two referees),
+1. A cover letter introducing yourself, your interest and suitability (max: 1 page),
+2. A curriculum vitae (with contact details for 2 references), and
 3. A writing sample.
-
-Prospective applicants are welcome to reach out with any questions before applying. We look forward to reviewing your application!
