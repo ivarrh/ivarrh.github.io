@@ -6,7 +6,7 @@ subtitle: <h4>Experimental philosophy, cognitive science & moral psychology at t
 
 profile:
   align: right
-  image: image.png
+  image: image.jpg
   image_circular: false # crops the image to make it circular
   more_info: <p style="text-align:left;">Dept. of Philosophy I<br>Cartuja Campus<br>Granada, Spain 18011</p>
 
