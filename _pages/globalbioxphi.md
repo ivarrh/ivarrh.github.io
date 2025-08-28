@@ -12,10 +12,13 @@ nav_order: 6
 
   <div class="workshop-description">
   <p>
-    The <strong>Global BioXphi Research Initiative</strong> seeks to expand <a href="https://www.researchgate.net/publication/337196406_Experimental_Philosophical_Bioethics">experimental bioethics</a> research across diverse cultural contexts around the world. How does culture shape our responses to bioethical issues? We are assembling a team of collaborators to conduct studies internationally, with the aim of understanding the degree to which bioethical intuitions vary across cultures. 
+    The <strong>Global BioXphi Research Initiative</strong> seeks to expand <a href="https://www.researchgate.net/publication/337196406_Experimental_Philosophical_Bioethics">experimental bioethics</a> research across diverse cultural contexts around the world. How does culture shape our responses to bioethical issues? We are assembling a team of collaborators to conduct studies internationally, with the aim of understanding the degree to which bioethical intuitions vary across cultures. </p>
+    <p>
+    So far, we have received expressions of interest from over 20 countries!
   </p>
+  <iframe src="/assets/html/bioxphi-map.html" width="800" height="500" style="border:none;display:block;outline:none;margin:auto;"></iframe>
   <p>
-    The Global BioXphi Research Initiative draws inspiration from the previous <a href = "https://osf.io/sk7r3/">cross-cultural study swap in experimental jurisprudence</a>, which replicated previously published findings in roughly 10 to 15 countries and yielded valuable insights into the degree of cultural variation on questions of jurisprudential interest (see Exhibits <a href = "http://dx.doi.org/10.2139/ssrn.5185137">1</a> and <a href = "https://www.pnas.org/doi/full/10.1073/pnas.2206531119">2</a>). This new initiative will take similar steps: from selecting a set of studies, to translating the materials, pre-registering our hypotheses and analysis plans, and collecting data across all participating study sites. </p>
+    The Global BioXphi Research Initiative draws inspiration from the previous <a href = "https://osf.io/sk7r3/">cross-cultural study swap in experimental jurisprudence</a>, which replicated published findings in multiple countries and yielded valuable insights into the degree of cultural variation on questions of jurisprudential interest (see Exhibits <a href = "http://dx.doi.org/10.2139/ssrn.5185137">1</a> and <a href = "https://www.pnas.org/doi/full/10.1073/pnas.2206531119">2</a>). This new initiative will take similar steps: from selecting a set of studies, to translating the materials, pre-registering our hypotheses and analysis plans, and collecting data across all participating study sites. </p>
   <p style="text-align:center; font-size:1.2em;">
     <strong>Would you like to take part in cross-cultural research in BioXPhi?</strong><br>We are currently gathering expressions of interest until <strong>1 September 2025</strong>.
   </p>

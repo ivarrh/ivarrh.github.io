@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    .countries {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+    }
+
+    .legendThreshold {
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+
+    .caption {
+        fill: #000;
+        text-anchor: start;
+        font-weight: bold;
+    }
+</style>
+<svg width="768" height="480"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+<script>
+    var svg = d3.select("svg"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height");
+
+    // Map and projection
+    var path = d3.geoPath();
+    var projection = d3.geoNaturalEarth1()
+        .scale(width / 1.6 / Math.PI)
+        .translate([width / 2, height / 2])
+    var path = d3.geoPath()
+        .projection(projection);
+
+    // Data and color scale
+    var data = d3.map();
+    var colorScheme = [
+        "#eee",                  // light gray for the lowest threshold
+        "rgb(220, 180, 230)",    // lighter purple
+        "rgb(170, 48, 171)",     // your base color
+        "rgb(130, 10, 130)"       // darker purple
+    ];
+
+    var colorScale = d3.scaleThreshold()
+        .domain([1, 2, 3])
+        .range(colorScheme);
+
+    // Legend
+    var g = svg.append("g")
+        .attr("class", "legendThreshold")
+        .attr("transform", "translate(100, 300)");
+
+
+    var labels = ['0', '1', '2', '3+'];
+    var legend = d3.legendColor()
+        .labels(function (d) { return labels[d.i]; })
+        .shapePadding(4)
+        .scale(colorScale);
+    svg.select(".legendThreshold")
+        .call(legend);
+
+    // Load external data and boot
+    d3.queue()
+        .defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
+        .defer(d3.csv, "mooc-countries.csv", function (d) { data.set(d.code, +d.total); })
+        .await(ready);
+
+    function ready(error, topo) {
+        if (error) throw error;
+
+        let mouseOver = function (event, d) {
+            // First reset ALL borders
+            d3.selectAll(".Country")
+                .style("stroke", "none");
+
+            d3.selectAll(".Country")
+                .filter(e => e !== d)
+                .transition()
+                .duration(200)
+                .style("opacity", 0.5);
+
+            // Highlight hovered
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("opacity", 1)
+                .style("stroke", "white");
+        }
+
+        let mouseLeave = function (event, d) {
+            // Reset everything
+            d3.selectAll(".Country")
+                .transition()
+                .duration(20)
+                .style("opacity", 0.7);
+
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("stroke", "none");
+        }
+
+        // Draw the map
+        svg.append("g")
+            .attr("class", "countries")
+            .selectAll("path")
+            .data(topo.features)
+            .enter().append("path")
+            .attr("class", "Country")   // <-- give each path this class so your mouseOver function can find them
+            .attr("fill", function (d) {
+                d.total = data.get(d.id) || 0;
+                return colorScale(d.total);
+            })
+            .attr("d", path)
+            .style("stroke", "none")        // baseline
+            .style("stroke-width", "1px")   // pre-set width
+            .style("opacity", 0.7)
+            .on("mouseover", mouseOver)   // <-- attach mouseover
+            .on("mouseleave", mouseLeave) // <-- attach mouseleave   
+    }
+</script>
