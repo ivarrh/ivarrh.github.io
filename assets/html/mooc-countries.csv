@@ -2,9 +2,9 @@ name,total,code
 Albania,0,ALB
 Algeria,0,DZA
 Antigua And Barbuda,0,ATG
-Argentina,0,ARG
+Argentina,1,ARG
 Armenia,0,ARM
-Australia,0,AUS
+Australia,1,AUS
 Austria,0,AUT
 Azerbaijan,0,AZE
 Qatar,1,QAT
@@ -75,7 +75,7 @@ Morocco,0,MAR
 Mozambique,0,MOZ
 Myanmar,0,MMR
 Nepal,0,NPL
-Netherlands,0,NLD
+Netherlands,2,NLD
 New Zealand,0,NZL
 Nicaragua,0,NIC
 Nigeria,0,NGA
@@ -98,7 +98,7 @@ Senegal,0,SEN
 Serbia,1,SRB
 Sierra Leone,0,SLE
 Singapore,2,SGP
-Slovakia,0,SVK
+Slovakia,1,SVK
 Somalia,0,SOM
 South Africa,0,ZAF
 South Sudan,0,SSD
@@ -119,8 +119,8 @@ Uganda,0,UGA
 Ukraine,0,UKR
 United Arab Emirates,0,ARE
 United Kingdom,1,GBR
-United States,2,USA
+United States,3,USA
 Uruguay,0,URY
 "Venezuela, Bolivarian Republic Of",0,VEN
-Viet Nam,0,VNM
+Vietnam,0,VNM
 Zimbabwe,0,ZWE
