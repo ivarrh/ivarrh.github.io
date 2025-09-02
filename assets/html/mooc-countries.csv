@@ -24,7 +24,7 @@ Cameroon,0,CMR
 Canada,0,CAN
 Chile,0,CHL
 China,1,CHN
-Colombia,0,COL
+Colombia,1,COL
 Costa Rica,0,CRI
 Cyprus,1,CYP
 Croatia,0,HRV
@@ -49,7 +49,7 @@ Haiti,0,HTI
 Honduras,0,HND
 Hong Kong,0,HKG
 Hungary,0,HUN
-India,2,IND
+India,3,IND
 Indonesia,0,IDN
 Iraq,0,IRQ
 Ireland,0,IRL
@@ -59,7 +59,7 @@ Jamaica,0,JAM
 Japan,2,JPN
 Jordan,0,JOR
 Kazakhstan,1,KAZ
-Kenya,0,KEN
+Kenya,1,KEN
 "Korea, Republic Of",0,KOR
 Kyrgyzstan,0,KGZ
 Latvia,1,LVA
@@ -100,7 +100,7 @@ Sierra Leone,0,SLE
 Singapore,2,SGP
 Slovakia,1,SVK
 Somalia,0,SOM
-South Africa,0,ZAF
+South Africa,1,ZAF
 South Sudan,0,SSD
 Spain,3,ESP
 Sri Lanka,0,LKA
