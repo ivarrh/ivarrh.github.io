@@ -20,7 +20,7 @@ nav_order: 6
   <p>
     The Global BioXphi Research Initiative draws inspiration from the previous <a href = "https://osf.io/sk7r3/">cross-cultural study swap in experimental jurisprudence</a>, which replicated published findings in multiple countries and yielded valuable insights into the degree of cultural variation on questions of jurisprudential interest (see Exhibits <a href = "http://dx.doi.org/10.2139/ssrn.5185137">1</a> and <a href = "https://www.pnas.org/doi/full/10.1073/pnas.2206531119">2</a>). This new initiative will take similar steps: from selecting a set of studies, to translating the materials, pre-registering our hypotheses and analysis plans, and collecting data across all participating study sites. </p>
   <p style="text-align:center; font-size:1.2em;">
-    <strong>Would you like to take part in cross-cultural research in BioXPhi?</strong><br>We are currently gathering expressions of interest until <strong>1 September 2025</strong>.
+    <strong>Would you like to take part in cross-cultural research in BioXPhi?</strong><br>We are currently gathering expressions of interest.
   </p>
   <p>
   The initiative aims to publish a series of co-authored papers. To qualify for co-authorship, collaborators are expected to contribute at all stages of the research process: planning and design, translation of study materials, data collection, drafting and/or critical revision of the manuscript, and approval of the final version for submission.
