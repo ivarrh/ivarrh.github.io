@@ -16,7 +16,158 @@ category: current
     <p>
     So far, we have received expressions of interest from over 20 countries!
   </p>
-  <iframe src="/assets/html/bioxphi-map.html" width="800" height="500" style="border:none;display:block;outline:none;margin:auto;"></iframe>
+<!-- INLINE MAP START -->
+<style>
+  .countries {
+      fill: none;
+      stroke: #fff;
+      stroke-linejoin: round;
+  }
+  .legendThreshold {
+      font-size: 11px;
+      font-family: sans-serif;
+      fill: var(--card-color);
+  }
+  .tooltip {
+      position: absolute;
+      background: var(--card-bg);
+      color: var(--card-color);
+      border: 1px solid var(--input-border);
+      padding: 5px 10px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px var(--card-shadow);
+      pointer-events: none;
+      opacity: 0;
+  }
+  #bioxphi-map {
+      width: 90%;
+      height: auto;
+  }
+</style>
+
+<svg id="bioxphi-map" viewBox="0 0 900 500" preserveAspectRatio="xMidYMid meet"></svg>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+<script>
+  var svg = d3.select("#bioxphi-map"),
+      width = 900,
+      height = 500;
+
+  var projection = d3.geoNaturalEarth1()
+      .scale(width / 1.6 / Math.PI)
+      .translate([width / 2, height / 2]);
+
+  var path = d3.geoPath().projection(projection);
+
+  var data = d3.map();
+
+  // CSS variables → JS
+  function getCssVar(name) {
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  }
+
+  function getColorScale() {
+    return d3.scaleThreshold()
+      .domain([1, 2, 3])
+      .range([
+        "#eee",
+        getCssVar("--map-light"),
+        getCssVar("--map-mid"),
+        getCssVar("--map-dark")
+      ]);
+  }
+
+  var colorScale = getColorScale();
+
+  // Legend group (bottom-left corner)
+  var g = svg.append("g")
+      .attr("class", "legendThreshold")
+      .attr("transform", `translate(40, ${height - 120})`);
+
+  var labels = ['0', '1', '2', '3+'];
+
+  function drawLegend() {
+    g.selectAll("*").remove(); // clear old legend
+    var legend = d3.legendColor()
+        .labels(d => labels[d.i])
+        .shapeWidth(18)
+        .shapeHeight(12)
+        .shapePadding(4)
+        .orient("vertical")
+        .scale(colorScale);
+    g.call(legend);
+  }
+
+  drawLegend();
+
+  // Update on theme change
+  const observer = new MutationObserver(() => {
+    colorScale = getColorScale();
+    svg.selectAll(".Country").attr("fill", d => colorScale(d.total));
+    drawLegend();
+  });
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+  d3.queue()
+    .defer(d3.json, "/assets/html/world-110m.geojson")
+    .defer(d3.csv, "/assets/html/mooc-countries.csv", d => data.set(d.code, +d.total))
+    .await(ready);
+
+  function ready(error, topo) {
+    if (error) throw error;
+
+    let tooltip = d3.select("body").append("div").attr("class", "tooltip");
+
+    svg.append("g").attr("class", "countries")
+      .selectAll("path")
+      .data(topo.features)
+      .enter().append("path")
+      .attr("class", "Country")
+      .attr("fill", function(d){ d.total = data.get(d.id) || 0; return colorScale(d.total); })
+      .attr("d", path)
+      .style("stroke","none")
+      .style("stroke-width","1px")
+      .style("opacity",0.7)
+      .on("mouseover", function(d) {
+        d3.selectAll(".Country").style("opacity",0.5);
+        d3.select(this).style("opacity",1).style("stroke","white");
+        if(d.total>0){
+          tooltip.transition().duration(200).style("opacity",1);
+          tooltip.html(`<b>${d.properties.name}</b> (${d.total})`)
+                 .style("left",(d3.event.pageX+10)+"px")
+                 .style("top",(d3.event.pageY-20)+"px");
+        }
+      })
+      .on("mousemove", function(d) {
+        if(d.total>0){
+          tooltip.style("left",(d3.event.pageX+10)+"px")
+                 .style("top",(d3.event.pageY-20)+"px");
+        }
+      })
+      .on("mouseleave", function(d) {
+        d3.selectAll(".Country").transition().duration(200).style("opacity",0.7).style("stroke","none");
+        tooltip.transition().duration(200).style("opacity",0);
+      });
+  }
+
+  // Responsive resizing
+  window.addEventListener("resize", function() {
+    var bbox = svg.node().getBoundingClientRect();
+    projection
+      .scale(bbox.width / 1.6 / Math.PI)
+      .translate([bbox.width / 2, bbox.height / 2]);
+
+    svg.selectAll(".Country").attr("d", path);
+
+    g.attr("transform", `translate(40, ${bbox.height - 120})`);
+    drawLegend();
+  });
+</script>
+<!-- INLINE MAP END -->
+
   <p>
     The Global BioXPhi Research Initiative draws inspiration from the previous <a href = "https://osf.io/sk7r3/">cross-cultural study swap in experimental jurisprudence</a>, which replicated published findings in multiple countries and yielded valuable insights into the degree of cultural variation on questions of jurisprudential interest (see Exhibits <a href = "http://dx.doi.org/10.2139/ssrn.5185137">1</a> and <a href = "https://www.pnas.org/doi/full/10.1073/pnas.2206531119">2</a>). This new initiative will take similar steps: from selecting a set of studies, to translating the materials, pre-registering our hypotheses and analysis plans, and collecting data across all participating study sites. </p>
   <p style="text-align:center; font-size:1.2em;">

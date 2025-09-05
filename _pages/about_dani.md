@@ -1,7 +1,7 @@
-<h3> Daniel MARTÍN </h3>
+<h3> <a href= "https://www.danielmartinruiz.com"> Daniel MARTÍN</a> </h3>
 
-I’m Daniel Martin, a PhD student at the University of Granada. I hold a Master’s degree in Applied Ethics from the Complutense University of Madrid and a Bachelor’s degree in Philosophy from the University of Granada. My research focuses on how people form and justify their moral preferences, particularly regarding animals, plants, and other entities [Read more about this project](/projects/animaldilemmas/).
+Hi! My name is Daniel Martín, and I am currently pursuing a PhD in Philosophy at the University of Granada. My academic journey began with a Bachelor’s degree in Philosophy here at Granada, followed by a Master’s degree in Applied Ethics at the Complutense University of Madrid. I have also recently completed a Master’s degree in Teaching and am simultaneously pursuing a degree in Psychology at the UNED.
 
-I also investigate how perceptions of normality, reasonableness, and social norms influence moral prioritization and decision-making [Read more about this project](/projects/practicalreason/).
+My research lies at the intersection of philosophy and moral psychology, focusing on the psychology behind everyday moral decisions relating to people, animals, and the environment. I combine philosophical analysis with experimental methods to explore these issues. For instance, one [project](/_projects/practicalreason.md) studies how people understand concepts like ‘normal’ and ‘reasonable’ and how this influences social and legal justification. Another [project](/_projects/animaldilemmas.md) analyses the moral priority we attribute to different animals and plants and the implications for their rights and our duties of care.
 
-Combining insights from philosophy and psychology, I use experimental methods to understand the processes behind moral reasoning, with the goal of informing ethical discussions in climate change and human-animal relationships.
+Outside of research, I find that my time spent outdoors, cooking, walking my dogs, and hiking deeply informs my understanding of these philosophical questions.

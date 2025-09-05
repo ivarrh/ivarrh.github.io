@@ -10,6 +10,9 @@
   --card-link: #b414ac;
   --input-border: #ddd;
   --input-focus: #b414ac;
+  --map-light: rgb(220, 180, 230); /* lighter purple */
+  --map-mid: #b414ac; /* base purple (your card-link) */
+  --map-dark: rgb(130, 10, 130); /* darker purple */
 }
 
 [data-theme="dark"] {
@@ -19,6 +22,9 @@
   --card-link: #307d95;
   --input-border: #555;
   --input-focus: #307d95;
+  --map-light: rgb(180, 220, 240); /* lighter blue */
+  --map-mid: #307d95; /* base blue (your card-link) */
+  --map-dark: rgb(10, 60, 110); /* darker blue */
 }
 
 $card-width: 280px; // Width of each card
