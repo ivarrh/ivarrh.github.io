@@ -5,6 +5,7 @@ title: people
 description: <h3>lab members</h3>
 nav: true
 nav_order: 3
+display_categories: [members, alumni]
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -22,24 +23,30 @@ profiles:
     more_info: >
       <p>Assistant Professor @ UIB</p>
   - align: right
+    image: isma.png
+    content: about_isma.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Postdoc @ UGR</p>
+  - align: left
     image: jorge.png
     content: about_jorge.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Student @ UGR</p>
-  - align: left
+  - align: right
     image: dani.png
     content: about_dani.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Student @ UGR</p>
-  - align: right
+  - align: left
     image: rosa.jpeg
     content: about_rosa.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Lab Manager</p>
-  - align: left
+  - align: right
     image: paolo.png
     content: about_paolo.md
     image_circular: false # crops the image to make it circular
