@@ -41,7 +41,7 @@ category: current
   }
   #bioxphi-map {
       width: 100%;       /* full width on mobile */
-      max-width: 900px;  /* don’t grow larger than desktop design */
+      max-width: 900px;  /* cap at desktop size */
       height: auto;
       display: block;
       margin: 0 auto;
@@ -55,16 +55,9 @@ category: current
 <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
 <script>
-  var svg = d3.select("#bioxphi-map"),
-      width = 900,
-      height = 500;
-
-  var projection = d3.geoNaturalEarth1()
-      .scale(width / 1.6 / Math.PI)
-      .translate([width / 2, height / 2]);
-
+  var svg = d3.select("#bioxphi-map");
+  var projection = d3.geoNaturalEarth1();
   var path = d3.geoPath().projection(projection);
-
   var data = d3.map();
 
   // CSS variables → JS
@@ -85,10 +78,8 @@ category: current
 
   var colorScale = getColorScale();
 
-  // Legend group (bottom-left corner)
-  var g = svg.append("g")
-      .attr("class", "legendThreshold")
-      .attr("transform", `translate(40, ${height - 120})`);
+  // Legend group
+  var g = svg.append("g").attr("class", "legendThreshold");
 
   var labels = ['0', '1', '2', '3+'];
 
@@ -104,7 +95,22 @@ category: current
     g.call(legend);
   }
 
-  drawLegend();
+  function resizeProjection() {
+    var bbox = svg.node().getBoundingClientRect();
+    var width = bbox.width;
+    var height = width * 0.55; // keep ~16:9 ratio (900/500)
+
+    projection
+      .scale(width / 1.6 / Math.PI)
+      .translate([width / 2, height / 2]);
+
+    svg.attr("viewBox", `0 0 ${width} ${height}`);
+
+    svg.selectAll(".Country").attr("d", path);
+
+    g.attr("transform", `translate(20, ${height - 120})`);
+    drawLegend();
+  }
 
   // Update on theme change
   const observer = new MutationObserver(() => {
@@ -154,20 +160,13 @@ category: current
         d3.selectAll(".Country").transition().duration(200).style("opacity",0.7).style("stroke","none");
         tooltip.transition().duration(200).style("opacity",0);
       });
+
+    // Initial fit
+    resizeProjection();
   }
 
   // Responsive resizing
-  window.addEventListener("resize", function() {
-    var bbox = svg.node().getBoundingClientRect();
-    projection
-      .scale(bbox.width / 1.6 / Math.PI)
-      .translate([bbox.width / 2, bbox.height / 2]);
-
-    svg.selectAll(".Country").attr("d", path);
-
-    g.attr("transform", `translate(40, ${bbox.height - 120})`);
-    drawLegend();
-  });
+  window.addEventListener("resize", resizeProjection);
 </script>
 <!-- INLINE MAP END -->
 
