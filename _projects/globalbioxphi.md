@@ -40,8 +40,11 @@ category: current
       opacity: 0;
   }
   #bioxphi-map {
-      width: 90%;
+      width: 100%;       /* full width on mobile */
+      max-width: 900px;  /* don’t grow larger than desktop design */
       height: auto;
+      display: block;
+      margin: 0 auto;
   }
 </style>
 
