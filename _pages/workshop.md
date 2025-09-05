@@ -25,7 +25,7 @@ nav_order: 2
 </div>
 
   <div class="workshop-description">
-    <p>This workshop brings together <a href="#confirmed-speakers">12 speakers</a> from philosophy, law, and cognitive science to explore the interplay between legal interpretation and moral reasoning. Attendees can expect a dynamic <a href="#program">program</a> of talks, discussions, and collaborative sessions.</p>
+    <p>This workshop brings together <a href="#confirmed-speakers">13 speakers</a> from philosophy, law, and cognitive science to explore the interplay between legal interpretation and moral reasoning. Attendees can expect a dynamic <a href="#program">program</a> of talks, discussions, and collaborative sessions.</p>
   </div>
   <hr>
  <!-- Speakers -->
@@ -145,8 +145,7 @@ nav_order: 2
     </div>
   </div>
 
-         <!-- Vilius  -->
-
+  <!-- Vilius  -->
   <div class="profile-card">
     <div class="profile-img-container">
       <img src="/assets/img/workshop/vilius.png" alt="Vilius Dranseika">
@@ -160,8 +159,7 @@ nav_order: 2
     </div>
   </div>
 
-    <!-- Kathryn B. Francis -->
-
+ <!-- Kathryn B. Francis -->
   <div class="profile-card">
     <div class="profile-img-container">
       <img src="/assets/img/workshop/francis.png" alt="Kathryn B. Francis">
@@ -175,6 +173,7 @@ nav_order: 2
     </div>
   </div>
 
+ <!-- Jorge Suárez -->
   <div class="profile-card">
     <div class="profile-img-container">
       <img src="/assets/img/jorge.png" alt="Jorge Suárez">
@@ -188,8 +187,7 @@ nav_order: 2
     </div>
   </div>
 
-      <!-- Carme  -->
-
+ <!-- Carme  -->
   <div class="profile-card">
     <div class="profile-img-container">
       <img src="/assets/img/carme.png" alt="Carme Isern Mas">
@@ -199,6 +197,20 @@ nav_order: 2
       <p class="affiliation">Universidad de las Islas Baleares</p>
       <div class="profile-links">
         <a href="https://www.uib.es/es/personal/ABjIyMjIzNg/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+      </div>
+    </div>
+  </div>
+
+ <!-- Marta Pociano  -->
+  <div class="profile-card">
+    <div class="profile-img-container">
+      <img src="/assets/img/workshop/marta.jpg" alt="Marta Ponciano Lázaro">
+    </div>
+    <div class="profile-content">
+      <h3>Marta Ponciano Lázaro</h3>
+      <p class="affiliation">University of the Basque Country</p>
+      <div class="profile-links">
+        <a href="https://www.linkedin.com/in/marta-ponciano-lázaro-6493371a3" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
