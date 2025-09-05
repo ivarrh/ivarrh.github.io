@@ -4,33 +4,173 @@ layout: page
 <div class="post">
   <article>
     {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
-        </div>
+      <!-- Current lab members section -->
+      <div class="lab-section">
+        <h2 class="section-title current-title">Current Lab Members</h2>
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
+        {% for profile in page.profiles %}
+          {% if profile.status != 'alumni' %}
+            <div class="profile-container">
+              <hr class="section-divider">
+              <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+                {% if profile.image %}
+                  {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                  {% if profile.image_circular %}
+                    {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                  {% else %}
+                    {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                  {% endif %}
+                  {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                  {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                {% endif %}
+                {% if profile.more_info %}
+                  <div class="more-info">{{ profile.more_info }}</div>
+                {% endif %}
+              </div>
+
+              <div class="clearfix">
+                {% if profile.content %}
+                  {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                  {{ profile_content | markdownify }}
+                {% else %}
+                  {{ content }}
+                {% endif %}
+              </div>
+            </div>
           {% endif %}
-        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Alumni section -->
+      {% assign has_alumni = false %}
+      {% for profile in page.profiles %}
+        {% if profile.status == 'alumni' %}
+          {% assign has_alumni = true %}
+        {% endif %}
       {% endfor %}
+
+      {% if has_alumni %}
+        <div class="lab-section alumni-section">
+          <hr class="major-divider">
+          <h2 class="section-title alumni-title">Alumni</h2>
+
+          {% for profile in page.profiles %}
+            {% if profile.status == 'alumni' %}
+              <div class="profile-container">
+                <div class="profile alumni float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+                  {% if profile.image %}
+                    {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                    {% if profile.image_circular %}
+                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                    {% else %}
+                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                    {% endif %}
+                    {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                    {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                  {% endif %}
+                  {% if profile.more_info %}
+                    <div class="more-info">{{ profile['more-info'] }}</div>
+                  {% endif %}
+                </div>
+
+                <div class="clearfix alumni-content">
+                  {% if profile.content %}
+                    {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                    {{ profile_content | markdownify }}
+                  {% else %}
+                    {{ content }}
+                  {% endif %}
+
+                  {% if profile.current_position and profile.current_position != '' %}
+                    <p class="alumni-current-position">
+                      <strong>{{ profile.name }} is now {{ profile.current_position }}</strong>
+                    </p>
+                  {% endif %}
+                </div>
+                <hr class="alumni-divider">
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
     {% endif %}
   </article>
 </div>
+
+<style>
+  .lab-section {
+    margin-bottom: 3rem;
+  }
+
+  .alumni-section {
+    margin-top: 3rem;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .current-title {
+    color: var(--card-link);
+    text-shadow: 1px 1px 2px var(--card-shadow);
+  }
+
+  .alumni-title {
+    color: var(--card-link);
+    text-shadow: 1px 1px 2px var(--card-shadow);
+  }
+
+  .major-divider {
+    border: 2px solid var(--card-link);
+    margin: 3.5rem 0;
+    opacity: 0.6;
+  }
+
+  .section-divider {
+    border: 1px solid var(--input-border);
+    margin: 2rem 0;
+  }
+
+  .profile-container {
+    margin-bottom: 2.5rem;
+  }
+
+  .alumni-content,
+  .alumni-content p,
+  .alumni-content li {
+    color: #666 !important;
+  }
+
+  .alumni-current-position {
+    color: var(--card-link) !important;
+    font-style: italic;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+  }
+
+  .alumni-divider {
+    border-color: var(--input-border) !important;
+    margin: 2rem 0;
+  }
+
+  .profile.alumni .more-info {
+    color: #666 !important;
+  }
+
+  [data-theme='dark'] .alumni-content,
+  [data-theme='dark'] .alumni-content p,
+  [data-theme='dark'] .alumni-content li,
+  [data-theme='dark'] .profile.alumni .more-info {
+    color: #aaa !important;
+  }
+
+  [data-theme='dark'] .current-title,
+  [data-theme='dark'] .alumni-title {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+</style>

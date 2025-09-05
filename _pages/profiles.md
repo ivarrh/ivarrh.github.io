@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: <h3>lab members</h3>
+description:
 nav: true
 nav_order: 3
 display_categories: [members, alumni]
@@ -17,39 +17,46 @@ profiles:
     more_info: >
       <p>Principal Investigator</p>
   - align: left
-    image: carme.png
-    content: about_carme.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Assistant Professor @ UIB</p>
-  - align: right
     image: isma.png
     content: about_isma.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Postdoc @ UGR</p>
-  - align: left
+  - align: right
     image: jorge.png
     content: about_jorge.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Student @ UGR</p>
-  - align: right
+  - align: left
     image: dani.png
     content: about_dani.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Student @ UGR</p>
-  - align: left
+  - align: right
     image: rosa.jpeg
     content: about_rosa.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Lab Manager</p>
+  # alumni section
+  - align: left
+    image: carme.png
+    status: "alumni"
+    name: "Carme"
+    content: about_carme.md
+    current_position: "Assistant Professor at the University of the Balearic Islands"
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Assistant Professor @ UIB</p>
   - align: right
     image: paolo.png
+    status: "alumni"
+    name: "Paolo Buttazzoni"
+    current_position: ""
     content: about_paolo.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Research Assistant @ UGR
+      <p>Research Assistant @ UGR</p>
 ---
