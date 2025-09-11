@@ -37,8 +37,8 @@ Using these three sources of information: <b>choice</b> (which entity was 'saved
 
 Two key findings emerged. The first is a <b>clear pattern in the prioritised entities</b>. Overall, people tended to feel closer to humans, followed by other animals such as mammals, birds and cephalopods, and then plants, molluscs and insects. However, there were also some <b>identity-based disparities</b>, for example in the charities participants chose to donate to.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm" style="max-width: 850px; width: 100%;">
      {% include figure.liquid path="assets/img/projects/animal-dilemmas/s1.png"   class="img-fluid rounded z-depth-1" 
    zoomable=true %}
    </div>
