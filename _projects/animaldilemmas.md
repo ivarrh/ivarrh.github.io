@@ -2,7 +2,7 @@
 layout: page
 title: animal dilemmas
 description: Who do we see as deserving our moral concern?
-img: assets/img/projects/animal-dilemmas/header.png
+img: assets/img/projects/animal-dilemmas/header.jpeg
 permalink: /projects/animaldilemmas/
 importance: 2
 category: current
