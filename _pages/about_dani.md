@@ -4,4 +4,4 @@ Hi! My name is Daniel Martín, and I am currently pursuing a PhD in Philosophy a
 
 My research lies at the intersection of philosophy and moral psychology, focusing on the psychology behind everyday moral decisions relating to people, animals, and the environment. I combine philosophical analysis with experimental methods to explore these issues. For instance, one [project](/projects/practicalreason/) studies how people understand concepts like ‘normal’ and ‘reasonable’ and how this influences social and legal justification. Another [project](/projects/animaldilemmas) analyses the moral priority we attribute to different animals and plants and the implications for their rights and our duties of care.
 
-Outside of research, I find that my time spent outdoors, cooking, walking my dogs, and hiking deeply informs my understanding of these philosophical questions.
+Outside of research, I enjoy spending time outdoors, cooking, walking my dogs, and occasionally going on hiking trips.
