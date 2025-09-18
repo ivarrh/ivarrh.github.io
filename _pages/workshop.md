@@ -222,42 +222,49 @@ nav_order: 2
   <hr>
 
 <!-- Program -->
-  <section id="program" class="workshop-section">
-    <h2><b>Workshop Program</b></h2>
-    <p>The workshop will take place in the Salón de Actos, at the <a href="https://carmendelavictoria.ugr.es/">Carmen de la Victoria</a>.</p>
-    <h3>Thursday 5<sup>th</sup></h3>
-     <ul style="list-style: none;">
-     <li> <time>16:30</time>.  <strong>Opening remarks</strong></li>
-     <li> <time>17:00</time>.  <strong>Karolina Prochownik</strong>: Law and Morality in Evolutionary Perspective</li>
-      <li> <time>18:00</time>.  <strong>Opening social:</strong> Canapes and drinks at the conference centre</li>
-   <h3>Thursday 6<sup>th</sup></h3>
-    <ul style="list-style: none;">
-      <li> <time>9:30</time>.  <strong>Marta Ponciano Lázaro</strong>: <i>TBA</i></li>
-      <li><time>10:30</time>.  <strong>Vilius Dranseika</strong>: Personal identity and practical interests</li>
-      <li><time>11:30</time>.  <strong>Kathryn B. Francis</strong>: The Transformative Potential of VR Ethics Research: Permeation versus Role-Play </li>
-      <h4><i> ~ Lunch break ~ </i></h4>
-      <li><time>15:30</time>.  <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
-      <li><time>16:30</time>.  <strong>Piotr Bystranowski</strong>: <i>TBA</i> </li>
-      <li><time>17:30</time>.  <strong>Kevin Tobia</strong>: Statutory Textualism</li>
-      <li><time>20:30</time>.  <strong>Dinner</strong></li>
-    </ul>
-    </ul>
-    <h3>Friday 7<sup>th</sup></h3>
-    <ul style="list-style: none;">
-      <li> <time>9:30</time>.  <strong>Ana Belén Gómez-Bellvís</strong>: <i>TBA</i> </li>
-      <li><time>10:30</time>.  <strong>Carme Isern-Mas</strong>: Affective Transgressions </li>
-      <li><time>11:30</time>.  <strong>Edmond Awad</strong>: AI in the Wild </li>
-      <h4><i> ~ Lunch break ~ </i></h4>
-      <li><time>15:30</time>.  <strong>Jorge Suárez</strong>: <i>TBA</i> </li>
-      <li><time>16:30</time>.  <strong>Neele Engelmann</strong>: Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments</li>
-      <li><time>17:30</time>.  <strong>Shaun Nichols</strong>: Rule Learning </li>
-    </ul>
 
-  </section>
+<section id="program" class="workshop-section">
+  <h2><b>Workshop Program</b></h2>
+  <p>The workshop will take place in the Salón de Actos, at the <a href="https://carmendelavictoria.ugr.es/">Carmen de la Victoria</a>.</p>
+
+  <h3>Thursday 5<sup>th</sup></h3>
+        <ul style="list-style: none;">
+            <li><time>16:30</time>. <strong>Opening remarks</strong></li>
+            <li><time>17:00</time>. <strong>Karolina Prochownik</strong>: Law and Morality in Evolutionary Perspective</li>
+            <li><time>18:00</time>. <strong>Opening social:</strong> Canapes and drinks at the conference centre</li>
+        </ul>
+
+  <h3>Thursday 6<sup>th</sup></h3>
+        <ul style="list-style: none;">
+            <li><time>9:30</time>. <strong>Marta Ponciano Lázaro</strong>: <i>TBA</i></li>
+            <li><time>10:30</time>. <strong>Vilius Dranseika</strong>: Personal identity and practical interests</li>
+            <li><time>11:30</time>. <strong>Kathryn B. Francis</strong>: The Transformative Potential of VR Ethics Research: Permeation versus Role-Play</li>
+
+  <h4><i> ~ Lunch break ~ </i></h4>
+
+  <li><time>15:30</time>. <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
+  <li><time>16:30</time>. <strong>Piotr Bystranowski</strong>: <i>TBA</i></li>
+  <li><time>17:30</time>. <strong>Kevin Tobia</strong>: Statutory Textualism</li>
+  <li><time>20:30</time>. <strong>Dinner</strong></li>
+   </ul>
+
+  <h3>Friday 7<sup>th</sup></h3>
+        <ul style="list-style: none;">
+            <li><time>9:30</time>. <strong>Ana Belén Gómez-Bellvís</strong>: <i>TBA</i></li>
+            <li><time>10:30</time>. <strong>Carme Isern-Mas</strong>: Affective Transgressions</li>
+            <li><time>11:30</time>. <strong>Edmond Awad</strong>: AI in the Wild</li>
+
+   <h4><i> ~ Lunch break ~ </i></h4>
+
+  <li><time>15:30</time>. <strong>Jorge Suárez</strong>: <i>TBA</i></li>
+            <li><time>16:30</time>. <strong>Neele Engelmann</strong>: Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments</li>
+            <li><time>17:30</time>. <strong>Shaun Nichols</strong>: Rule Learning</li>
+        </ul>
+    </section>
 
   <hr>
 
-  <!-- Organizers -->
+  <!-- Organizers -->x
   <section class="organizers-section">
     <h2>Organizers</h2>
     <div class="profile-grid-workshop">
