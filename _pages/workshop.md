@@ -264,7 +264,7 @@ nav_order: 2
 
   <hr>
 
-  <!-- Organizers -->x
+  <!-- Organizers -->
   <section class="organizers-section">
     <h2>Organizers</h2>
     <div class="profile-grid-workshop">
