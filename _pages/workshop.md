@@ -256,7 +256,7 @@ nav_order: 2
 
    <h4><i> ~ Lunch break ~ </i></h4>
 
-  <li><time>15:30</time>. <strong>Jorge Suárez</strong>: <i>TBA</i></li>
+  <li><time>15:30</time>. <strong>Jorge Suárez</strong>: Judging Values in Multicultural Contexts</li>
             <li><time>16:30</time>. <strong>Neele Engelmann</strong>: Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments</li>
             <li><time>17:30</time>. <strong>Shaun Nichols</strong>: Rule Learning</li>
         </ul>
