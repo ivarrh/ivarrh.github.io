@@ -229,9 +229,9 @@ nav_order: 2
 
   <h3>Thursday 5<sup>th</sup></h3>
         <ul style="list-style: none;">
-            <li><time>16:30</time>. <strong>Opening remarks</strong></li>
-            <li><time>17:00</time>. <strong>Karolina Prochownik</strong>: Law and Morality in Evolutionary Perspective</li>
-            <li><time>18:00</time>. <strong>Opening social:</strong> Canapes and drinks at the conference centre</li>
+            <li><time>17:30</time>. <strong>Opening remarks</strong></li>
+            <li><time>18:00</time>. <strong>Karolina Prochownik</strong>: Law and Morality in Evolutionary Perspective</li>
+            <li><time>19:00</time>. <strong>Opening social:</strong> Welcome reception at the conference centre</li>
         </ul>
 
   <h3>Thursday 6<sup>th</sup></h3>
@@ -250,7 +250,7 @@ nav_order: 2
 
   <h3>Friday 7<sup>th</sup></h3>
         <ul style="list-style: none;">
-            <li><time>9:30</time>. <strong>Ana Belén Gómez-Bellvís</strong>: Judging Values in Multicultural Contexts</li>
+            <li><time>9:30</time>. <strong>Ana Belén Gómez-Bellvís</strong>: <i>TBA</i></li>
             <li><time>10:30</time>. <strong>Carme Isern-Mas</strong>: Affective Transgressions</li>
             <li><time>11:30</time>. <strong>Edmond Awad</strong>: AI in the Wild</li>
 
