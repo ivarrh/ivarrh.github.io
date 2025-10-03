@@ -250,7 +250,7 @@ nav_order: 2
 
   <h3>Friday 7<sup>th</sup></h3>
         <ul style="list-style: none;">
-            <li><time>9:30</time>. <strong>Ana Belén Gómez-Bellvís</strong>: <i>TBA</i></li>
+            <li><time>9:30</time>. <strong>Ana Belén Gómez-Bellvís</strong>: From Doctrine to Data: Experimental Jurisprudence in Criminal Law</li>
             <li><time>10:30</time>. <strong>Carme Isern-Mas</strong>: Affective Transgressions</li>
             <li><time>11:30</time>. <strong>Edmond Awad</strong>: AI in the Wild</li>
 
