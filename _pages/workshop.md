@@ -229,9 +229,9 @@ nav_order: 2
 
   <h3>Thursday 5<sup>th</sup></h3>
         <ul style="list-style: none;">
-            <li><time>17:30</time>. <strong>Opening remarks</strong></li>
-            <li><time>18:00</time>. <strong>Karolina Prochownik</strong>: Law and Morality in Evolutionary Perspective</li>
-            <li><time>19:00</time>. <strong>Opening social:</strong> Welcome reception at the conference centre</li>
+            <li><time>18:30</time>. <strong>Opening remarks</strong></li>
+            <li><time>19:00</time>. <strong>Karolina Prochownik</strong>: From Law to Morality: Legal Interpretation as Cultural Learning</li>
+            <li><time>20:00</time>. <strong>Opening social:</strong> Welcome reception at the conference centre</li>
         </ul>
 
   <h3>Thursday 6<sup>th</sup></h3>
