@@ -32,4 +32,4 @@ Follow-up questions about participants' experience indicate multiple preferences
     </div>
 </div>
 
-A live version of the study is available [here](https://pgxjol5vil.cognition.run/). You are welcome to take part and share the study link with your friends!
+A live version of the study is available [here](https://mscilab.com/studies/3/). You are welcome to take part and share the study with others!
