@@ -6,7 +6,7 @@ layout: page
     {% if page.profiles %}
       <!-- Current lab members section -->
       <div class="lab-section">
-        <h2 class="section-title current-title">Current Lab Members</h2>
+        <h2 class="section-title current-title">lab members</h2>
 
         {% for profile in page.profiles %}
           {% if profile.status != 'alumni' %}
@@ -52,7 +52,7 @@ layout: page
       {% if has_alumni %}
         <div class="lab-section alumni-section">
           <hr class="major-divider">
-          <h2 class="section-title alumni-title">Alumni</h2>
+          <h2 class="section-title alumni-title">alumni</h2>
 
           {% for profile in page.profiles %}
             {% if profile.status == 'alumni' %}

@@ -229,7 +229,7 @@ nav_order: 2
 
   <h3>Wednesday 5<sup>th</sup></h3>
         <ul style="list-style: none;">
-            <li><time>18:30</time>. <strong>Opening remarks</strong></li>
+            <li><time>18:30</time>. <strong>Opening Remarks</strong></li>
             <li><time>19:00</time>. <strong>Karolina Prochownik</strong>: From Law to Morality: Legal Interpretation as Cultural Learning</li>
             <li><time>20:00</time>. <strong>Opening social:</strong> Welcome reception at the conference centre</li>
         </ul>
@@ -237,13 +237,13 @@ nav_order: 2
   <h3>Thursday 6<sup>th</sup></h3>
         <ul style="list-style: none;">
             <li><time>9:30</time>. <strong>Marta Ponciano Lázaro</strong>: Rule Interpretation in Development: From Moral Reasoning to Strict Rule Compliance</li>
-            <li><time>10:30</time>. <strong>Vilius Dranseika</strong>: Personal identity and practical interests</li>
+            <li><time>10:30</time>. <strong>Vilius Dranseika</strong>: Personal Identity and Practical Interests</li>
             <li><time>11:30</time>. <strong>Kathryn B. Francis</strong>: The Transformative Potential of VR Ethics Research: Permeation versus Role-Play</li>
 
   <h4><i> ~ Lunch break ~ </i></h4>
 
   <li><time>15:30</time>. <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
-  <li><time>16:30</time>. <strong>Piotr Bystranowski</strong>: Legal interpretation as coordination: the role of learning</li>
+  <li><time>16:30</time>. <strong>Piotr Bystranowski</strong>: Legal Interpretation as Coordination: The Role of Learning</li>
   <li><time>17:30</time>. <strong>Kevin Tobia</strong>: Statutory Textualism</li>
   <li><time>20:30</time>. <strong>Dinner</strong></li>
    </ul>
@@ -302,7 +302,7 @@ nav_order: 2
   <!-- Organizer: Ivar R. Hannikainen -->
   <div class="profile-card">
     <div class="profile-img-container">
-      <img src="/assets/img/ivar.png" alt="Ivar R. Hannikainen">
+      <img src="/assets/img/ivar3.png" alt="Ivar R. Hannikainen">
     </div>
     <div class="profile-content">
       <h3>Ivar R. Hannikainen</h3>
@@ -330,7 +330,6 @@ nav_order: 2
 <hr>
 
 <h2><i class="fas fa-envelope"></i> Contact Us</h2>
-<p>For any queries, feel free to contact <a href="mailto:damartin@ugr.es?subject=Workshop%20Inquiry">Daniel Martín</a>.<br>
-Last updated: July 22<sup>nd</sup>, 2025</p>
+<p>For any queries, feel free to contact <a href="mailto:damartin@ugr.es?subject=Workshop%20Inquiry">Daniel Martín</a>.</p>
 
 </section>

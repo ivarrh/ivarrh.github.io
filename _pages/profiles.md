@@ -11,7 +11,7 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: ivar.png
+    image: ivar3.png
     content: about_ivar.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -46,15 +46,15 @@ profiles:
     status: "alumni"
     name: "Carme"
     content: about_carme.md
-    current_position: "Assistant Professor at the University of the Balearic Islands"
+    current_position: "Assistant Professor at the University of the Balearic Islands."
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Assistant Professor @ UIB</p>
   - align: right
     image: paolo.png
     status: "alumni"
-    name: "Paolo Buttazzoni"
-    current_position: ""
+    name: "Paolo"
+    current_position: "a PhD student in Psychology at the University of Turku."
     content: about_paolo.md
     image_circular: false # crops the image to make it circular
     more_info: >
