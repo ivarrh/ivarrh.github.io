@@ -227,7 +227,7 @@ nav_order: 2
   <h2><b>Workshop Program</b></h2>
   <p>The workshop will take place in the Salón de Actos, at the <a href="https://carmendelavictoria.ugr.es/">Carmen de la Victoria</a>.</p>
 
-  <h3>Thursday 5<sup>th</sup></h3>
+  <h3>Wednesday 5<sup>th</sup></h3>
         <ul style="list-style: none;">
             <li><time>18:30</time>. <strong>Opening remarks</strong></li>
             <li><time>19:00</time>. <strong>Karolina Prochownik</strong>: From Law to Morality: Legal Interpretation as Cultural Learning</li>
