@@ -243,7 +243,7 @@ nav_order: 2
   <h4><i> ~ Lunch break ~ </i></h4>
 
   <li><time>15:30</time>. <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
-  <li><time>16:30</time>. <strong>Piotr Bystranowski</strong>: Legal Interpretation as Coordination: The Role of Learning</li>
+  <li><time>16:30</time>. <strong>Piotr Bystranowski</strong>: Secret rules and who would like to enforce them</li>
   <li><time>17:30</time>. <strong>Kevin Tobia</strong>: Linguistics in Textualism</li>
   <li><time>20:30</time>. <strong>Dinner:</strong> Siloé Bar & Grill<span style="margin-left: 1em;"><small>
     <a href="https://maps.app.goo.gl/ZU3ww3CSYCZ1JzwC6" target="_blank">
