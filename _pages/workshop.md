@@ -244,8 +244,11 @@ nav_order: 2
 
   <li><time>15:30</time>. <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
   <li><time>16:30</time>. <strong>Piotr Bystranowski</strong>: Legal Interpretation as Coordination: The Role of Learning</li>
-  <li><time>17:30</time>. <strong>Kevin Tobia</strong>: Statutory Textualism</li>
-  <li><time>20:30</time>. <strong>Dinner</strong></li>
+  <li><time>17:30</time>. <strong>Kevin Tobia</strong>: Linguistics in Textualism</li>
+  <li><time>20:30</time>. <strong>Dinner:</strong> Siloé Bar & Grill<span style="margin-left: 1em;"><small>
+    <a href="https://maps.app.goo.gl/ZU3ww3CSYCZ1JzwC6" target="_blank">
+      <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
+      </small></span></li>
    </ul>
 
   <h3>Friday 7<sup>th</sup></h3>
