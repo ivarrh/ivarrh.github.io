@@ -225,7 +225,7 @@ nav_order: 2
 
 <section id="program" class="workshop-section">
   <h2><b>Workshop Program</b></h2>
-  <p>The workshop will take place in the Salón de Actos, at the <a href="https://carmendelavictoria.ugr.es/">Carmen de la Victoria</a>.</p>
+  <p>The workshop will take place in the Salón de Actos*, at the <a href="https://carmendelavictoria.ugr.es/">Carmen de la Victoria</a>.</p>
 
   <h3>Wednesday 5<sup>th</sup></h3>
         <ul style="list-style: none;">
@@ -251,7 +251,7 @@ nav_order: 2
       </small></span></li>
    </ul>
 
-  <h3>Friday 7<sup>th</sup></h3>
+  <h3>Friday 7<sup>th</sup> in the "<b>Sala de Juntas</b>"*</h3>
         <ul style="list-style: none;">
             <li><time>9:30</time>. <strong>Ana Belén Gómez-Bellvís</strong>: From Doctrine to Data: Experimental Jurisprudence in Criminal Law</li>
             <li><time>10:30</time>. <strong>Carme Isern-Mas</strong>: Affective Transgressions</li>
