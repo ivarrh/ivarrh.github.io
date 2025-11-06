@@ -251,11 +251,11 @@ nav_order: 2
       </small></span></li>
    </ul>
 
-  <h3>Friday 7<sup>th</sup> in the "<b>Sala de Juntas</b>"*</h3>
+  <h3>Friday 7<sup>th</sup></h3>
         <ul style="list-style: none;">
-            <li><time>9:30</time>. <strong>Ana Belén Gómez-Bellvís</strong>: From Doctrine to Data: Experimental Jurisprudence in Criminal Law</li>
-            <li><time>10:30</time>. <strong>Carme Isern-Mas</strong>: Affective Transgressions</li>
-            <li><time>11:30</time>. <strong>Edmond Awad</strong>: AI in the Wild</li>
+            <li><time>9:30</time>. <strong>Ana Belén Gómez-Bellvís</strong>: From Doctrine to Data: Experimental Jurisprudence in Criminal Law  (in the "<b>Sala de Juntas</b>"*)</li>
+            <li><time>10:30</time>. <strong>Carme Isern-Mas</strong>: Affective Transgressions (in the "<b>Sala de Juntas</b>"*)</li>
+            <li><time>11:30</time>. <strong>Edmond Awad</strong>: AI in the Wild (in the "<b>Sala de Juntas</b>"*)</li>
 
    <h4><i> ~ Lunch break ~ </i></h4>
 
