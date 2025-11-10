@@ -19,9 +19,9 @@ nav_order: 2
   </div>
 
 <div class="row justify-content-center">
-    <div class="col-sm" style="max-width: 1000px; width: 100%;">
-{% include figure.liquid loading="eager" path="https://carmendelavictoria.ugr.es/sites/serv/carmenvictoria/public/styles/home_slider_2dpr_896_/public/imagenes/cabecera/2020-04/carmen-de-la-victoria-mgs.webp?itok=npnLPtF8" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    <div class="col-sm" style="max-width: 800px; width: 100%;">
+{% include figure.liquid loading="eager" path="/assets/img/workshop/group.jpg" title="group image" class="img-fluid rounded z-depth-1" %}
+    </div>m
 </div>
 
   <div class="workshop-description">
@@ -266,6 +266,15 @@ nav_order: 2
     </section>
 
   <hr>
+
+  <h2><b>Workshop Photos</b></h2>
+  <iframe src="https://drive.google.com/embeddedfolderview?id=177_N2F5vmQoGtU9_oHEw5ARVi9wotZLY#grid" 
+        width="100%" 
+        height="400" 
+        frameborder="0">
+</iframe>
+
+ <hr>
 
   <!-- Organizers -->
   <section class="organizers-section">
