@@ -21,7 +21,7 @@ nav_order: 2
 <div class="row justify-content-center">
     <div class="col-sm" style="max-width: 800px; width: 100%;">
 {% include figure.liquid loading="eager" path="/assets/img/workshop/group.jpg" title="group image" class="img-fluid rounded z-depth-1" %}
-    </div>m
+    </div>
 </div>
 
   <div class="workshop-description">
