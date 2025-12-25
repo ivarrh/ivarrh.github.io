@@ -26,7 +26,7 @@ Welcome to our website! The Moral Science Lab is an interdisciplinary research l
 
 Our research is described in greater detail on the [projects](/projects/) page. You can also take some of our studies [here](/studies/)!
 
-The Moral Science Lab is generously funded by a 2023 Research Consolidation Project (_Legal Interpretation and Moral Reasoning_; **CNS2023.144543**), awarded by the _Spanish Ministry of Science and Innovation_ (MICIU/AEI/10.13039/501100011033) and the _European Union NextGenerationEU/PRTR_, and by a 2025 Leonardo Grant for Scientific Research and Cultural Creation (_Philosophical Expertise and Non-Classical Conceptual Structure_), awarded by the _BBVA Foundation_.
+The Moral Science Lab is generously funded by a 2023 Research Consolidation Project (_Legal Interpretation and Moral Reasoning_; **CNS2023.144543**) and a 2024 Knowledge Generation Grant (_Mental State Inference in the Moral Domain_; **PID2024-155143NB-I00**), awarded by the _Spanish Ministry of Science and Innovation_ (MICIU/AEI/10.13039/501100011033) and the _European Union NextGenerationEU/PRTR_, and by a 2025 Leonardo Grant for Scientific Research and Cultural Creation (_Philosophical Expertise and Non-Classical Conceptual Structure_), awarded by the _BBVA Foundation_.
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
