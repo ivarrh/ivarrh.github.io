@@ -16,7 +16,7 @@ Prospective applicants are welcome to reach out with any questions before applyi
 <br>
 <h2 id="ra" style="text-align:center;"><b>Research Assistantship</b></h2>
 
-This is a **full-time**, six-month position with the possibility of renewal contingent on funding. The start date is flexible, though **January 1st, 2026** is ideal.
+This is a **full-time**, six-month position with the possibility of renewal contingent on funding. The start date is flexible, though **March 1st, 2026** is ideal.
 
 ### Qualifications
 
@@ -48,7 +48,7 @@ Interested candidates should submit the following documents to [Ivar R. Hannikai
 
 <h2 id="phd" style="text-align:center;"><b>PhD Studentship</b></h2>
 
-This is a **full-time**, three-year position, with yearly renewal contingent on adequate progress. The ideal start date is **September 1st, 2026**, though later start dates are possible.
+This is a **full-time**, four-year position, with yearly renewal contingent on adequate progress. The ideal start date is **September 1st, 2026**, though later start dates are possible.
 
 ### Qualifications
 
