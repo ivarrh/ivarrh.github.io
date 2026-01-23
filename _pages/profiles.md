@@ -46,7 +46,7 @@ profiles:
     status: "alumni"
     name: "Carme"
     content: about_carme.md
-    current_position: "Assistant Professor at the University of the Balearic Islands."
+    current_position: "Assistant Professor of Philosophy at the University of the Balearic Islands."
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Assistant Professor @ UIB</p>
