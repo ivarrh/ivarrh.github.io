@@ -3,7 +3,7 @@ layout: default
 permalink: /openings/
 title: openings
 description: <h3>Apply to work with us!</h3>
-nav: true
+nav: false
 nav_order: 5
 ---
 

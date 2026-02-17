@@ -3,7 +3,7 @@ layout: default
 title: workshop
 permalink: /workshop/
 nav: true
-nav_order: 2
+nav_order: 7
 ---
 
   <h1>2025 <strong>Legal Interpretation and Moral Reasoning</strong> Workshop</h1>
