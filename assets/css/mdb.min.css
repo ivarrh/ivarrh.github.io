@@ -151,7 +151,7 @@ a:not([href]):not([tabindex]):hover {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Helvetica", "Roboto", sans-serif;
     font-weight: 300
 }
 
