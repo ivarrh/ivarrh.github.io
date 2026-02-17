@@ -8,8 +8,8 @@ nav_order: 2
 ---
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="http://localhost:4000/assets/js/intuition_raw_data.js"></script>
-<script src="http://localhost:4000/assets/js/intuitions-helper.js"></script>
+<script src="https://moralsciencelab.com/assets/js/intuition_raw_data.js"></script>
+<script src="https://moralsciencelab.com/assets/js/intuitions-helper.js"></script>
 <script>
   // Listen for messages from the iframe
   window.addEventListener('message', function (event) {
