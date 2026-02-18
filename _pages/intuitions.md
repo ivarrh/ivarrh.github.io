@@ -24,10 +24,89 @@ nav_order: 2
 
     // If the iframe signals completion and sends the result
     if (responses.complete) {
-      // Display the result from the iframe
+      let scenarioStr = responses.score; // raw string
+
+      // message with scenario responses
+      console.log("Survey completed! Received responses:", responses.score);
+
+      // structured responses
+      let scenarioObj = parseScenarioResponses(scenarioStr);
+      console.log("scenarioObj: ", scenarioObj);
+
       displayResponses(responses);
+
+      console.table(scenarioObj);
+
+      renderScenarioTable(scenarioObj);
     }
   });
+
+  // Parsing function
+  function parseScenarioResponses(str) {
+    let scenarios = str.split("|").filter(s => s.trim() !== "");
+    let obj = {};
+    scenarios.forEach(s => {
+      let [id, respStr] = s.split("=");
+      let responses = {};
+      if (respStr) {
+        respStr.split(",").forEach(r => {
+          let [key, val] = r.split(":");
+          responses[key] = val ? val.split(";") : [];
+        });
+      }
+      obj[id] = responses;
+    });
+    return obj;
+  }
+
+  function renderScenarioTable(scenarioObj) {
+    const container = document.getElementById('survey-responses');
+    if (!container) return;
+
+    // Create table element
+    const table = document.createElement("table");
+    table.style.borderCollapse = "collapse";
+    table.style.width = "100%";
+    table.style.maxWidth = "600px";
+
+    // Add header row
+    const header = table.insertRow();
+    ["Issue", "A", "B"].forEach(text => {
+      const th = document.createElement("th");
+      th.textContent = text;
+      th.style.border = "1px solid #333";
+      th.style.padding = "4px";
+      th.style.background = "#f0f0f0";
+      header.appendChild(th);
+    });
+
+    // Add data rows
+    Object.keys(scenarioObj).forEach(issue => {
+      const row = table.insertRow();
+
+      // Issue name
+      const cellIssue = row.insertCell();
+      cellIssue.textContent = issue;
+      cellIssue.style.border = "1px solid #333";
+      cellIssue.style.padding = "4px";
+
+      // Response A
+      const cellA = row.insertCell();
+      cellA.textContent = scenarioObj[issue].A.join(", ");
+      cellA.style.border = "1px solid #333";
+      cellA.style.padding = "4px";
+
+      // Response B
+      const cellB = row.insertCell();
+      cellB.textContent = scenarioObj[issue].B.join(", ");
+      cellB.style.border = "1px solid #333";
+      cellB.style.padding = "4px";
+    });
+
+    // Clear previous content and append table
+    // container.innerHTML = "";
+    container.appendChild(table);
+  }
 
   // Function to handle displaying survey results
   function displayResponses(responses) {
@@ -80,7 +159,7 @@ nav_order: 2
     // Use your prepared raw data
     const data = prepareData(intuitionRawData);
 
-    console.table(data);
+    //  console.table(data);
 
     // Loop over each issue
     data.forEach(d => {
@@ -309,7 +388,7 @@ nav_order: 2
 </style>
 
 <div class="header-bar">
-  <h2><strong>Intuitions in Philosophy :brain:</strong></h2>
+  <h2><strong>💭 Intuitions in Philosophy 🧩</strong></h2>
   <h3>Are you a philosopher? Take our 5-minute study.</h3>
 </div>
 <!-- Initial content and survey button -->
@@ -320,8 +399,8 @@ nav_order: 2
 <div class="initial-content row justify-content-center" style="max-width: 1000px; margin: 0 auto;">
   <p><br><br>We are conducting a research study to examine academic philosophers' intuitions.
     <br><br>
-    This study is carried out within the framework of a research project in the Department of Philosophy I of the
-    University of Granada.
+    This study is carried out within the framework of a research project in the Departments of Philosophy at Yale
+    University and the University of Granada.
     Our goal is to understand the factors that shape philosophers' intuitions about classic thought experiments.
     <br><br>
     The study consists of a survey that will take approximately <strong>5 minutes</strong> to complete.
