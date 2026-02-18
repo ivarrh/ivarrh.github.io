@@ -40,6 +40,12 @@ function startSurvey() {
 }
 
 function prepareData(data) {
+  // issues actually shown to the participant
+  // const shownIssues = new Set(Object.keys(scenarioObj));
+
+  // keep only rows whose issue is in scenarioObj
+  // const filtered = data.filter((d) => shownIssues.has(d.issue));
+
   const grouped = d3.group(data, (d) => d.issue);
 
   const result = [];
@@ -62,4 +68,32 @@ function prepareData(data) {
   });
 
   return result;
+}
+
+// parsing function for participant responses from Qualtrics plain text
+
+// Parsing function
+function parseScenarioResponses(str) {
+  let scenarios = str.split("|").filter((s) => s.trim() !== "");
+  let obj = {};
+  scenarios.forEach((s) => {
+    let [id, respStr] = s.split("=");
+    let responses = {};
+    if (respStr) {
+      respStr.split(",").forEach((r) => {
+        let [key, val] = r.split(":");
+        responses[key] = val ? val.split(";") : [];
+      });
+    }
+    // Lookup full_issue from intuitionRawData
+    const rawEntry = intuitionRawData.find((d) => d.issue === id);
+    const fullIssue = rawEntry ? rawEntry.full_issue : id;
+
+    // Attach full_issue to the scenario
+    responses.full_issue = fullIssue;
+
+    obj[id] = responses;
+  });
+
+  return obj;
 }

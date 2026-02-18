@@ -11,6 +11,9 @@ nav_order: 2
 <script src="https://moralsciencelab.com/assets/js/intuition_raw_data.js"></script>
 <script src="https://moralsciencelab.com/assets/js/intuitions-helper.js"></script>
 <script>
+  // Dev mode flag 
+  const dev_mode = false; // Set to true to enable mock data and bypass survey for testing
+
   // Listen for messages from the iframe
   window.addEventListener('message', function (event) {
     const responses = event.data;
@@ -27,37 +30,19 @@ nav_order: 2
       let scenarioStr = responses.score; // raw string
 
       // message with scenario responses
-      console.log("Survey completed! Received responses:", responses.score);
+      //console.log("Survey completed! Received responses:", responses.score);
 
       // structured responses
       let scenarioObj = parseScenarioResponses(scenarioStr);
-      console.log("scenarioObj: ", scenarioObj);
+      //console.log("scenarioObj: ", scenarioObj);
 
-      displayResponses(responses);
+      displayResponses2(responses, scenarioObj);
 
-      console.table(scenarioObj);
+      // console.table(scenarioObj);
 
       renderScenarioTable(scenarioObj);
     }
   });
-
-  // Parsing function
-  function parseScenarioResponses(str) {
-    let scenarios = str.split("|").filter(s => s.trim() !== "");
-    let obj = {};
-    scenarios.forEach(s => {
-      let [id, respStr] = s.split("=");
-      let responses = {};
-      if (respStr) {
-        respStr.split(",").forEach(r => {
-          let [key, val] = r.split(":");
-          responses[key] = val ? val.split(";") : [];
-        });
-      }
-      obj[id] = responses;
-    });
-    return obj;
-  }
 
   function renderScenarioTable(scenarioObj) {
     const container = document.getElementById('survey-responses');
@@ -66,41 +51,67 @@ nav_order: 2
     // Create table element
     const table = document.createElement("table");
     table.style.borderCollapse = "collapse";
-    table.style.width = "100%";
-    table.style.maxWidth = "600px";
+    table.style.width = "95%";
+    table.style.maxWidth = "1200px";
+    table.style.margin = "20px auto";
 
     // Add header row
     const header = table.insertRow();
-    ["Issue", "A", "B"].forEach(text => {
+    ["Thought experiment", "Your answer", "Conflicting intuitions?"].forEach(text => {
       const th = document.createElement("th");
-      th.textContent = text;
       th.style.border = "1px solid #333";
       th.style.padding = "4px";
       th.style.background = "#f0f0f0";
+
+      const p = document.createElement("h4");
+      p.textContent = text;
+      p.style.margin = "0"; // important to avoid extra spacing
+
+      th.appendChild(p);
       header.appendChild(th);
     });
-
     // Add data rows
     Object.keys(scenarioObj).forEach(issue => {
       const row = table.insertRow();
 
-      // Issue name
+      // Issue name (full issue)
       const cellIssue = row.insertCell();
-      cellIssue.textContent = issue;
       cellIssue.style.border = "1px solid #333";
       cellIssue.style.padding = "4px";
 
+      const pIssue = document.createElement("p");
+      pIssue.style.font = "inherit";
+      pIssue.style.fontSize = "1.3rem";
+      pIssue.style.lineHeight = "1.5";
+      pIssue.innerHTML = scenarioObj[issue].full_issue; // allows <b>
+      pIssue.style.margin = "0";
+      cellIssue.appendChild(pIssue);
+
       // Response A
       const cellA = row.insertCell();
-      cellA.textContent = scenarioObj[issue].A.join(", ");
       cellA.style.border = "1px solid #333";
       cellA.style.padding = "4px";
 
+      const pA = document.createElement("p");
+      pA.style.font = "inherit";
+      pA.style.fontSize = "1.3rem";
+      pA.style.lineHeight = "1.5";
+      pA.textContent = scenarioObj[issue].A.join(", ");
+      pA.style.margin = "0";
+      cellA.appendChild(pA);
+
       // Response B
       const cellB = row.insertCell();
-      cellB.textContent = scenarioObj[issue].B.join(", ");
       cellB.style.border = "1px solid #333";
       cellB.style.padding = "4px";
+
+      const pB = document.createElement("p");
+      pB.style.font = "inherit";
+      pB.style.fontSize = "1.3rem";
+      pB.style.lineHeight = "1.5";
+      pB.textContent = scenarioObj[issue].B.join(", ");
+      pB.style.margin = "0";
+      cellB.appendChild(pB);
     });
 
     // Clear previous content and append table
@@ -120,10 +131,8 @@ nav_order: 2
     // Display the result content
     responsesDiv.innerHTML = `
         <h3>Thank you for completing the study!</h3>
-        <p>A custom message can be sent like: ${responses.score}</p>
-        <p>Then, we can pass specific responses. For example this person said they were a ${responses.age} year old ${String(responses.gender || '').toLowerCase()}.</p>
         <br>
-        <h3>Below is a breakdown of the survey results we obtained with laypeople, showing how they answered each thought experiment. Hover over the bars to see the exact proportions.</h3>
+        <h4>Below is a breakdown of the survey results we obtained with laypeople, showing how they answered each thought experiment. Hover over the bars to see the exact proportions.</h4>
         <div id="d3-chart"></div>
     `;
 
@@ -137,12 +146,38 @@ nav_order: 2
 
   }
 
-  function displaySurveyResults() {
+  function displayResponses2(responses, scenarioObj) {
+    document.getElementById('survey').classList.add('hidden');
+
+    const responsesDiv = document.getElementById('survey-responses');
+    responsesDiv.classList.remove('hidden');
+
+    responsesDiv.innerHTML = `
+    <h3>Thank you for completing the study!</h3>
+    <br>
+    <h4>Below is a breakdown of the survey results we obtained with laypeople, showing how they answered each thought experiment. Hover over the bars to see the exact proportions.</h4>
+    <div id="d3-chart"></div>
+  `;
+
+    displaySurveyResults(scenarioObj);
+
+    document.getElementById('feedback-container').classList.remove('hidden');
+    document.getElementById('share-menu').classList.remove('hidden');
+  }
+
+
+  function displaySurveyResults(scenarioObj) {
 
     // Show results container
     const container = d3.select("#survey-results");
     container.classed("hidden", false);
     container.selectAll("*").remove(); // Clear previous content
+
+    const shownIssues = new Set(Object.keys(scenarioObj));
+
+    const allData = prepareData(intuitionRawData);
+
+    const data = allData.filter(d => shownIssues.has(d.issue));
 
     // Tooltip
     const tooltip = d3.select("body")
@@ -157,9 +192,9 @@ nav_order: 2
       .style("opacity", 0);
 
     // Use your prepared raw data
-    const data = prepareData(intuitionRawData);
+    // const data = prepareData(intuitionRawData);
 
-    //  console.table(data);
+    console.table(data);
 
     // Loop over each issue
     data.forEach(d => {
@@ -295,6 +330,18 @@ nav_order: 2
       toast.classList.add("show");
       setTimeout(() => toast.classList.remove("show"), 2000);
     };
+
+    if (dev_mode) {
+      // Mock structured scenario responses
+      const mockResponses = {
+        source: "intuitionSurvey",
+        complete: true,
+        score: "twinearth=A:No,B:I did|phineas=A:Yes,B:I did not|trolley=A:Yes,B:I did",
+      };
+
+      // Simulate the postMessage event
+      window.dispatchEvent(new MessageEvent("message", { data: mockResponses }));
+    }
   });
 
   function openShare(platform) {
