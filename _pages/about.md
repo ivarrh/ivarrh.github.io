@@ -22,7 +22,7 @@ Welcome to our website! The Moral Science Lab is an interdisciplinary research l
 
 2. <b>Moral Psychology</b>: how people conceive the [moral status of non-human species](/projects/animaldilemmas/), how we perceive non-native and [migrant individuals](/projects/migration/). We have also documented generational or [cohort differences](https://www.irishtimes.com/culture/would-you-kill-one-person-to-save-five-depends-if-you-re-a-millennial-or-not-1.4173661) in moral judgment.
 
-3. <b>Experimental Jurisprudence</b>: what people consider to be [law](https://onlinelibrary.wiley.com/doi/10.1111/cogs.13024), how they interpret rules, and how law and morality are [related](https://www.pnas.org/doi/full/10.1073/pnas.2406823121). Learn about experimental jurisprudence (<i>x-jur</i>) through the [Stanford Encyclopedia of Philosophy entry](https://plato.stanford.edu/entries/experimental-jurisprudence/).
+3. <b>Experimental Jurisprudence</b>: what people consider to be [law](https://onlinelibrary.wiley.com/doi/10.1111/cogs.13024), how they interpret rules, and how law and morality are [related](https://www.pnas.org/doi/full/10.1073/pnas.2406823121). Learn about experimental jurisprudence (<i>x-jur</i>) through the Stanford Encyclopedia of Philosophy [entry](https://plato.stanford.edu/entries/experimental-jurisprudence/).
 
 Our research is described in greater detail on the [projects](/projects/) page. You can also take some of our studies [here](/studies/)!
 

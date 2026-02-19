@@ -27,7 +27,7 @@ const intuitionRawData = [
       "<b>Double prevention</b>: If A prevents B from preventing C, is A the cause of C?",
     description:
       "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, is Peter's action the direct cause of the spill?",
-    issue: "double_prevention",
+    issue: "prevention",
     proportion: 0.3366337,
   },
   {
@@ -37,7 +37,7 @@ const intuitionRawData = [
       "<b>Double prevention</b>:If A prevents B from preventing C, is A the cause of C?",
     description:
       "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, is Peter's action the direct cause of the spill?",
-    issue: "double_prevention",
+    issue: "prevention",
     proportion: 0.6633663,
   },
 
