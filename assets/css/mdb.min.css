@@ -189,10 +189,32 @@ strong {
     cursor: default
 }
 
+.view .mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed
+}
+
 .view img,
 .view video {
     position: relative;
     display: block
+}
+
+.overlay .mask {
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out
+}
+
+.overlay .mask:hover {
+    opacity: 1
 }
 
 .zoom img,
@@ -242,6 +264,11 @@ a.waves-light {
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
 }
 
 .animated.slow {
@@ -579,6 +606,13 @@ a.waves-light {
         -webkit-transform: translate3d(0, -4px, 0);
         transform: translate3d(0, -4px, 0)
     }
+}
+
+.bounce {
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-name: bounce;
+    animation-name: bounce
 }
 
 @-webkit-keyframes flash {
@@ -2730,6 +2764,13 @@ a.waves-light {
         -webkit-transform: translate3d(0, 700px, 0);
         transform: translate3d(0, 700px, 0)
     }
+}
+
+.hinge {
+    -webkit-animation-name: hinge;
+    animation-name: hinge;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s
 }
 
 @-webkit-keyframes jackInTheBox {

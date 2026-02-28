@@ -273,18 +273,21 @@ select {
 }
 
 [type=button],
+[type=reset],
 [type=submit],
 button {
     -webkit-appearance: button
 }
 
 [type=button]:not(:disabled),
+[type=reset]:not(:disabled),
 [type=submit]:not(:disabled),
 button:not(:disabled) {
     cursor: pointer
 }
 
 [type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
 [type=submit]::-moz-focus-inner,
 button::-moz-focus-inner {
     padding: 0;
@@ -2065,6 +2068,10 @@ a.close.disabled {
 
 .m-0 {
     margin: 0 !important
+}
+
+.m-1 {
+    margin: .25rem !important
 }
 
 .mr-1 {
