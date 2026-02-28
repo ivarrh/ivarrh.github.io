@@ -13,7 +13,7 @@ nav_order: 6
 A ver que te parece:
 <iframe
   allowfullscreen="true"
-  src="https://app.vosviewer.com/?json=https://www.mscilab.com/assets/json/vosviewer_inedyto_network.json&simple_ui=true"
+  src="https://app.vosviewer.com/?json=https://www.moralsciencelab.com/assets/json/vosviewer_inedyto_network.json&simple_ui=true"
   width="100%"
   height="75%"
   style="border: 1px solid #ddd; max-width: 1000px; min-height: 500px"
