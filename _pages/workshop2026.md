@@ -1,17 +1,17 @@
 ---
 layout: default
-title: workshop
-permalink: limr/workshop2025/
-nav: true
-nav_order: 7
+title: leonardo
+permalink: workshop/
+nav: false
+nav_order: 8
 ---
 
-  <h1>2025 <strong>Legal Interpretation and Moral Reasoning</strong> Workshop</h1>
+  <h1>2026 <strong>Philosophical Intuition and Conceptual Structure</strong> Workshop</h1>
   <hr>
 
   <div class="workshop-meta">
-    <p><strong>Dates:</strong> Wednesday 5<sup>th</sup> to Friday 7<sup>th</sup> of November 2025</p>
-    <p><strong>Location:</strong> Salón de Actos, <a href="https://carmendelavictoria.ugr.es/" target="_blank">Carmen de la Victoria</a>, University of Granada, Spain.
+    <p><strong>Dates:</strong> Thursday 25<sup>th</sup> and Friday 26<sup>th</sup> of November 2026</p>
+    <p><strong>Location:</strong> TBD <a href="https://carmendelavictoria.ugr.es/" target="_blank">Location</a>, University of Granada, Spain.
     <span style="margin-left: 1em;"><small>
     <a href="https://maps.app.goo.gl/rXzx385aCBZv5hmt5" target="_blank">
       <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
@@ -25,7 +25,7 @@ nav_order: 7
 </div>
 
   <div class="workshop-description">
-    <p>This workshop brings together <a href="#confirmed-speakers">13 speakers</a> from philosophy, law, and cognitive science to explore the interplay between legal interpretation and moral reasoning. Attendees can expect a dynamic <a href="#program">program</a> of talks, discussions, and collaborative sessions.</p>
+    <p>This workshop brings together <a href="#confirmed-speakers">6 speakers</a> from philosophy and cognitive science to explore the interplay between legal interpretation and moral reasoning. </p>
   </div>
   <hr>
  <!-- Speakers -->
@@ -33,72 +33,70 @@ nav_order: 7
     <h2>Our Speakers</h2>
 <div class="profile-grid">
 
-  <!-- Shaun Nichols -->
   <div class="profile-card">
     <div class="profile-img-container">
-      <img src="/assets/img/workshop/nichols.jpg" alt="Shaun Nichols">
+      <img src="/assets/img/workshop/knobe.jpg" alt="Joshua Knobe">
     </div>
     <div class="profile-content">
-      <h3>Shaun Nichols</h3>
-      <p class="affiliation">Cornell University</p>
+      <h3>Joshua Knobe</h3>
+      <p class="affiliation">Yale University</p>
       <div class="profile-links">
-        <a href="https://sites.google.com/view/shaunbnichols/home" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="https://campuspress.yale.edu/joshuaknobe/" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
 
-  <!-- Neele Engelmann -->
   <div class="profile-card">
     <div class="profile-img-container">
-      <img src="/assets/img/workshop/neele.jpeg" alt="Neele Engelmann">
+      <img src="/assets/img/workshop/almeida.jpg" alt="Guilherme Almeida">
     </div>
     <div class="profile-content">
-      <h3>Neele Engelmann</h3>
-      <p class="affiliation">Max Planck Institute for Human Development</p>
+      <h3>Guilherme Almeida</h3>
+      <p class="affiliation">INSPER</p>
       <div class="profile-links">
-        <a href="https://www.neeleengelmann.com" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="https://www.guilhermealmeida.com" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
 
-  <!-- Edmond Awad -->
+  <!-- Vilius  -->
   <div class="profile-card">
     <div class="profile-img-container">
-      <img src="/assets/img/workshop/awad.png" alt="Edmond Awad">
+      <img src="/assets/img/workshop/vilius.png" alt="Vilius Dranseika">
     </div>
     <div class="profile-content">
-      <h3>Edmond Awad</h3>
-      <p class="affiliation">University of Exeter</p>
+      <h3>Vilius Dranseika</h3>
+      <p class="affiliation">Jagiellonian University</p>
       <div class="profile-links">
-        <a href="https://www.edmondawad.me" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="https://www.dranseika.lt" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
 
-  <!-- Salima Issina-Shorman -->
+   <!-- Carme  -->
   <div class="profile-card">
     <div class="profile-img-container">
-      <img src="/assets/img/workshop/salima.jpeg" alt="Salima Issina-Shorman">
+      <img src="/assets/img/carme.png" alt="Carme Isern Mas">
     </div>
     <div class="profile-content">
-      <h3>Salima Issina-Shorman</h3>
-      <p class="affiliation">Central European University</p>
+      <h3>Carme Isern Mas</h3>
+      <p class="affiliation">Universidad de las Islas Baleares</p>
       <div class="profile-links">
-        <a href="https://cognitivescience.ceu.edu/people/salima-issina-shorman" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="https://www.uib.es/es/personal/ABjIyMjIzNg/" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
 
-  <!-- Kevin Tobia -->
+  <!-- Kevin Reuter -->
   <div class="profile-card">
     <div class="profile-img-container">
-      <img src="/assets/img/workshop/tobia.jpg" alt="Kevin Tobia">
+      <img src="/assets/img/workshop/reuter.jpg" alt="Kevin Reuter">
     </div>
     <div class="profile-content">
-      <h3>Kevin Tobia</h3>
+      <h3>Kevin Reuter</h3>
       <p class="affiliation">Georgetown University</p>
       <div class="profile-links">
-        <a href="https://www.law.georgetown.edu/faculty/kevin-tobia/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="https://www.law.georgetown.edu/faculty/kevin-reuter/" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
@@ -145,20 +143,6 @@ nav_order: 7
     </div>
   </div>
 
-  <!-- Vilius  -->
-  <div class="profile-card">
-    <div class="profile-img-container">
-      <img src="/assets/img/workshop/vilius.png" alt="Vilius Dranseika">
-    </div>
-    <div class="profile-content">
-      <h3>Vilius Dranseika</h3>
-      <p class="affiliation">Jagiellonian University</p>
-      <div class="profile-links">
-        <a href="https://www.dranseika.lt" target="_blank"><i class="fas fa-globe"></i> Website</a>
-      </div>
-    </div>
-  </div>
-
  <!-- Kathryn B. Francis -->
   <div class="profile-card">
     <div class="profile-img-container">
@@ -183,20 +167,6 @@ nav_order: 7
       <p class="affiliation">Universidad de Granada</p>
       <div class="profile-links">
         <a href="https://www.researchgate.net/profile/Jorge-Suarez-34" target="_blank"><i class="fas fa-globe"></i> Website</a>
-      </div>
-    </div>
-  </div>
-
- <!-- Carme  -->
-  <div class="profile-card">
-    <div class="profile-img-container">
-      <img src="/assets/img/carme.png" alt="Carme Isern Mas">
-    </div>
-    <div class="profile-content">
-      <h3>Carme Isern Mas</h3>
-      <p class="affiliation">Universidad de las Islas Baleares</p>
-      <div class="profile-links">
-        <a href="https://www.uib.es/es/personal/ABjIyMjIzNg/" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
@@ -227,14 +197,14 @@ nav_order: 7
   <h2><b>Workshop Program</b></h2>
   <p>The workshop will take place in the Salón de Actos*, at the <a href="https://carmendelavictoria.ugr.es/">Carmen de la Victoria</a>.</p>
 
-  <h3>Wednesday 5<sup>th</sup></h3>
+  <h3>Thursday 25<sup>th</sup></h3>
         <ul style="list-style: none;">
             <li><time>18:30</time>. <strong>Opening Remarks</strong></li>
             <li><time>19:00</time>. <strong>Karolina Prochownik</strong>: From Law to Morality: Legal Interpretation as Cultural Learning</li>
             <li><time>20:00</time>. <strong>Opening social:</strong> Welcome reception at the conference centre</li>
         </ul>
 
-  <h3>Thursday 6<sup>th</sup></h3>
+  <h3>Friday 26<sup>th</sup></h3>
         <ul style="list-style: none;">
             <li><time>9:30</time>. <strong>Marta Ponciano Lázaro</strong>: Rule Interpretation in Development: From Moral Reasoning to Strict Rule Compliance</li>
             <li><time>10:30</time>. <strong>Vilius Dranseika</strong>: Personal Identity and Practical Interests</li>
@@ -250,29 +220,9 @@ nav_order: 7
       <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
       </small></span></li>
    </ul>
-
-  <h3>Friday 7<sup>th</sup></h3>
-        <ul style="list-style: none;">
-            <li><time>9:30</time>. <strong>Ana Belén Gómez-Bellvís</strong>: From Doctrine to Data: Experimental Jurisprudence in Criminal Law  (in the "<b>Sala de Juntas</b>"*)</li>
-            <li><time>10:30</time>. <strong>Carme Isern-Mas</strong>: Affective Transgressions (in the "<b>Sala de Juntas</b>"*)</li>
-            <li><time>11:30</time>. <strong>Edmond Awad</strong>: AI in the Wild (in the "<b>Sala de Juntas</b>"*)</li>
-
-   <h4><i> ~ Lunch break ~ </i></h4>
-
-  <li><time>15:30</time>. <strong>Jorge Suárez</strong>: Judging Values in Multicultural Contexts</li>
-            <li><time>16:30</time>. <strong>Neele Engelmann</strong>: Perceived Moral Obligations in Abortion Cases and Analogical Thought Experiments</li>
-            <li><time>17:30</time>. <strong>Shaun Nichols</strong>: Rule Learning</li>
-        </ul>
     </section>
 
   <hr>
-
-  <h2><b>Workshop Photos</b></h2>
-  <iframe src="https://drive.google.com/embeddedfolderview?id=177_N2F5vmQoGtU9_oHEw5ARVi9wotZLY#grid" 
-        width="100%" 
-        height="400" 
-        frameborder="0">
-</iframe>
 
  <hr>
 
@@ -296,17 +246,17 @@ nav_order: 7
     </div>
   </div>
 
-  <!-- Organizer: Rosa López -->
+  <!-- Organizer: Sandra Sasikumar -->
   <div class="profile-card">
     <div class="profile-img-container">
-      <img src="/assets/img/rosa.jpeg" alt="Rosa López">
+      <img src="/assets/img/sandra2.jpg" alt="Sandra Sasikumar">
     </div>
     <div class="profile-content">
-      <h3>Rosa López</h3>
+      <h3>Sandra Sasikumar</h3>
       <p class="affiliation">University of Granada</p>
       <div class="profile-links">
         <a href="/people/" target="_blank"><i class="fas fa-globe"></i> Website</a>
-        <a href="mailto:rosall@ugr.es"><i class="fas fa-envelope"></i> Contact</a>
+        <a href="mailto:sandras@ugr.es"><i class="fas fa-envelope"></i> Contact</a>
       </div>
     </div>
   </div>
@@ -332,11 +282,14 @@ nav_order: 7
 
 <div class="row justify-content-center" style="align-items: center; max-width: 750px; margin: auto;">
   <p style="text-align: left;">
-    The workshop is generously funded by a 2023 Research Consolidation grant (<i>Legal Interpretation and Moral Reasoning</i>; <b>CNS2023.144543</b>), awarded by the <i>Spanish Ministry of Science and Innovation</i> (MICIU/AEI/10.13039/501100011033) and the <i>European Union NextGenerationEU/PRTR</i>.
+    The workshop is generously funded by a 2025 Leonardo Grant for Scientific Research and Cultural Creation (<i>Philosophical Expertise and Non-Classical Conceptual Structure</i>), awarded by the <b>BBVA Foundation</b>.
   </p>
-  <div style="width: 100%; text-align: center;">
-    {% include figure.liquid loading="eager" path="assets/img/mciu.jpg" title="MICINN" class="img-fluid rounded z-depth-1" %}
-  </div>
+</div>
+
+<div class="row justify-content-center" style="align-items: center; max-width: 750px; margin: auto;">
+    <div class="col-sm mt-2 mt-md-0" style="display: flex; align-items: center; justify-content: flex-start;">  <img src="/assets/html/bbva.svg" alt="BBVA" style="max-height: 120px;">
+    <img src="/assets/html/leonardo.svg" alt="Leonardo" style="max-height: 150px;">
+    </div>
 </div>
 
 <hr>
