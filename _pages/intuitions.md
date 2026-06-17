@@ -435,7 +435,7 @@ nav_order: 2
 </style>
 
 <div class="header-bar">
-  <h2><strong>💭 Intuitions in Philosophy 🧩</strong></h2>
+  <h2 style="text-align: center;"><strong>💭 Intuition and Philosophical Expertise 🧩</strong></h2>
   <h3>Are you a philosopher? Take our 5-minute study.</h3>
 </div>
 <!-- Initial content and survey button -->

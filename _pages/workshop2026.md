@@ -6,12 +6,12 @@ nav: false
 nav_order: 8
 ---
 
-  <h1>2026 <strong>Philosophical Intuition and Conceptual Structure</strong> Workshop</h1>
+  <h1 style="text-align: center;">The <strong>Philosophical Intuition and Conceptual Structure</strong> Workshop</h1>
   <hr>
 
   <div class="workshop-meta">
-    <p><strong>Dates:</strong> Thursday 25<sup>th</sup> and Friday 26<sup>th</sup> of November 2026</p>
-    <p><strong>Location:</strong> TBD <a href="https://carmendelavictoria.ugr.es/" target="_blank">Location</a>, University of Granada, Spain.
+    <p style="text-align: center;"><strong>Dates:</strong> Thursday 25<sup>th</sup> and Friday 26<sup>th</sup> of November 2026</p>
+    <p style="text-align: center;"><strong>Location:</strong> TBD <a href="https://carmendelavictoria.ugr.es/" target="_blank">Location</a>, University of Granada, Spain.
     <span style="margin-left: 1em;"><small>
     <a href="https://maps.app.goo.gl/rXzx385aCBZv5hmt5" target="_blank">
       <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
@@ -20,17 +20,21 @@ nav_order: 8
 
 <div class="row justify-content-center">
     <div class="col-sm" style="max-width: 800px; width: 100%;">
-{% include figure.liquid loading="eager" path="/assets/img/workshop/group.jpg" title="group image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="/assets/img/workshop/banner.jpg" title="group image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
   <div class="workshop-description">
-    <p>This workshop brings together <a href="#confirmed-speakers">6 speakers</a> from philosophy and cognitive science to explore the interplay between legal interpretation and moral reasoning. </p>
+    <p>Within analytic philosophy, there is a long tradition of appealing to intuitions about thought experiments to probe the structure of core philosophical concepts, such as morality, knowledge or identity. The role of such thought experiments is to elucidate these concepts by testing proposed necessity and sufficiency criteria against our intuitive judgments. <br>
+    More recently, a growing empirical literature in cognitive science has shown that many natural and social concepts do not exhibit a classical structure, and proposed various alternatives. Might philosophical concepts (e.g., morality, free will or identity) exhibit a non-classical structure? <br>
+    Thanks to a 2025 Leonardo Grant for Scientific Research and Cultural Creation on <i>Philosophical Intuition and Non-Classical Conceptual Structure</i>, awarded by the <b>BBVA Foundation</b>, the present workshop brings together <a href="#confirmed-speakers">6 speakers</a> from philosophy and cognitive science to explore these and other related questions about the structure of philosophical concepts. <br>
+    - What is the relationship between philosophical intuition and concepts?<br>
+    - How is this relationship influenced by expertise?</p>
   </div>
   <hr>
  <!-- Speakers -->
   <section id="confirmed-speakers" class="workshop-section">
-    <h2>Our Speakers</h2>
+    <h2>Invited Speakers</h2>
 <div class="profile-grid">
 
   <div class="profile-card">
@@ -90,7 +94,7 @@ nav_order: 8
   <!-- Kevin Reuter -->
   <div class="profile-card">
     <div class="profile-img-container">
-      <img src="/assets/img/workshop/reuter.jpg" alt="Kevin Reuter">
+      <img src="/assets/img/workshop/reuter2.jpg" alt="Kevin Reuter">
     </div>
     <div class="profile-content">
       <h3>Kevin Reuter</h3>
@@ -132,7 +136,7 @@ nav_order: 8
             <li><time>11:00</time>. <strong>Izabela Skoczen</strong>: The concept of a lie</li>
             <li><time>12:00</time>. <strong>Guilherme Almeida</strong>: Law and dual character</li>
 
-  <h4><i> ~ Lunch break ~ </i></h4>
+  <h4><i> ~ Lunch ~ </i></h4>
 
   <li><time>16:00</time>. <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
   <li><time>17:30</time>. <strong>Piotr Bystranowski</strong>: Secret Rules and Who Would Like to Enforce Them</li>
@@ -148,7 +152,7 @@ nav_order: 8
             <li><time>11:00</time>. <strong>Carme Isern-Mas</strong>: Self-deception as prototype</li>
             <li><time>12:00</time>. <strong>Joshua Knobe</strong>: Title</li>
 
-  <h4><i> ~ Lunch break ~ </i></h4>
+  <h4><i> ~ Lunch ~ </i></h4>
 
   <li><time>16:00</time>. <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
   <li><time>17:30</time>. <strong>Piotr Bystranowski</strong>: Secret Rules and Who Would Like to Enforce Them</li>
@@ -219,7 +223,7 @@ nav_order: 8
 
 <div class="row justify-content-center" style="align-items: center; max-width: 750px; margin: auto;">
   <p style="text-align: left;">
-    The workshop is generously funded by a 2025 Leonardo Grant for Scientific Research and Cultural Creation (<i>Philosophical Expertise and Non-Classical Conceptual Structure</i>), awarded by the <b>BBVA Foundation</b>.
+    The workshop is generously funded by a 2025 Leonardo Grant for Scientific Research and Cultural Creation (<i>Philosophical Intuition and Non-Classical Conceptual Structure</i>), awarded by the <b>BBVA Foundation</b>.
   </p>
 </div>
 
