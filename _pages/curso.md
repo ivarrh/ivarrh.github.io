@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /curso/
-title: curso-doctorado
+permalink: /teaching/
+title: teaching
 description: Department of Philosophy I, University of Granada
 nav: true
 nav_order: 5

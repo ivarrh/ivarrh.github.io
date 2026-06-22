@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <br>
-Welcome to our website! The Moral Science Lab is an interdisciplinary research lab based in the Department of Philosophy I at the University of Granada. We combine experimental and observational research methods to investigate a variety of issues...
+Welcome to our website! The Moral Science Lab is an interdisciplinary research lab based in the Department of Philosophy I at the University of Granada. We combine experimental and observational research methods to investigate a variety of issues.
 
 1. <b>Philosophical Concepts</b>: the cognitive processes that subserve people's reasoning about philosophical questions, such as [whether free will and determinism are compatible](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02428/full) or what it means to [be self-deceived](https://link.springer.com/article/10.1007/s13164-024-00743-y) or to [consent](https://www.sciencedirect.com/science/article/pii/S0010027725001301).
 
