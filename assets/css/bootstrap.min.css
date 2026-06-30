@@ -2175,10 +2175,6 @@ a.close.disabled {
     visibility: visible !important
 }
 
-.invisible {
-    visibility: hidden !important
-}
-
 @media print {
 
     *,
