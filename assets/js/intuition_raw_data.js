@@ -19,29 +19,6 @@ const intuitionRawData = [
     proportion: 0.504424779,
   },
 
-  // Double prevention
-  {
-    resp: "It was Peter knocking against Jack that caused the beer to spill.",
-    frequency: 34,
-    full_issue:
-      "<b>Double prevention</b>: If A prevents B from preventing C, is A the cause of C?",
-    description:
-      "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, did Peter cause the beer to spill?",
-    issue: "prevention",
-    proportion: 0.3366337,
-  },
-  {
-    resp: "It was not Peter knocking against Jack that caused the beer to spill.",
-    frequency: 67,
-    // FIX: added missing space after colon in original
-    full_issue:
-      "<b>Double prevention</b>: If A prevents B from preventing C, is A the cause of C?",
-    description:
-      "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, did Peter cause the beer to spill?",
-    issue: "prevention",
-    proportion: 0.6633663,
-  },
-
   // Phenomenal consciousness (robots)
   {
     resp: "The robot can experience love.",
@@ -192,6 +169,29 @@ const intuitionRawData = [
       "The free will and determinism debate is a long-standing philosophical issue that questions whether free will is compatible with determinism. In the thought experiment you saw, in a deterministic universe, Bill decides to kill his wife and children. Did he act freely even though his actions were causally determined?",
     issue: "freewill",
     proportion: 0.642201835,
+  },
+
+  // Double prevention
+  {
+    resp: "It was Peter knocking against Jack that caused the beer to spill.",
+    frequency: 34,
+    full_issue:
+      "<b>Double prevention</b>: If A prevents B from preventing C, is A the cause of C?",
+    description:
+      "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, did Peter cause the beer to spill?",
+    issue: "prevention",
+    proportion: 0.3366337,
+  },
+  {
+    resp: "It was not Peter knocking against Jack that caused the beer to spill.",
+    frequency: 67,
+    // FIX: added missing space after colon in original
+    full_issue:
+      "<b>Double prevention</b>: If A prevents B from preventing C, is A the cause of C?",
+    description:
+      "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, did Peter cause the beer to spill?",
+    issue: "prevention",
+    proportion: 0.6633663,
   },
 
   // The brain death criterion
