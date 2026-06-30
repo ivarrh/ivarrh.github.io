@@ -5,7 +5,7 @@ const intuitionRawData = [
     frequency: 56,
     full_issue: "<b>Lying and deceiving</b>: Is a deceptive implicature a lie?",
     description:
-      "A deceptive implicature is a statement that is technically true but is intended to mislead. For example, if Amanda says 'I did not lie,' but she intentionally leaves out important information that would reveal the truth, is she lying?",
+      "A deceptive implicature is a statement that is technically true but implies something false and misleading. For example, when Amanda replies that her ex has been sick for weeks, she implies that she has not met him recently. Is Amanda lying?",
     issue: "lying",
     proportion: 0.495575221,
   },
@@ -14,7 +14,7 @@ const intuitionRawData = [
     frequency: 57,
     full_issue: "<b>Lying and deceiving</b>: Is a deceptive implicature a lie?",
     description:
-      "A deceptive implicature is a statement that is technically true but is intended to mislead. For example, if Amanda says 'I did not lie,' but she intentionally leaves out important information that would reveal the truth, is she lying?",
+      "A deceptive implicature is a statement that is technically true but implies something false and misleading. For example, when Amanda replies that her ex has been sick for weeks, she implies that she has not met him recently. Is Amanda lying?",
     issue: "lying",
     proportion: 0.504424779,
   },
@@ -26,17 +26,18 @@ const intuitionRawData = [
     full_issue:
       "<b>Double prevention</b>: If A prevents B from preventing C, is A the cause of C?",
     description:
-      "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, is Peter's action the direct cause of the spill?",
+      "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, did Peter cause the beer to spill?",
     issue: "prevention",
     proportion: 0.3366337,
   },
   {
     resp: "It was not Peter knocking against Jack that caused the beer to spill.",
     frequency: 67,
+    // FIX: added missing space after colon in original
     full_issue:
-      "<b>Double prevention</b>:If A prevents B from preventing C, is A the cause of C?",
+      "<b>Double prevention</b>: If A prevents B from preventing C, is A the cause of C?",
     description:
-      "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, is Peter's action the direct cause of the spill?",
+      "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, did Peter cause the beer to spill?",
     issue: "prevention",
     proportion: 0.6633663,
   },
@@ -47,7 +48,7 @@ const intuitionRawData = [
     frequency: 55,
     full_issue: "<b>Phenomenal consciousness</b>: Can robots experience love?",
     description:
-      "Robots are artificial beings that can be programmed to simulate emotions. But can they actually experience love, or is it just a simulation?",
+      "In principle, a robot could have an electronic replica of a human brain. Would such a robot be able to experience love, or not?",
     issue: "robots",
     proportion: 0.47826087,
   },
@@ -56,7 +57,7 @@ const intuitionRawData = [
     frequency: 60,
     full_issue: "<b>Phenomenal consciousness</b>: Can robots experience love?",
     description:
-      "Robots are artificial beings that can be programmed to simulate emotions. But can they actually experience love, or is it just a simulation?",
+      "In principle, a robot could have an electronic replica of a human brain. Would such a robot be able to experience love, or not?",
     issue: "robots",
     proportion: 0.52173913,
   },
@@ -66,9 +67,9 @@ const intuitionRawData = [
     resp: "The person after the accident is not Phineas anymore.",
     frequency: 50,
     full_issue:
-      "<b>Identity</b>: Is the person after the accident still Phineas Gage?",
+      "<b>Personal identity</b>: Is the person after the accident still Phineas Gage?",
     description:
-      "Phineas Gage was a railroad worker who survived a severe brain injury in 1848. The injury changed his personality and behavior significantly. Is the person after the accident still Phineas Gage?",
+      "Phineas Gage was a railroad worker who survived an unusual accident. The severe brain injury he suffered changed his personality and behavior, making him a cruel and callous person. Is the person after the accident still Phineas Gage?",
     issue: "phineas",
     proportion: 0.438596491,
   },
@@ -76,9 +77,9 @@ const intuitionRawData = [
     resp: "The person after the accident is still Phineas.",
     frequency: 64,
     full_issue:
-      "<b>Identity</b>: Is the person after the accident still Phineas Gage?",
+      "<b>Personal identity</b>: Is the person after theint accident still Phineas Gage?",
     description:
-      "Phineas Gage was a railroad worker who survived a severe brain injury in 1848. The injury changed his personality and behavior significantly. Is the person after the accident still Phineas Gage?",
+      "Phineas Gage was a railroad worker who survived an unusual accident. The severe brain injury he suffered changed his personality and behavior, making him a cruel and callous person. Is the person after the accident still Phineas Gage?",
     issue: "phineas",
     proportion: 0.561403509,
   },
@@ -87,18 +88,20 @@ const intuitionRawData = [
   {
     resp: "The ship repaired with new parts is Theseus.",
     frequency: 42,
-    full_issue: "<b>Identity</b>: Which of the two ships is Theseus?",
+    full_issue:
+      "<b>Identity persistence</b>: Which of the two ships is the Ship of Theseus?",
     description:
-      "The Ship of Theseus is a thought experiment that raises questions about identity and change. If a ship has all of its parts replaced over time, is it still the same ship? Which of the two ships is Theseus?",
+      "The Ship of Theseus is a thought experiment that raises questions about identity and change. If a ship named Theseus has all of its parts replaced over time, is it still the same ship? To answer this question, we can compare the ship that has been repaired with new parts to the ship that has been rebuilt from the old parts. Which of the two ships is Theseus?",
     issue: "theseus",
     proportion: 0.432989691,
   },
   {
     resp: "The ship built from old parts is Theseus.",
     frequency: 55,
-    full_issue: "<b>Identity</b>: Which of the two ships is Theseus?",
+    full_issue:
+      "<b>Identity persistence</b>: Which of the two ships is the Ship of Theseus?",
     description:
-      "The Ship of Theseus is a thought experiment that raises questions about identity and change. If a ship has all of its parts replaced over time, is it still the same ship? Which of the two ships is Theseus?",
+      "The Ship of Theseus is a thought experiment that raises questions about identity and change. If a ship named Theseus has all of its parts replaced over time, is it still the same ship? To answer this question, we can compare the ship that has been repaired with new parts to the ship that has been rebuilt from the old parts. Which of the two ships is Theseus?",
     issue: "theseus",
     proportion: 0.567010309,
   },
@@ -110,7 +113,7 @@ const intuitionRawData = [
     full_issue:
       "<b>Epistemology</b>: Is reliability a sufficient condition for knowledge?",
     description:
-      "Truetemp is a thought experiment that raises questions about the nature of knowledge and reliability. Charles has a device implanted in his brain that gives him accurate temperature readings. He reliably believes that it is 22 degrees in his room, but does he actually know it?",
+      "Truetemp is a thought experiment that raises questions about the nature of knowledge and reliability. Charles has a device implanted in his brain that gives him accurate temperature readings. He reliably believes that it is 22 degrees in his room. Is that enough to constitute knowledge?",
     issue: "truetemp",
     proportion: 0.429824561,
   },
@@ -120,7 +123,7 @@ const intuitionRawData = [
     full_issue:
       "<b>Epistemology</b>: Is reliability a sufficient condition for knowledge?",
     description:
-      "Truetemp is a thought experiment that raises questions about the nature of knowledge and reliability. Charles has a device implanted in his brain that gives him accurate temperature readings. He reliably believes that it is 22 degrees in his room, but does he actually know it?",
+      "Truetemp is a thought experiment that raises questions about the nature of knowledge and reliability. Charles has a device implanted in his brain that gives him accurate temperature readings. He reliably believes that it is 22 degrees in his room. Is that enough to constitute knowledge?",
     issue: "truetemp",
     proportion: 0.570175439,
   },
@@ -132,7 +135,7 @@ const intuitionRawData = [
     full_issue:
       "<b>Utilitarianism</b>: Is it morally right to sacrifice one person in order to save five?",
     description:
-      "The trolley problem is a thought experiment that raises questions about morality and ethical decision-making. If you are on a trolley track and see five people tied up ahead, but you can pull a lever to divert the trolley onto another track where there is one person tied up, what should you do? Is it morally right to sacrifice one person in order to save five?",
+      "The trolley problem is a thought experiment that raises questions about utilitarian moral theory. If you are on a bridge overlooking a train track and see five people tied up ahead, but you can push a large person onto the track to stop the train and save the five people, what should you do? Is it morally right to sacrifice one person in order to save five?",
     issue: "trolley",
     proportion: 0.376146789,
   },
@@ -142,7 +145,7 @@ const intuitionRawData = [
     full_issue:
       "<b>Utilitarianism</b>: Is it morally right to sacrifice one person in order to save five?",
     description:
-      "The trolley problem is a thought experiment that raises questions about morality and ethical decision-making. If you are on a trolley track and see five people tied up ahead, but you can pull a lever to divert the trolley onto another track where there is one person tied up, what should you do? Is it morally right to sacrifice one person in order to save five?",
+      "The trolley problem is a thought experiment that raises questions about utilitarian moral theory. If you are on a bridge overlooking a train track and see five people tied up ahead, but you can push a large person onto the track to stop the train and save the five people, what should you do? Is it morally right to sacrifice one person in order to save five?",
     issue: "trolley",
     proportion: 0.623853211,
   },
@@ -151,18 +154,20 @@ const intuitionRawData = [
   {
     resp: "This is a picture of a two-headed person.",
     frequency: 39,
-    full_issue: "<b>Individuation</b>: Are conjoined twins one person or two?",
+    full_issue:
+      "<b>Individuation of persons</b>: Are conjoined twins one person or two?",
     description:
-      "Conjoined twins are two individuals who are born with their bodies physically connected. Are conjoined twins one person or two? This question raises issues about individuation and identity.",
+      "In a rare medical condition, conjoined twins (dicephalic parapagus) are born with two heads and a single body. This phenomenon raises questions about individuation and identity. Are conjoined twins one person or two persons?",
     issue: "individuation",
     proportion: 0.361111111,
   },
   {
     resp: "This is a picture of two persons sharing one body.",
     frequency: 69,
-    full_issue: "<b>Individuation</b>: Are conjoined twins one person or two?",
+    full_issue:
+      "<b>Individuation of persons</b>: Are conjoined twins one person or two?",
     description:
-      "Conjoined twins are two individuals who are born with their bodies physically connected. Are conjoined twins one person or two? This question raises issues about individuation and identity.",
+      "In a rare medical condition, conjoined twins (dicephalic parapagus) are born with two heads and a single body. This phenomenon raises questions about individuation and identity. Are conjoined twins one person or two persons?",
     issue: "individuation",
     proportion: 0.638888889,
   },
@@ -171,18 +176,20 @@ const intuitionRawData = [
   {
     resp: "Bill did not act freely when he decided to kill his wife and children.",
     frequency: 39,
-    full_issue: "<b>Free will</b>: Is free will compatible with determinism?",
+    full_issue:
+      "<b>Compatibilism</b>: Is free will compatible with determinism?",
     description:
-      "The free will and determinism debate is a long-standing philosophical issue that questions whether our actions are determined by prior causes or if we have the ability to choose freely. In this scenario, Bill decides to kill his wife and children. Did he act freely, or was his action determined by factors beyond his control?",
+      "The free will and determinism debate is a long-standing philosophical issue that questions whether free will is compatible with determinism. In the thought experiment you saw, in a deterministic universe, Bill decides to kill his wife and children. Did he act freely even though his actions were causally determined?",
     issue: "freewill",
     proportion: 0.357798165,
   },
   {
     resp: "Bill acted freely when he decided to kill his wife and children.",
     frequency: 70,
-    full_issue: "<b>Free will</b>: Is free will compatible with determinism?",
+    full_issue:
+      "<b>Compatibilism</b>: Is free will compatible with determinism?",
     description:
-      "The free will and determinism debate is a long-standing philosophical issue that questions whether our actions are determined by prior causes or if we have the ability to choose freely. In this scenario, Bill decides to kill his wife and children. Did he act freely, or was his action determined by factors beyond his control?",
+      "The free will and determinism debate is a long-standing philosophical issue that questions whether free will is compatible with determinism. In the thought experiment you saw, in a deterministic universe, Bill decides to kill his wife and children. Did he act freely even though his actions were causally determined?",
     issue: "freewill",
     proportion: 0.642201835,
   },
@@ -194,7 +201,7 @@ const intuitionRawData = [
     full_issue:
       "<b>The brain death criterion</b>: Are you dead when your brain ceases to function?",
     description:
-      "The brain death criterion is a philosophical and medical concept that defines death as the irreversible cessation of all brain activity. If your brain ceases to function, are you considered dead? This question raises issues about the nature of death and what it means to be alive.",
+      "The brain death criterion is a philosophical and medical concept that defines death as the irreversible cessation of all brain activity. If your brain ceases to function, are you considered dead even if your heart is still beating?",
     issue: "death",
     proportion: 0.280373832,
   },
@@ -204,7 +211,7 @@ const intuitionRawData = [
     full_issue:
       "<b>The brain death criterion</b>: Are you dead when your brain ceases to function?",
     description:
-      "The brain death criterion is a philosophical and medical concept that defines death as the irreversible cessation of all brain activity. If your brain ceases to function, are you considered dead? This question raises issues about the nature of death and what it means to be alive.",
+      "The brain death criterion is a philosophical and medical concept that defines death as the irreversible cessation of all brain activity. If your brain ceases to function, are you considered dead even if your heart is still beating?",
     issue: "death",
     proportion: 0.719626168,
   },
@@ -215,7 +222,7 @@ const intuitionRawData = [
     frequency: 32,
     full_issue: "<b>Letter vs. spirit</b>: What does it mean to break a rule?",
     description:
-      "The letter vs. spirit debate is a philosophical issue that questions whether we should follow the literal wording of a rule or the intended purpose behind it. If Daphne technically follows the rule but does so in a way that goes against its intended purpose, did she break the rule?",
+      "The letter vs. spirit debate is a philosophical issue that concerns whether we should follow the literal wording of a rule or the intended purpose behind it. If Daphne violates the letter of the law but does so in a way that abides by its intended purpose, did she break the rule?",
     issue: "rules",
     proportion: 0.275862069,
   },
@@ -224,7 +231,7 @@ const intuitionRawData = [
     frequency: 84,
     full_issue: "<b>Letter vs. spirit</b>: What does it mean to break a rule?",
     description:
-      "The letter vs. spirit debate is a philosophical issue that questions whether we should follow the literal wording of a rule or the intended purpose behind it. If Daphne technically follows the rule but does so in a way that goes against its intended purpose, did she break the rule?",
+      "The letter vs. spirit debate is a philosophical issue that concerns whether we should follow the literal wording of a rule or the intended purpose behind it. If Daphne violates the letter of the law but does so in a way that abides by its intended purpose, did she break the rule?",
     issue: "rules",
     proportion: 0.724137931,
   },
@@ -234,9 +241,9 @@ const intuitionRawData = [
     resp: "George doesn't know that he is not a virtual-reality brain.",
     frequency: 21,
     full_issue:
-      "<b>Skepticism</b>: Can George know he is not a brain in a vat?",
+      "<b>Skepticism</b>: Can we know that we are not brains in a vat?",
     description:
-      "The brain-in-a-vat thought experiment is a skeptical scenario that questions our knowledge of the external world. If George is a brain in a vat, can he know that he is not a virtual-reality brain? This question raises issues about skepticism and our ability to know anything about the world around us.",
+      "The brain-in-a-vat thought experiment is a skeptical thought experiment that questions our knowledge of the external world. Is there any way that people like you and I can know that we are not virtual reality brains?",
     issue: "brainvat",
     proportion: 0.201923077,
   },
@@ -244,9 +251,10 @@ const intuitionRawData = [
     resp: "George knows that he is not a virtual-reality brain.",
     frequency: 83,
     full_issue:
-      "<b>Skepticism</b>: Can George know he is not a brain in a vat?",
+      "<b>Skepticism</b>: Can we know that we are not brains in a vat?",
+    // FIX: was copy-pasted from the "rules" entry — corrected to brain-in-a-vat description
     description:
-      "The letter vs. spirit debate is a philosophical issue that questions whether we should follow the literal wording of a rule or the intended purpose behind it. If Daphne technically follows the rule but does so in a way that goes against its intended purpose, did she break the rule?",
+      "The brain-in-a-vat thought experiment is a skeptical thought experiment that questions our knowledge of the external world. Is there any way that people like you and I can know that we are not virtual reality brains?",
     issue: "brainvat",
     proportion: 0.798076923,
   },
@@ -257,7 +265,7 @@ const intuitionRawData = [
     frequency: 21,
     full_issue: "<b>Meaning</b>: Is the liquid on Twin Earth water?",
     description:
-      "The Twin Earth thought experiment is a philosophical scenario that questions the nature of meaning and reference. If the liquid on Twin Earth is chemically identical to water but is called 'GNOB' instead of 'water', is it still water? This question raises issues about the relationship between language, meaning, and reality.",
+      "The Twin Earth thought experiment is a philosophical scenario that questions the nature of meaning and reference. If the liquid on Twin Earth is the same as water to the senses, but has different chemical properties, is it still water?",
     issue: "twinearth",
     proportion: 0.189189189,
   },
@@ -266,7 +274,7 @@ const intuitionRawData = [
     frequency: 90,
     full_issue: "<b>Meaning</b>: Is the liquid on Twin Earth water?",
     description:
-      "The Twin Earth thought experiment is a philosophical scenario that questions the nature of meaning and reference. If the liquid on Twin Earth is chemically identical to water but is called 'GNOB' instead of 'water', is it still water? This question raises issues about the relationship between language, meaning, and reality.",
+      "The Twin Earth thought experiment is a philosophical scenario that questions the nature of meaning and reference. If the liquid on Twin Earth is the same as water to the senses, but has different chemical properties, is it still water?",
     issue: "twinearth",
     proportion: 0.810810811,
   },
@@ -277,16 +285,17 @@ const intuitionRawData = [
     frequency: 13,
     full_issue: "<b>Happiness</b>: Can an immoral person be happy?",
     description:
-      "The question of whether an immoral person can be happy is a philosophical issue that raises questions about the nature of happiness and morality. If Sarah engages in immoral behavior, can she still experience happiness, or is happiness incompatible with immorality?",
+      "This thought experiment concerns the relationship between happiness and morality. Specifically, if Sarah engages in immoral behavior, and thinking about her immoral past brings her satisfaction, is Sarah happy?",
     issue: "happiness",
     proportion: 0.131313131,
   },
   {
     resp: "Sarah is happy.",
     frequency: 86,
-    full_issue: "<b>Happiness</b>:Can an immoral person be happy?",
+    // FIX: added missing space after colon in original
+    full_issue: "<b>Happiness</b>: Can an immoral person be happy?",
     description:
-      "The question of whether an immoral person can be happy is a philosophical issue that raises questions about the nature of happiness and morality. If Sarah engages in immoral behavior, can she still experience happiness, or is happiness incompatible with immorality?",
+      "This thought experiment concerns the relationship between happiness and morality. Specifically, if Sarah engages in immoral behavior, and thinking about her immoral past brings her satisfaction, is Sarah happy?",
     issue: "happiness",
     proportion: 0.868686869,
   },
@@ -297,7 +306,7 @@ const intuitionRawData = [
     frequency: 9,
     full_issue: "<b>Knowledge</b>: Can there be knowledge without belief?",
     description:
-      "The question of whether there can be knowledge without belief is a philosophical issue that raises questions about the nature of knowledge and belief. If Juliet has evidence that her athletic students are as capable as her other students, but she does not believe it, does she still have knowledge?",
+      "This thought experiment concerns the nature of knowledge and its relationship to belief. If Juliet has evidence that her athletic students are as capable as her other students, but she does not act accordingly, does she still know they are as capable?",
     issue: "knowledge",
     proportion: 0.09,
   },
@@ -306,7 +315,7 @@ const intuitionRawData = [
     frequency: 91,
     full_issue: "<b>Knowledge</b>: Can there be knowledge without belief?",
     description:
-      "The question of whether there can be knowledge without belief is a philosophical issue that raises questions about the nature of knowledge and belief. If Juliet has evidence that her athletic students are as capable as her other students, but she does not believe it, does she still have knowledge?",
+      "This thought experiment concerns the nature of knowledge and its relationship to belief. If Juliet has evidence that her athletic students are as capable as her other students, but she does not act accordingly, does she still know they are as capable?",
     issue: "knowledge",
     proportion: 0.91,
   },

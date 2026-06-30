@@ -8,170 +8,59 @@ nav_order: 2
 ---
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="https://moralsciencelab.com/assets/js/intuition_raw_data.js"></script>
-<script src="https://moralsciencelab.com/assets/js/intuitions-helper.js"></script>
-<script>
-  // Dev mode flag 
-  const dev_mode = false; // Set to true to enable mock data and bypass survey for testing
+<!--  comment the live files and use local files for development -->
+<script src="https://moralsciencelab.com/assets/js/intuition_raw_data-v2.js"></script>
+<script src="https://moralsciencelab.com/assets/js/intuitions-helper-v2.js"></script>
+<script src="/assets/js/intuition_raw_data.js"></script>
+<script src="/assets/js/intuitions-helper.js"></script>
+<link rel="stylesheet" type="text/css" href="/assets/css/intuitions.css">
 
+<script>
+  const dev_mode = false; // Set to true to enable mock data and bypass survey for testing
   // Listen for messages from the iframe
   window.addEventListener('message', function (event) {
     const responses = event.data;
     console.log("event:", event);
     console.log("actual message:", responses);
-
-    // Check the origin of the message 
-    //   if (event.origin !== 'https://harvardgreene.az1.qualtrics.com') return;
-    // Only respond to OUR message
     if (!responses || responses.source !== "intuitionSurvey") return;
-
     // If the iframe signals completion and sends the result
     if (responses.complete) {
       let scenarioStr = responses.score; // raw string
-
       // message with scenario responses
       //console.log("Survey completed! Received responses:", responses.score);
-
-      // structured responses
       let scenarioObj = parseScenarioResponses(scenarioStr);
       //console.log("scenarioObj: ", scenarioObj);
-
       displayResponses2(responses, scenarioObj);
-
       // console.table(scenarioObj);
-
-      renderScenarioTable(scenarioObj);
+      // renderScenarioTable(scenarioObj);
     }
   });
 
-  function renderScenarioTable(scenarioObj) {
-    const container = document.getElementById('survey-responses');
-    if (!container) return;
-
-    // Create table element
-    const table = document.createElement("table");
-    table.style.borderCollapse = "collapse";
-    table.style.width = "95%";
-    table.style.maxWidth = "1200px";
-    table.style.margin = "20px auto";
-
-    // Add header row
-    const header = table.insertRow();
-    ["Thought experiment", "Your answer", "Conflicting intuitions?"].forEach(text => {
-      const th = document.createElement("th");
-      th.style.border = "1px solid #333";
-      th.style.padding = "4px";
-      th.style.background = "#f0f0f0";
-
-      const p = document.createElement("h4");
-      p.textContent = text;
-      p.style.margin = "0"; // important to avoid extra spacing
-
-      th.appendChild(p);
-      header.appendChild(th);
-    });
-    // Add data rows
-    Object.keys(scenarioObj).forEach(issue => {
-      const row = table.insertRow();
-
-      // Issue name (full issue)
-      const cellIssue = row.insertCell();
-      cellIssue.style.border = "1px solid #333";
-      cellIssue.style.padding = "4px";
-
-      const pIssue = document.createElement("p");
-      pIssue.style.font = "inherit";
-      pIssue.style.fontSize = "1.3rem";
-      pIssue.style.lineHeight = "1.5";
-      pIssue.innerHTML = scenarioObj[issue].full_issue; // allows <b>
-      pIssue.style.margin = "0";
-      cellIssue.appendChild(pIssue);
-
-      // Response A
-      const cellA = row.insertCell();
-      cellA.style.border = "1px solid #333";
-      cellA.style.padding = "4px";
-
-      const pA = document.createElement("p");
-      pA.style.font = "inherit";
-      pA.style.fontSize = "1.3rem";
-      pA.style.lineHeight = "1.5";
-      pA.textContent = scenarioObj[issue].A.join(", ");
-      pA.style.margin = "0";
-      cellA.appendChild(pA);
-
-      // Response B
-      const cellB = row.insertCell();
-      cellB.style.border = "1px solid #333";
-      cellB.style.padding = "4px";
-
-      const pB = document.createElement("p");
-      pB.style.font = "inherit";
-      pB.style.fontSize = "1.3rem";
-      pB.style.lineHeight = "1.5";
-      pB.textContent = scenarioObj[issue].B.join(", ");
-      pB.style.margin = "0";
-      cellB.appendChild(pB);
-    });
-
-    // Clear previous content and append table
-    // container.innerHTML = "";
-    container.appendChild(table);
-  }
-
-  // Function to handle displaying survey results
-  function displayResponses(responses) {
-    // Hide the survey iframe
-    document.getElementById('survey').classList.add('hidden');
-
-    // Show results div
-    const responsesDiv = document.getElementById('survey-responses');
-    responsesDiv.classList.remove('hidden');
-
-    // Display the result content
-    responsesDiv.innerHTML = `
-        <h3>Thank you for completing the study!</h3>
-        <br>
-        <h4>Below is a breakdown of the survey results we obtained with laypeople, showing how they answered each thought experiment. Hover over the bars to see the exact proportions.</h4>
-        <div id="d3-chart"></div>
-    `;
-
-    displaySurveyResults();
-
-    const feedbackDiv = document.getElementById('feedback-container');
-    feedbackDiv.classList.remove('hidden');
-
-    const shareDiv = document.getElementById('share-menu');
-    shareDiv.classList.remove('hidden');
-
-  }
-
   function displayResponses2(responses, scenarioObj) {
+    toggleMode(); // Switch to light mode for better visibility of results
     document.getElementById('survey').classList.add('hidden');
-
     const responsesDiv = document.getElementById('survey-responses');
     responsesDiv.classList.remove('hidden');
-
     responsesDiv.innerHTML = `
-    <h3>Thank you for completing the study!</h3>
+    <h3><b>Thank you for completing the study!</b></h3>
     <br>
-    <h4>Below is a breakdown of the survey results we obtained with laypeople, showing how they answered each thought experiment. Hover over the bars to see the exact proportions.</h4>
-    <div id="d3-chart"></div>
-  `;
-
+    <p style="text-align: left;">
+    Below you will find a display of your results along with responses from laypeople in our previous study. For each thought experiment, we provide a short summary of the philosophical issue, your answers and the distribution of laypeople's responses.
+    Hover over the bars to see the exact percentages!
+    <br><br>
+    We would greatly appreciate it if you could share the study with other philosophers to help us gather more data and advance our understanding of philosophical intuitions among laypeople and experts.
+    </p>
+    <div id="d3-chart"></div>`;
     displaySurveyResults(scenarioObj);
-
     document.getElementById('feedback-container').classList.remove('hidden');
     document.getElementById('share-menu').classList.remove('hidden');
   }
 
-
   function displaySurveyResults(scenarioObj) {
-
     // Show results container
     const container = d3.select("#survey-results");
     container.classed("hidden", false);
-    container.selectAll("*").remove(); // Clear previous content
+    container.selectAll("\*").remove(); // Clear previous content
 
     const shownIssues = new Set(Object.keys(scenarioObj));
 
@@ -214,6 +103,46 @@ nav_order: 2
       issueDiv.append("div")
         .attr("class", "issue-description")
         .html(`<p style = "max-width: 700px; text-align: left;">${d.description}</p>`);
+
+      // Look up participant's answer and conflicting intuitions flag for this issue
+      const participantAnswer = scenarioObj[d.issue] ? scenarioObj[d.issue].A[0] : null;
+      const properNouns = ["Bill", "Amanda", "Charles", "Daphne", "George", "Juliet", "Peter", "Jack", "Sarah"];
+      const firstWord = participantAnswer.split(" ")[0];
+      const answerLower = properNouns.includes(firstWord)
+        ? participantAnswer
+        : participantAnswer.replace(/^./, c => c.toLowerCase());
+      const conflicting = scenarioObj[d.issue] ? scenarioObj[d.issue].B[0] : null;
+
+      if (participantAnswer) {
+        // Match against raw data to get color and the other option text
+        const entries = intuitionRawData.filter(e => e.issue === d.issue);
+        const chosenIndex = entries.findIndex(e => e.resp === participantAnswer);
+        const answerColor = chosenIndex === 0 ? "#c44e52" : "#4c72b0";
+        const otherAnswer = entries.find(e => e.resp !== participantAnswer)?.resp;
+        const otherfirstWord = otherAnswer.split(" ")[0];
+        const otherLower = properNouns.includes(otherfirstWord)
+          ? otherAnswer
+          : otherAnswer.replace(/^./, c => c.toLowerCase());
+
+        // Build the conflict sentence
+        // TODO: replace d.description with a per-option view_description field
+        //       once added to intuitionRawData (e.g. entries[chosenIndex].view_description)
+        const conflictSentence = conflicting === "I did"
+          ? `Yet, you recognized that you also felt pulled in the opposite direction.`
+          : `You told us that you did not feel the opposite intuition at all, i.e., that ${otherLower}`;
+
+        issueDiv.append("div")
+          .attr("class", "participant-answer")
+          .style("max-width", "700px")
+          .style("text-align", "left")
+          .style("margin-bottom", "8px")
+          .html(`
+            <p style="margin: 0;">
+              You answered that <strong style="color: ${answerColor};">${answerLower}</strong>
+              ${conflictSentence}
+            </p>
+          `);
+      }
 
       // Chart container
       const chartDiv = issueDiv.append("div")
@@ -280,6 +209,7 @@ nav_order: 2
         .style("stroke", "#333")  // color of axis and tick lines
         .style("stroke-width", 2); // thickness of lines
     });
+
   };
 
   window.addEventListener("load", () => {
@@ -309,8 +239,8 @@ nav_order: 2
         container.style.display = "none";
       }, 1500);
     });
-  });
 
+  });
   document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("share-x").onclick = () => openShare("x");
     document.getElementById("share-facebook").onclick = () => openShare("facebook");
@@ -320,7 +250,7 @@ nav_order: 2
       await navigator.clipboard.writeText(text);
       const composeUrl =
         `https://bsky.app/intent/compose?text=${encodeURIComponent(text)}`;
-      window.open(composeUrl, "_blank");
+      window.open(composeUrl, "\_blank");
       showToast("Post copied — paste it into Bluesky");
     });
     document.getElementById("share-email").onclick = () => window.location.href = platforms.email;
@@ -330,116 +260,31 @@ nav_order: 2
       toast.classList.add("show");
       setTimeout(() => toast.classList.remove("show"), 2000);
     };
-
     if (dev_mode) {
       // Mock structured scenario responses
       const mockResponses = {
         source: "intuitionSurvey",
         complete: true,
-        score: "twinearth=A:No,B:I did|phineas=A:Yes,B:I did not|trolley=A:Yes,B:I did",
+        //score: "robots=A:The robot can experience love.,B:I did|theseus=A:The ship repaired with new parts is Theseus.,B:I did|phineas=A:The person after the accident is still Phineas.,B:I did|trolley=A:Throwing the person overboard is the morally right thing to do.,B:I did",
+        score: generateMockScore() // Generate mock responses based on the raw data
       };
-
+      console.log("Mock responses:", mockResponses);
+      document.querySelectorAll(".initial-content").forEach(el => el.classList.add("hidden"));
       // Simulate the postMessage event
       window.dispatchEvent(new MessageEvent("message", { data: mockResponses }));
     }
   });
-
   function openShare(platform) {
-    window.open(platforms[platform], "_blank");
+    window.open(platforms[platform], "\_blank");
   }
-
 </script>
-<style>
-  .initial-content {
-    display: block;
-  }
-
-  .hidden {
-    display: none;
-  }
-
-  .invisible {
-    visibility: hidden;
-  }
-
-  #survey {
-    margin-top: 45px;
-    position: absolute;
-    /* Fullscreen mode */
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
-    /* Optional background overlay */
-    z-index: 999;
-  }
-
-  .result-message {
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  #survey-responses {
-    margin: 40px auto;
-    padding: 30px;
-    text-align: center;
-  }
-
-  /* Optional: space for D3 chart */
-  #survey-responses svg {
-    margin-top: 20px;
-  }
-
-  #share-native {
-    margin: 6px;
-    padding: 10px 14px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    background: #fff;
-    cursor: pointer;
-    font-size: 14px;
-    text-decoration: none;
-  }
-
-  #share-native:hover {
-    background: #f3f3f3;
-  }
-
-  .fade-out {
-    opacity: 0;
-    transition: opacity 1.5s ease;
-  }
-
-  #copy-toast {
-    position: fixed;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%) translateY(10px);
-    background: #2e7d32;
-    color: white;
-    padding: 10px 16px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    z-index: 9999;
-  }
-
-  #copy-toast.show {
-    opacity: 1;
-    transform: translateX(-50%) translateY(0);
-  }
-</style>
 
 <div class="header-bar">
-  <h2 style="text-align: center;"><strong>💭 Intuition and Philosophical Expertise 🧩</strong></h2>
+  <h2 style="text-align: center;"><strong>Intuitions and Philosophical Expertise</strong></h2>
   <h3>Are you a philosopher? Take our 5-minute study.</h3>
 </div>
 <!-- Initial content and survey button -->
-<div id="survey-responses" class="hidden" style="width: 100%; margin: 0;"></div>
+<div id="survey-responses" class="hidden" style="margin: 0 auto;"></div>
 <div id="survey-results" class="hidden" style="width: 100%; margin: 0;"></div>
 <!-- D3.js chart and text will go here -->
 <div id="d3-chart"></div>
