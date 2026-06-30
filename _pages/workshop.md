@@ -2,7 +2,7 @@
 layout: default
 title: workshop
 permalink: limr/workshop2025/
-nav: true
+nav: false
 nav_order: 7
 ---
 

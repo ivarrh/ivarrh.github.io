@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Department of Philosophy I, University of Granada
 nav: true
-nav_order: 5
+nav_order: 7
 ---
 
 <head>

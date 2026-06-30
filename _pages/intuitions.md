@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /intuitions/
-title: intuitions
+title: intuitions-study
 description: <h3>A study of philosophical intuitions</h3>
-nav: false
+nav: true
 nav_order: 2
 ---
 
@@ -296,6 +296,7 @@ nav_order: 2
     Our goal is to understand the factors that shape philosophers' intuitions about classic thought experiments.
     <br><br>
     The study consists of a survey that will take approximately <strong>5 minutes</strong> to complete.
+    The study was approved by the Ethics Committee for Human Research at the University of Granada, with protocol number 5766/CEIH/2026.
     <br><br>
     If you are interested in participating, please click the button below.
     Thank you for your time and contribution to our research!
