@@ -1,7 +1,7 @@
 ---
 layout: default
 title: workshop
-permalink: limr/workshop2025/
+permalink: workshop2025/
 nav: false
 nav_order: 7
 ---
@@ -330,13 +330,16 @@ nav_order: 7
 
   </div>
 
-<div class="row justify-content-center" style="align-items: center; max-width: 750px; margin: auto;">
+<div class="row justify-content-center" style="align-items: center; max-width: 1000px; margin: auto;">
   <p style="text-align: left;">
-    The workshop is generously funded by a 2023 Research Consolidation grant (<i>Legal Interpretation and Moral Reasoning</i>; <b>CNS2023.144543</b>), awarded by the <i>Spanish Ministry of Science and Innovation</i> (MICIU/AEI/10.13039/501100011033) and the <i>European Union NextGenerationEU/PRTR</i>.
+    The Moral Science Lab is generously funded by a 2023 Research Consolidation Project (<i>Legal Interpretation and Moral Reasoning</i>; <b>CNS2023.144543</b>), awarded by the <b>Spanish Ministry of Science and Innovation</b> (MICIU/AEI/10.13039/501100011033) and the <b>European Union NextGenerationEU/PRTR</b>, and by a 2025 Leonardo Grant for Scientific Research and Cultural Creation (<i>Philosophical Expertise and Non-Classical Conceptual Structure</i>), awarded by the <b>BBVA Foundation</b>.
   </p>
-  <div style="width: 100%; text-align: center;">
-    {% include figure.liquid loading="eager" path="assets/img/mciu.jpg" title="MICINN" class="img-fluid rounded z-depth-1" %}
-  </div>
+  <div class="col-sm mt-2 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/mciu.jpg" title="Spanish Ministry of Science and Innovation" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-2 mt-md-0" style="display: flex; align-items: center; justify-content: flex-start;">  <img src="/assets/html/bbva.svg" alt="BBVA" style="max-height: 60px;">
+    <img src="/assets/html/leonardo.svg" alt="Leonardo" style="max-height: 90px;">
+    </div>
 </div>
 
 <hr>
