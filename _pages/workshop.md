@@ -332,7 +332,7 @@ nav_order: 7
 
 <div class="row justify-content-center" style="align-items: center; max-width: 1000px; margin: auto;">
   <p style="text-align: left;">
-    The Moral Science Lab is generously funded by a 2023 Research Consolidation Project (<i>Legal Interpretation and Moral Reasoning</i>; <b>CNS2023.144543</b>), awarded by the <b>Spanish Ministry of Science and Innovation</b> (MICIU/AEI/10.13039/501100011033) and the <b>European Union NextGenerationEU/PRTR</b>, and by a 2025 Leonardo Grant for Scientific Research and Cultural Creation (<i>Philosophical Expertise and Non-Classical Conceptual Structure</i>), awarded by the <b>BBVA Foundation</b>.
+    The workshop is generously funded by a 2023 Research Consolidation Project (<i>Legal Interpretation and Moral Reasoning</i>; <b>CNS2023.144543</b>), awarded by the <b>Spanish Ministry of Science and Innovation</b> (MICIU/AEI/10.13039/501100011033) and the <b>European Union NextGenerationEU/PRTR</b>, and by a 2025 Leonardo Grant for Scientific Research and Cultural Creation (<i>Philosophical Expertise and Non-Classical Conceptual Structure</i>), awarded by the <b>BBVA Foundation</b>.
   </p>
   <div class="col-sm mt-2 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/mciu.jpg" title="Spanish Ministry of Science and Innovation" class="img-fluid rounded z-depth-1" %}
