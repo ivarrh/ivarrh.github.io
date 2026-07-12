@@ -5,7 +5,7 @@ const shareText =
 
 const shareUrl = "https://moralsciencelab.com/intuitions/";
 
-const shareSubject = "Philosophical Intuitions Survey";
+const shareSubject = "Intuitions and Philosophical Expertise Survey";
 
 const platforms = {
   x: `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText + " " + shareUrl)}`,

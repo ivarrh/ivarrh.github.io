@@ -20,8 +20,8 @@ nav_order: 2
   // Listen for messages from the iframe
   window.addEventListener('message', function (event) {
     const responses = event.data;
-    console.log("event:", event);
-    console.log("actual message:", responses);
+   // console.log("event:", event);
+    // console.log("actual message:", responses);
     if (!responses || responses.source !== "intuitionSurvey") return;
     // If the iframe signals completion and sends the result
     if (responses.complete) {
@@ -45,11 +45,20 @@ nav_order: 2
     <h3><b>Thank you for completing the study!</b></h3>
     <br>
     <p style="text-align: left;">
-    Below you will find a display of your results along with responses from laypeople in our previous study. For each thought experiment, we provide a short summary of the philosophical issue, your answers and the distribution of laypeople's responses.
-    Hover over the bars to see the exact percentages!
-    <br><br>
-    We would greatly appreciate it if you could share the study with other philosophers to help us gather more data and advance our understanding of philosophical intuitions among laypeople and experts.
+    Below you'll find a display of your results alongside responses from laypeople in our previous study. For each thought experiment, we provide a short summary of the philosophical issue, your answers, and the distribution of laypeople's responses. Hovering over the bars reveals the percentage of laypeople who chose each answer.
+    <div class="share-callout">
+    <p>
+      <strong>Help us gather more data.</strong> Please consider sharing this study with other philosophers
+      and help us advance our understanding of philosophical intuitions among laypeople and experts. We greatly appreciate it!
     </p>
+    </div>
+    <p class="citation" style="text-align: left;">
+    Read more about our ongoing research:<br>
+    Hannikainen, I. R. &amp; Knobe, J. (2026).
+    <a href="https://www.researchgate.net/publication/400394526_Philosophical_thought_experiments_elicit_conflicting_intuitions" target="_blank" rel="noopener">
+      <em>Philosophical thought experiments elicit conflicting intuitions</em>
+    </a>, in preparation.
+  </p>
     <div id="d3-chart"></div>`;
     displaySurveyResults(scenarioObj);
     document.getElementById('feedback-container').classList.remove('hidden');
@@ -327,8 +336,7 @@ nav_order: 2
   </div>
   <div id="feedback-form"
     style="display:none; margin-top:15px; max-width: 1000px; width: 800px; margin-left: auto; margin-right: auto;">
-    <textarea id="feedback-text" rows="4" style="width:90%; max-width:900px;"
-      placeholder="Optional — anything confusing, surprising, or interesting?"></textarea>
+    <textarea id="feedback-text" rows="4" style="width:90%; max-width:900px;"></textarea>
     <br><br>
     <button class="form-submit" id="feedback-submit">Send feedback</button>
   </div>
