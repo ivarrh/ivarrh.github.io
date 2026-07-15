@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Answer vs conflicting intuitions by thought experiment</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 24px;
+            background: #ffffff;
+            color: #1a1a1a;
+        }
+
+        #intro {
+            max-width: 900px;
+            font-size: 14px;
+            color: #444;
+            margin-bottom: 18px;
+            line-height: 1.5;
+        }
+
+        #wrap {
+            display: flex;
+            align-items: flex-start;
+            gap: 28px;
+            max-width: 1100px;
+        }
+
+        .axis path,
+        .axis line {
+            stroke: #ccc;
+        }
+
+        .axis text {
+            fill: #333;
+            font-size: 12px;
+        }
+
+        .axis-title {
+            fill: #222;
+            font-size: 13px;
+        }
+
+        .gridline line {
+            stroke: #eee;
+        }
+
+        .gridline path {
+            stroke: none;
+        }
+
+        .connector {
+            fill: none;
+            stroke-width: 1px;
+            opacity: 0.75;
+            transition: opacity 0.15s;
+        }
+
+        .node-halo {
+            fill: white;
+            stroke: none;
+        }
+
+        .node {
+            fill-opacity: 0.12;
+            stroke-width: 2px;
+            cursor: pointer;
+            transition: opacity 0.15s, r 0.15s;
+        }
+
+        .dimmed {
+            opacity: 0.1 !important;
+        }
+
+        #legend {
+            font-size: 13px;
+            user-select: none;
+            min-width: 230px;
+        }
+
+        #legend h3 {
+            font-size: 15px;
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 3px 4px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .legend-item:hover {
+            background: #f5f5f5;
+        }
+
+        .legend-item.legend-inactive {
+            opacity: 0.3;
+        }
+
+        .legend-swatch {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            flex: none;
+        }
+
+        #tooltip {
+            position: absolute;
+            pointer-events: none;
+            background: rgba(25, 25, 25, 0.95);
+            color: white;
+            padding: 10px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            line-height: 1.5;
+            max-width: 300px;
+            opacity: 0;
+            transition: opacity 0.1s;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="intro">
+        <b>Preliminary answers among <i>N</i>&nbsp;=&nbsp;58 philosophers.</b> Circle size represents the number of
+        philosophers who gave that answer. Click a line or legend entry to isolate a thought experiment; hover over a
+        circle for the to see the answer text, the percentage of philosophers who gave that answer, and the percentage
+        of philosophers who reported conflicting intuitions.
+    </div>
+
+    <div id="wrap">
+        <div style="position: relative;">
+            <svg id="chart"></svg>
+            <div id="tooltip"></div>
+        </div>
+        <div id="legend">
+            <h3>Thought experiment</h3>
+            <div id="legend-items"></div>
+        </div>
+    </div>
+
+    <script>
+        // ---- Numeric data (prob / both_prop / n) ----
+        const rawCSV = `scenario,answer,n,prob,both_prop
+brainvat,George doesn't know that he is not a virtual-reality brain.,5,0.357142857142857,0.8
+brainvat,George knows that he is not a virtual-reality brain.,9,0.642857142857143,0.555555555555556
+death,In this situation, you are dead.,6,0.352941176470588,0.666666666666667
+death,In this situation, you are not dead.,11,0.647058823529412,0.545454545454545
+freewill,Bill acted freely when he decided to kill his wife and children.,14,0.823529411764706,0.428571428571429
+freewill,Bill did not act freely when he decided to kill his wife and children.,3,0.176470588235294,0.333333333333333
+happiness,Sarah is happy.,13,0.8125,0.230769230769231
+happiness,Sarah is not happy.,3,0.1875,0.333333333333333
+individuation,This is a picture of a two-headed person.,4,0.266666666666667,0.75
+individuation,This is a picture of two persons sharing one body.,11,0.733333333333333,0.636363636363636
+knowledge,Juliet does not know that her athletic students are as capable as her other students.,4,0.222222222222222,0.5
+knowledge,Juliet knows that her athletic students are as capable as her other students.,14,0.777777777777778,0.571428571428571
+lying,Amanda did not lie.,8,0.444444444444444,0.875
+lying,Amanda lied.,10,0.555555555555556,0.3
+phineas,The person after the accident is not Phineas anymore.,6,0.333333333333333,0.833333333333333
+phineas,The person after the accident is still Phineas.,12,0.666666666666667,0.5
+prevention,It was Peter knocking against Jack that caused the beer to spill.,2,0.133333333333333,1
+prevention,It was not Peter knocking against Jack that caused the beer to spill.,13,0.866666666666667,0.230769230769231
+robots,The robot can experience love.,5,0.3125,0.6
+robots,The robot cannot experience love.,11,0.6875,0.363636363636364
+rules,Daphne broke the rule.,11,0.6875,0.636363636363636
+rules,Daphne did not break the rule.,5,0.3125,0.4
+theseus,The ship built from old parts is Theseus.,5,0.333333333333333,0.8
+theseus,The ship repaired with new parts is Theseus.,10,0.666666666666667,0.8
+trolley,Throwing the person overboard is not the morally right thing to do.,7,0.5,0.571428571428571
+trolley,Throwing the person overboard is the morally right thing to do.,7,0.5,0.571428571428571
+truetemp,Charles does not know that it is 22 degrees in his room.,9,0.75,0.444444444444444
+truetemp,Charles knows that it is 22 degrees in his room.,3,0.25,1
+twinearth,The liquid on Twin Earth is not water.,6,0.545454545454545,0.333333333333333
+twinearth,The liquid on Twin Earth is water.,5,0.454545454545455,1`;
+
+        const rows = d3.csvParse(rawCSV, d => ({
+            issue: d.scenario,
+            answer: d.answer,
+            n: +d.n,
+            prob: +d.prob,
+            both_prop: +d.both_prop
+        }));
+
+        // ---- Label / description lookup (long names + question text) ----
+        // Only the text fields (full_issue, description, resp) are used from here;
+        // the plotted numbers still come from rawCSV above.
+        const intuitionRawData = [
+            { resp: "Amanda lied.", full_issue: "<b>Lying and deceiving</b>: Is a deceptive implicature a lie?", description: "A deceptive implicature is a statement that is technically true but implies something false and misleading. For example, when Amanda replies that her ex has been sick for weeks, she implies that she has not met him recently. Is Amanda lying?", issue: "lying" },
+            { resp: "Amanda did not lie.", full_issue: "<b>Lying and deceiving</b>: Is a deceptive implicature a lie?", description: "A deceptive implicature is a statement that is technically true but implies something false and misleading. For example, when Amanda replies that her ex has been sick for weeks, she implies that she has not met him recently. Is Amanda lying?", issue: "lying" },
+            { resp: "The robot can experience love.", full_issue: "<b>Phenomenal consciousness</b>: Can robots experience love?", description: "In principle, a robot could have an electronic replica of a human brain. Would such a robot be able to experience love, or not?", issue: "robots" },
+            { resp: "The robot cannot experience love.", full_issue: "<b>Phenomenal consciousness</b>: Can robots experience love?", description: "In principle, a robot could have an electronic replica of a human brain. Would such a robot be able to experience love, or not?", issue: "robots" },
+            { resp: "The person after the accident is not Phineas anymore.", full_issue: "<b>Personal identity</b>: Is the person after the accident still Phineas Gage?", description: "Phineas Gage was a railroad worker who survived an unusual accident. The severe brain injury he suffered changed his personality and behavior, making him a cruel and callous person. Is the person after the accident still Phineas Gage?", issue: "phineas" },
+            { resp: "The person after the accident is still Phineas.", full_issue: "<b>Personal identity</b>: Is the person after the accident still Phineas Gage?", description: "Phineas Gage was a railroad worker who survived an unusual accident. The severe brain injury he suffered changed his personality and behavior, making him a cruel and callous person. Is the person after the accident still Phineas Gage?", issue: "phineas" },
+            { resp: "The ship repaired with new parts is Theseus.", full_issue: "<b>Identity persistence</b>: Which of the two ships is the Ship of Theseus?", description: "The Ship of Theseus is a thought experiment that raises questions about identity and change. If a ship named Theseus has all of its parts replaced over time, is it still the same ship? To answer this question, we can compare the ship that has been repaired with new parts to the ship that has been rebuilt from the old parts. Which of the two ships is Theseus?", issue: "theseus" },
+            { resp: "The ship built from old parts is Theseus.", full_issue: "<b>Identity persistence</b>: Which of the two ships is the Ship of Theseus?", description: "The Ship of Theseus is a thought experiment that raises questions about identity and change. If a ship named Theseus has all of its parts replaced over time, is it still the same ship? To answer this question, we can compare the ship that has been repaired with new parts to the ship that has been rebuilt from the old parts. Which of the two ships is Theseus?", issue: "theseus" },
+            { resp: "Charles does not know that it is 22 degrees in his room.", full_issue: "<b>Epistemology</b>: Is reliability a sufficient condition for knowledge?", description: "Truetemp is a thought experiment that raises questions about the nature of knowledge and reliability. Charles has a device implanted in his brain that gives him accurate temperature readings. He reliably believes that it is 22 degrees in his room. Is that enough to constitute knowledge?", issue: "truetemp" },
+            { resp: "Charles knows that it is 22 degrees in his room.", full_issue: "<b>Epistemology</b>: Is reliability a sufficient condition for knowledge?", description: "Truetemp is a thought experiment that raises questions about the nature of knowledge and reliability. Charles has a device implanted in his brain that gives him accurate temperature readings. He reliably believes that it is 22 degrees in his room. Is that enough to constitute knowledge?", issue: "truetemp" },
+            { resp: "Throwing the person overboard is the morally right thing to do.", full_issue: "<b>Utilitarianism</b>: Is it morally right to sacrifice one person in order to save five?", description: "The trolley problem is a thought experiment that raises questions about utilitarian moral theory. If you are on a bridge overlooking a train track and see five people tied up ahead, but you can push a large person onto the track to stop the train and save the five people, what should you do? Is it morally right to sacrifice one person in order to save five?", issue: "trolley" },
+            { resp: "Throwing the person overboard is not the morally right thing to do.", full_issue: "<b>Utilitarianism</b>: Is it morally right to sacrifice one person in order to save five?", description: "The trolley problem is a thought experiment that raises questions about utilitarian moral theory. If you are on a bridge overlooking a train track and see five people tied up ahead, but you can push a large person onto the track to stop the train and save the five people, what should you do? Is it morally right to sacrifice one person in order to save five?", issue: "trolley" },
+            { resp: "This is a picture of a two-headed person.", full_issue: "<b>Individuation of persons</b>: Are conjoined twins one person or two?", description: "In a rare medical condition, conjoined twins (dicephalic parapagus) are born with two heads and a single body. This phenomenon raises questions about individuation and identity. Are conjoined twins one person or two persons?", issue: "individuation" },
+            { resp: "This is a picture of two persons sharing one body.", full_issue: "<b>Individuation of persons</b>: Are conjoined twins one person or two?", description: "In a rare medical condition, conjoined twins (dicephalic parapagus) are born with two heads and a single body. This phenomenon raises questions about individuation and identity. Are conjoined twins one person or two persons?", issue: "individuation" },
+            { resp: "Bill did not act freely when he decided to kill his wife and children.", full_issue: "<b>Compatibilism</b>: Is free will compatible with determinism?", description: "The free will and determinism debate is a long-standing philosophical issue that questions whether free will is compatible with determinism. In the thought experiment you saw, in a deterministic universe, Bill decides to kill his wife and children. Did he act freely even though his actions were causally determined?", issue: "freewill" },
+            { resp: "Bill acted freely when he decided to kill his wife and children.", full_issue: "<b>Compatibilism</b>: Is free will compatible with determinism?", description: "The free will and determinism debate is a long-standing philosophical issue that questions whether free will is compatible with determinism. In the thought experiment you saw, in a deterministic universe, Bill decides to kill his wife and children. Did he act freely even though his actions were causally determined?", issue: "freewill" },
+            { resp: "It was Peter knocking against Jack that caused the beer to spill.", full_issue: "<b>Double prevention</b>: If A prevents B from preventing C, is A the cause of C?", description: "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, did Peter cause the beer to spill?", issue: "prevention" },
+            { resp: "It was not Peter knocking against Jack that caused the beer to spill.", full_issue: "<b>Double prevention</b>: If A prevents B from preventing C, is A the cause of C?", description: "In a scenario where Peter knocks against Jack, stopping Jack from preventing the beer from spilling, did Peter cause the beer to spill?", issue: "prevention" },
+            { resp: "In this situation, you are dead.", full_issue: "<b>The brain death criterion</b>: Are you dead when your brain ceases to function?", description: "The brain death criterion is a philosophical and medical concept that defines death as the irreversible cessation of all brain activity. If your brain ceases to function, are you considered dead even if your heart is still beating?", issue: "death" },
+            { resp: "In this situation, you are not dead.", full_issue: "<b>The brain death criterion</b>: Are you dead when your brain ceases to function?", description: "The brain death criterion is a philosophical and medical concept that defines death as the irreversible cessation of all brain activity. If your brain ceases to function, are you considered dead even if your heart is still beating?", issue: "death" },
+            { resp: "Daphne did not break the rule.", full_issue: "<b>Letter vs. spirit</b>: What does it mean to break a rule?", description: "The letter vs. spirit debate is a philosophical issue that concerns whether we should follow the literal wording of a rule or the intended purpose behind it. If Daphne violates the letter of the law but does so in a way that abides by its intended purpose, did she break the rule?", issue: "rules" },
+            { resp: "Daphne broke the rule.", full_issue: "<b>Letter vs. spirit</b>: What does it mean to break a rule?", description: "The letter vs. spirit debate is a philosophical issue that concerns whether we should follow the literal wording of a rule or the intended purpose behind it. If Daphne violates the letter of the law but does so in a way that abides by its intended purpose, did she break the rule?", issue: "rules" },
+            { resp: "George doesn't know that he is not a virtual-reality brain.", full_issue: "<b>Skepticism</b>: Can we know that we are not brains in a vat?", description: "The brain-in-a-vat thought experiment is a skeptical thought experiment that questions our knowledge of the external world. Is there any way that people like you and I can know that we are not virtual reality brains?", issue: "brainvat" },
+            { resp: "George knows that he is not a virtual-reality brain.", full_issue: "<b>Skepticism</b>: Can we know that we are not brains in a vat?", description: "The brain-in-a-vat thought experiment is a skeptical thought experiment that questions our knowledge of the external world. Is there any way that people like you and I can know that we are not virtual reality brains?", issue: "brainvat" },
+            { resp: "The liquid on Twin Earth is water.", full_issue: "<b>Meaning</b>: Is the liquid on Twin Earth water?", description: "The Twin Earth thought experiment is a philosophical scenario that questions the nature of meaning and reference. If the liquid on Twin Earth is the same as water to the senses, but has different chemical properties, is it still water?", issue: "twinearth" },
+            { resp: "The liquid on Twin Earth is not water.", full_issue: "<b>Meaning</b>: Is the liquid on Twin Earth water?", description: "The Twin Earth thought experiment is a philosophical scenario that questions the nature of meaning and reference. If the liquid on Twin Earth is the same as water to the senses, but has different chemical properties, is it still water?", issue: "twinearth" },
+            { resp: "Sarah is not happy.", full_issue: "<b>Happiness</b>: Can an immoral person be happy?", description: "This thought experiment concerns the relationship between happiness and morality. Specifically, if Sarah engages in immoral behavior, and thinking about her immoral past brings her satisfaction, is Sarah happy?", issue: "happiness" },
+            { resp: "Sarah is happy.", full_issue: "<b>Happiness</b>: Can an immoral person be happy?", description: "This thought experiment concerns the relationship between happiness and morality. Specifically, if Sarah engages in immoral behavior, and thinking about her immoral past brings her satisfaction, is Sarah happy?", issue: "happiness" },
+            { resp: "Juliet does not know that her athletic students are as capable as her other students.", full_issue: "<b>Knowledge</b>: Can there be knowledge without belief?", description: "This thought experiment concerns the nature of knowledge and its relationship to belief. If Juliet has evidence that her athletic students are as capable as her other students, but she does not act accordingly, does she still know they are as capable?", issue: "knowledge" },
+            { resp: "Juliet knows that her athletic students are as capable as her other students.", full_issue: "<b>Knowledge</b>: Can there be knowledge without belief?", description: "This thought experiment concerns the nature of knowledge and its relationship to belief. If Juliet has evidence that her athletic students are as capable as her other students, but she does not act accordingly, does she still know they are as capable?", issue: "knowledge" },
+        ];
+
+        function extractBold(html) {
+            const m = /<b>(.*?)<\/b>/i.exec(html);
+            return m ? m[1] : html;
+        }
+
+        // Build issue -> { longName, description } lookup (one entry per issue is enough)
+        const issueMeta = new Map();
+        intuitionRawData.forEach(d => {
+            if (!issueMeta.has(d.issue)) {
+                issueMeta.set(d.issue, {
+                    longName: extractBold(d.full_issue),
+                    description: d.description
+                });
+            }
+        });
+
+        // Build issue+resp -> resp text lookup (in case wording differs slightly from rawCSV.answer)
+        const respLookup = new Map();
+        intuitionRawData.forEach(d => respLookup.set(d.issue + "||" + d.resp, d.resp));
+
+        function labelFor(issue) {
+            return issueMeta.has(issue) ? issueMeta.get(issue).longName : issue;
+        }
+        function descriptionFor(issue) {
+            return issueMeta.has(issue) ? issueMeta.get(issue).description : "";
+        }
+
+        // Group rows into one record per issue with its two answer-options
+        const grouped = Array.from(
+            d3.group(rows, d => d.issue),
+            ([issue, values]) => ({ issue, longName: labelFor(issue), points: values })
+        ).sort((a, b) => d3.ascending(a.longName, b.longName));
+
+        // ---- Layout ----
+        const margin = { top: 20, right: 20, bottom: 50, left: 60 };
+        const width = 660 - margin.left - margin.right;
+        const height = 700 - margin.top - margin.bottom;
+
+        const svg = d3.select("#chart")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom);
+
+        const g = svg.append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        const x = d3.scaleLinear().domain([0, 1]).nice().range([0, width]);
+        const y = d3.scaleLinear().domain([0, 1]).nice().range([height, 0]);
+        const r = d3.scaleSqrt().domain([0, d3.max(rows, d => d.n)]).range([2, 20]);
+
+        g.append("g")
+            .attr("class", "gridline")
+            .call(d3.axisLeft(y).tickSize(-width).tickFormat("").ticks(6));
+
+        g.append("g")
+            .attr("class", "axis")
+            .attr("transform", `translate(0,${height})`)
+            .call(d3.axisBottom(x).ticks(6).tickFormat(d3.format(".0%")));
+
+        g.append("g")
+            .attr("class", "axis")
+            .call(d3.axisLeft(y).ticks(6).tickFormat(d3.format(".0%")));
+
+        g.append("text")
+            .attr("class", "axis-title")
+            .attr("x", width / 2).attr("y", height + 40)
+            .attr("text-anchor", "middle")
+            .text("Answer (%)");
+
+        g.append("text")
+            .attr("class", "axis-title")
+            .attr("transform", "rotate(-90)")
+            .attr("x", -height / 2).attr("y", -44)
+            .attr("text-anchor", "middle")
+            .text("Conflicting intuitions (%)");
+
+        // ---- Color ----
+        const color = d3.scaleOrdinal()
+            .domain(grouped.map(d => d.issue))
+            .range(d3.quantize(d3.interpolateRainbow, grouped.length + 1));
+
+        // ---- Tooltip ----
+        const tooltip = d3.select("#tooltip");
+        function showTooltip(event, d) {
+            const resp = respLookup.get(d.issue + "||" + d.answer) || d.answer;
+            tooltip.style("opacity", 1).html(
+                `<strong>${labelFor(d.issue)}</strong><br/>
+     "${resp}"<br/>
+     Answer: ${d3.format(".1%")(d.prob)}<br/> Conflicting intuitions: ${d3.format(".1%")(d.both_prop)}`
+            );
+            moveTooltip(event);
+        }
+        function moveTooltip(event) {
+            const [mx, my] = d3.pointer(event, document.getElementById("wrap"));
+            tooltip.style("left", (mx + 16) + "px").style("top", (my - 10) + "px");
+        }
+        function hideTooltip() { tooltip.style("opacity", 0); }
+
+        // ---- Highlighting ----
+        let activeIssue = null;
+        function applyHighlight(hoverIssue) {
+            const target = hoverIssue || activeIssue;
+            g.selectAll(".connector, .node, .node-halo")
+                .classed("dimmed", function () {
+                    if (!target) return false;
+                    return d3.select(this).attr("data-issue") !== target;
+                });
+            d3.select("#legend-items").selectAll(".legend-item")
+                .classed("legend-inactive", d => target ? d.issue !== target : false);
+        }
+
+        // ---- Draw ----
+        const groupsSel = g.selectAll(".pair")
+            .data(grouped)
+            .join("g")
+            .attr("class", "pair")
+            .on("mouseenter", (event, d) => applyHighlight(d.issue))
+            .on("mouseleave", () => applyHighlight(null))
+            .on("click", (event, d) => {
+                activeIssue = activeIssue === d.issue ? null : d.issue;
+                applyHighlight(null);
+            });
+
+        groupsSel.append("line")
+            .attr("class", "connector")
+            .attr("data-issue", d => d.issue)
+            .attr("x1", d => x(d.points[0].prob))
+            .attr("y1", d => y(d.points[0].both_prop))
+            .attr("x2", d => x(d.points[1].prob))
+            .attr("y2", d => y(d.points[1].both_prop))
+            .attr("stroke", d => color(d.issue));
+
+        groupsSel.each(function (d) {
+            const sel = d3.select(this);
+
+            sel.selectAll(".node-halo")
+                .data(d.points.map(p => ({ ...p })))
+                .join("circle")
+                .attr("class", "node-halo")
+                .attr("data-issue", d.issue)
+                .attr("cx", p => x(p.prob))
+                .attr("cy", p => y(p.both_prop))
+                .attr("r", p => r(p.n));
+
+            sel.selectAll(".node")
+                .data(d.points.map(p => ({ ...p })))
+                .join("circle")
+                .attr("class", "node")
+                .attr("data-issue", d.issue)
+                .attr("cx", p => x(p.prob))
+                .attr("cy", p => y(p.both_prop))
+                .attr("r", p => r(p.n))
+                .attr("stroke", color(d.issue))
+                .attr("fill", color(d.issue))
+                .on("mouseenter", (event, p) => showTooltip(event, p))
+                .on("mousemove", moveTooltip)
+                .on("mouseleave", hideTooltip);
+        });
+
+        // ---- Legend ----
+        const legendItems = d3.select("#legend-items")
+            .selectAll(".legend-item")
+            .data(grouped)
+            .join("div")
+            .attr("class", "legend-item")
+            .on("mouseenter", (event, d) => applyHighlight(d.issue))
+            .on("mouseleave", () => applyHighlight(null))
+            .on("click", (event, d) => {
+                activeIssue = activeIssue === d.issue ? null : d.issue;
+                applyHighlight(null);
+            });
+
+        legendItems.append("div")
+            .attr("class", "legend-swatch")
+            .style("background", d => color(d.issue))
+            .style("border", d => `2px solid ${color(d.issue)}`);
+
+        legendItems.append("span").text(d => d.longName);
+    </script>
+
+</body>
+
+</html>
