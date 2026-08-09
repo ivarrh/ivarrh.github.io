@@ -10,7 +10,7 @@ nav_order: 8
   <hr>
 
   <div class="workshop-meta">
-    <p style="text-align: center;"><strong>Dates:</strong> Thursday 25<sup>th</sup> and Friday 26<sup>th</sup> of November 2026</p>
+    <p style="text-align: center;"><strong>Dates:</strong> Thursday 26<sup>th</sup> and Friday 27<sup>th</sup> of November 2026</p>
     <p style="text-align: center;"><strong>Location:</strong> TBD <a href="https://carmendelavictoria.ugr.es/" target="_blank">Location</a>, University of Granada, Spain.
     <span style="margin-left: 1em;"><small>
     <a href="https://maps.app.goo.gl/rXzx385aCBZv5hmt5" target="_blank">
@@ -58,7 +58,7 @@ nav_order: 8
       <h3>Guilherme Almeida</h3>
       <p class="affiliation">INSPER</p>
       <div class="profile-links">
-        <a href="https://www.guilhermealmeida.com" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="https://www.insper.edu.br/en/docentes/guilherme-da-franca-couto-fernandes-de-almeida" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@ nav_order: 8
       <h3>Kevin Reuter</h3>
       <p class="affiliation">Gothenburg University</p>
       <div class="profile-links">
-        <a href="https://www.law.georgetown.edu/faculty/kevin-reuter/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="http://www.kevinreuter.com/" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
   </div>
@@ -130,42 +130,31 @@ nav_order: 8
   <h2><b>Workshop Program</b></h2>
   <p>The workshop will take place in the Salón de Actos, at the <a href="https://carmendelavictoria.ugr.es/">Carmen de la Victoria</a>.</p>
 
-  <h3>Thursday 25<sup>th</sup></h3>
-        <ul style="list-style: none;">
-            <li><time>10:00</time>. <strong>Vilius Dranseika</strong>: Identity and death</li>
-            <li><time>11:00</time>. <strong>Izabela Skoczen</strong>: The concept of a lie</li>
-            <li><time>12:00</time>. <strong>Guilherme Almeida</strong>: Law and dual character</li>
+  <h3>Thursday 26<sup>th</sup></h3>
+    <ul style="list-style: none;">
+      <li><time>10:00</time>. <strong>Guilherme Almeida</strong>: Dual character concepts and metalinguistic negotiations in legal philosophy</li>
+      <li><time>11:00</time>. <strong>Izabela Skoczen</strong>: What is reasonable for artificial intelligence?</li>
+      <li><time>12:00</time>. <strong>Vilius Dranseika</strong>: How is the concept of death structured?</li>
+      <li><h4><i> ~ Lunch ~ </i></h4></li>
+      <li><time>15:00</time>. <strong>Kevin Reuter</strong>: Truth intuitions and the structure of truth concepts</li>
+      <li><time>16:00</time>. <strong>Carme Isern-Mas & Sandra Sasikumar</strong>: Testing the prototype structure of philosophical concepts</li>
+      <li><time>17:00</time>. <strong>Joshua Knobe</strong>: Conflicting intuitions</li>
+      <li><time>20:00</time>. <strong>Workshop Dinner:</strong> Restaurant<span style="margin-left: 1em;"><small>
+        <a href="https://maps.app.goo.gl/ZU3ww3CSYCZ1JzwC6" target="_blank">
+          <i class="fas fa-map-marker-alt"></i> [How to get there]</a></small></span></li>
+    </ul>
 
-  <h4><i> ~ Lunch ~ </i></h4>
-
-  <li><time>16:00</time>. <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
-  <li><time>17:30</time>. <strong>Piotr Bystranowski</strong>: Secret Rules and Who Would Like to Enforce Them</li>
-  <li><time>19:00</time>. <strong>Workshop Drinks:</strong> Siloé Bar & Grill<span style="margin-left: 1em;"><small>
-    <a href="https://maps.app.goo.gl/ZU3ww3CSYCZ1JzwC6" target="_blank">
-      <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
-      </small></span></li>
-   </ul>
-
-  <h3>Friday 26<sup>th</sup></h3>
-        <ul style="list-style: none;">
-            <li><time>10:00</time>. <strong>Kevin Reuter</strong>: Concepts</li>
-            <li><time>11:00</time>. <strong>Carme Isern-Mas</strong>: Self-deception as prototype</li>
-            <li><time>12:00</time>. <strong>Joshua Knobe</strong>: Title</li>
-
-  <h4><i> ~ Lunch ~ </i></h4>
-
-  <li><time>16:00</time>. <strong>Salima Issina-Shorman</strong>: Coordination by Precedent in Judicial Decision-Making</li>
-  <li><time>17:30</time>. <strong>Piotr Bystranowski</strong>: Secret Rules and Who Would Like to Enforce Them</li>
-  <li><time>20:30</time>. <strong>Workshop Dinner:</strong> Siloé Bar & Grill<span style="margin-left: 1em;"><small>
-    <a href="https://maps.app.goo.gl/ZU3ww3CSYCZ1JzwC6" target="_blank">
-      <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
-      </small></span></li>
+  <h3>Friday 27<sup>th</sup></h3>
+    <ul style="list-style: none;">
+      <li><time>10:00</time>. <strong>Working Group Meeting</strong></li>
+      <li><h4><i> ~ Lunch ~ </i></h4></li>
+      <li><time>15:00</time>. <strong>Working Group Meeting</strong></li>
+      <li><time>20:00</time>. <strong>Closing Reception:</strong> Restaurant<span style="margin-left: 1em;"><small>
+        <a href="https://maps.app.goo.gl/ZU3ww3CSYCZ1JzwC6" target="_blank">
+        <i class="fas fa-map-marker-alt"></i> [How to get there]</a></small></span></li>
    </ul>
     </section>
-
   <hr>
-
- <hr>
 
   <!-- Organizers -->
   <section class="organizers-section">

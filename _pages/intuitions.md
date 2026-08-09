@@ -9,8 +9,6 @@ nav_order: 2
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <!--  comment the live files and use local files for development -->
-<script src="https://moralsciencelab.com/assets/js/intuition_raw_data-v2.js"></script>
-<script src="https://moralsciencelab.com/assets/js/intuitions-helper-v2.js"></script>
 <script src="/assets/js/intuition_raw_data.js"></script>
 <script src="/assets/js/intuitions-helper.js"></script>
 <script src="/assets/js/figuredata.js"></script>
