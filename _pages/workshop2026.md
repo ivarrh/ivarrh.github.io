@@ -2,7 +2,7 @@
 layout: default
 title: leonardo
 permalink: workshop/
-nav: true
+nav: false
 nav_order: 8
 ---
 
