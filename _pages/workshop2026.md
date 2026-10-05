@@ -2,7 +2,7 @@
 layout: default
 title: leonardo
 permalink: workshop/
-nav: false
+nav: true
 nav_order: 8
 ---
 
@@ -28,7 +28,6 @@ nav_order: 8
   height: 180px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
   display: block;
 }
 
@@ -36,7 +35,6 @@ nav_order: 8
   margin-top: 0.55rem;
   font-weight: 700;
   font-size: 0.95rem;
-  color: #555;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -52,20 +50,17 @@ nav_order: 8
   font-style: italic;
   margin-bottom: 0.75rem;
   font-size: 0.9rem;      /* ← smaller than the title */
-  color: #555;
 }
 .talk-speaker a {
   font-style: normal;
   font-size: 0.85rem;     /* ← website link even smaller */
 }
   .talk-abstract {
-    background: #fafafa;
     padding: 0.9rem 1.15rem;
     border-radius: 4px;
     font-size: 0.96rem;
   }
   .talk-abstract {
-  background: #fafafa;
   padding: 0.9rem 1.15rem;
   font-size: 0.96rem;
   font-style: normal;      /* kills inherited/italic */
@@ -110,6 +105,16 @@ nav_order: 8
 .funding-logos img {
   display: block;
 }
+
+.registration-block {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem 1.25rem;
+  border-radius: 2px;
+  font-size: 0.99rem;
+  line-height: 2;
+}
+.registration-block p:last-child { margin-bottom: 0; }
 </style>
 
 <h1 style="text-align: center;">The <strong>Philosophical Intuition and Conceptual Structure</strong> Workshop</h1>
@@ -140,13 +145,22 @@ nav_order: 8
   Thanks to a 2025 Leonardo Grant for Scientific Research and Cultural Creation on <i>Philosophical Intuition and Non-Classical Conceptual Structure</i>, awarded by the <b>BBVA Foundation</b>, the present workshop brings together 6 speakers from philosophy and cognitive science to explore these and other related questions about the structure of philosophical concepts. <br>
   – What is the relationship between philosophical intuition and concepts?<br>
   – How is this relationship influenced by expertise?</p>
+  <hr style="margin: 3rem 0;">
+    <p>
+    <strong>Registration:</strong> Attendance is free, but please let us know if you plan to come
+    so we can plan accordingly. Just send a short email to
+    <a href="mailto:damartin@ugr.es?subject=Workshop%20Registration">damartin@ugr.es</a>
+    with your name and affiliation.
+
+  </p>
 </div>
+
 <hr>
 
 <!-- ============ PROGRAM (with integrated speakers + abstracts) ============ -->
 <section id="program" class="workshop-section">
   <h2><b>Workshop Program</b></h2>
-  <p>The workshop will take place in Campus Cartuja, the concrete location is to be determined.
+  <p>The workshop will take place in the <a href="https://www.google.com/maps/place/Facultad+de+Psicolog%C3%ADa+.+Universidad+de+Granada+(UGR)/@37.1944643,-3.5969308,794m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd71fcdbc5871c09:0x310142868f5decc9!8m2!3d37.1944643!4d-3.5943505!16s%2Fg%2F12q4_5_g8?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D">Psychology Faculty</a>, in Campus Cartuja, the concrete location is to be determined.
 
   <h3>Thursday 26<sup>th</sup></h3>
 
@@ -196,7 +210,7 @@ nav_order: 8
       <div class="talk-time">12:00h</div>
     </div>
     <div class="talk-body">
-      <h4 class="talk-title">How ss the concept of death structured?</h4>
+      <h4 class="talk-title">How is the concept of death structured?</h4>
       <div class="talk-speaker">
         Vilius Dranseika · Jagiellonian University ·
         <a href="https://www.dranseika.lt" target="_blank"><i class="fas fa-globe"></i> Website</a>
@@ -238,7 +252,7 @@ nav_order: 8
     <div class="talk-body">
       <h4 class="talk-title">Testing the prototype structure of philosophical concepts</h4>
       <div class="talk-speaker">
-        Carme Isern-Mas (Universidad de las Islas Baleares)
+        Carme Isern-Mas & Sandra Sasikumar (Universidad de las Islas Baleares & Universidad de Granada)
         <a href="https://www.uib.es/es/personal/ABjIyMjIzNg/" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
       <div class="talk-abstract">
@@ -314,6 +328,16 @@ nav_order: 8
   discussion together.
 
 <hr style="margin: 3rem 0;">
+
+<div class="registration-block">
+  <h2><i class="fas fa-user-plus"></i> Registration</h2>
+  <p>
+    Attendance is free, but please let us know if you plan to come so we can plan accordingly.
+    Just send a short email to
+    <a href="mailto:damartin@ugr.es?subject=Workshop%20Registration">damartin@ugr.es</a>
+    with your name and affiliation.
+  </p>
+</div>
 
 <!-- ============ ORGANIZERS ============ -->
 <section class="organizers-section">
