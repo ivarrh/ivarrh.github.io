@@ -295,6 +295,9 @@ nav_order: 8
   </div>
 
  <!-- ============ FRIDAY ============ -->
+
+{% comment %}
+
   <hr style="margin: 2rem 0;">
 
   <h3>Friday 27<sup>th</sup></h3>
@@ -328,6 +331,10 @@ nav_order: 8
   discussion together.
 
 <hr style="margin: 3rem 0;">
+
+{% endcomment %}
+
+  <hr style="margin: 2rem 0;">
 
 <div class="registration-block">
   <h2><i class="fas fa-user-plus"></i> Registration</h2>
