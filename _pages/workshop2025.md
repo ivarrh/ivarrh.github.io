@@ -1,6 +1,6 @@
 ---
 layout: default
-title: workshop
+title: workshop2025
 permalink: workshop2025/
 nav: false
 nav_order: 7

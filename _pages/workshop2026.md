@@ -1,9 +1,10 @@
 ---
 layout: default
-title: leonardo
+title: workshop
+description: Workshop on Philosophical Intuition and Conceptual Structure
 permalink: workshop/
-nav: false
-nav_order: 8
+nav: true
+nav_order: 2
 ---
 
 <style>
@@ -107,9 +108,7 @@ nav_order: 8
 }
 
 .registration-block {
-  max-width: 900px;
   margin: 2rem auto;
-  padding: 1rem 1.25rem;
   border-radius: 2px;
   font-size: 0.99rem;
   line-height: 2;
@@ -140,19 +139,21 @@ nav_order: 8
 {% endcomment %}
 
 <div class="workshop-description" style="text-align: justify;">
-  <p>Within analytic philosophy, there is a long tradition of appealing to intuitions about thought experiments to probe the structure of core philosophical concepts, such as morality, knowledge or identity. The role of such thought experiments is to elucidate these concepts by testing proposed necessity and sufficiency criteria against our intuitive judgments. <br>
-  More recently, a growing empirical literature in cognitive science has shown that many natural and social concepts do not exhibit a classical structure, and proposed various alternatives. Might philosophical concepts (e.g., morality, free will or identity) exhibit a non-classical structure? <br>
-  Thanks to a 2025 Leonardo Grant for Scientific Research and Cultural Creation on <i>Philosophical Intuition and Non-Classical Conceptual Structure</i>, awarded by the <b>BBVA Foundation</b>, the present workshop brings together 6 speakers from philosophy and cognitive science to explore these and other related questions about the structure of philosophical concepts. <br>
-  – What is the relationship between philosophical intuition and concepts?<br>
-  – How is this relationship influenced by expertise?</p>
-  <hr style="margin: 3rem 0;">
-    <p>
-    <strong>Registration:</strong> Attendance is free, but please let us know if you plan to come
-    so we can plan accordingly. Just send a short email to
-    <a href="mailto:damartin@ugr.es?subject=Workshop%20Registration">damartin@ugr.es</a>
-    with your name and affiliation.
 
-  </p>
+<p> Within analytic philosophy, there is a long tradition of appealing to intuitions about thought experiments to probe the structure of central philosophical concepts such as knowledge, free will, and truth. These thought experiments aim to clarify such concepts by testing proposed necessary and sufficient conditions against our intuitive judgments.<br>
+
+More recently, a growing body of empirical work in cognitive science has shown that many natural and social concepts lack this classical structure, and has proposed a range of alternatives, from prototypes and exemplars to dual-character accounts. This raises a question: might philosophical concepts also have a non-classical structure?<br>
+
+Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and Cultural Creation for the project <i>Philosophical Intuition and Non-Classical Conceptual Structure</i>, this workshop brings together researchers from philosophy and cognitive science for six talks on related questions, including:</p>
+
+    <ul>
+      <li>Do philosophical concepts exhibit a classical or non-classical structure, and does philosophical expertise shape that structure?</li>
+      <li>What is the relationship between philosophical intuitions and concepts?</li>
+      <li>Do philosophers and non-philosophers share the same intuitions, or does philosophical training reshape them?</li>
+      <li>If philosophical concepts are non-classical, what follows for the method of cases and the search for necessary and sufficient conditions?</li>
+      <li>How can empirical methods from cognitive science help reveal the structure of philosophical concepts?</li>
+    </ul>
+
 </div>
 
 <hr>
@@ -358,9 +359,9 @@ nav_order: 8
 
 {% endcomment %}
 
-  <hr style="margin: 2rem 0;">
+<hr style="margin">
 
-<div class="registration-block">
+<section class="registration-block">
   <h2><i class="fas fa-user-plus"></i> Registration</h2>
   <p>
     Attendance is free, but please let us know if you plan to come so we can plan accordingly.
@@ -368,7 +369,9 @@ nav_order: 8
     <a href="mailto:damartin@ugr.es?subject=Workshop%20Registration">damartin@ugr.es</a>
     with your name and affiliation.
   </p>
-</div>
+</section>
+
+<hr style="margin">
 
 <!-- ============ ORGANIZERS ============ -->
 <section class="organizers-section">
