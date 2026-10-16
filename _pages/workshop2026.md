@@ -140,9 +140,9 @@ nav_order: 2
 
 <div class="workshop-description" style="text-align: justify;">
 
-<p> Within analytic philosophy, there is a long tradition of appealing to intuitions about thought experiments to probe the structure of central philosophical concepts such as knowledge, free will, and truth. These thought experiments aim to clarify such concepts by testing proposed necessary and sufficient conditions against our intuitive judgments.<br>
+<p> Within analytic philosophy, there is a long tradition of appealing to intuitions about thought experiments to probe the structure of central philosophical concepts such as knowledge, free will, and truth. These thought experiments aim to clarify such concepts by testing proposed necessary and sufficient conditions against our intuitive judgments.<br><br>
 
-More recently, a growing body of empirical work in cognitive science has shown that many natural and social concepts lack this classical structure, and has proposed a range of alternatives, from prototypes and exemplars to dual-character accounts. This raises a question: might philosophical concepts also have a non-classical structure?<br>
+More recently, a growing body of empirical work in cognitive science has shown that many natural and social concepts lack this classical structure, and has proposed a range of alternatives, from prototypes and exemplars to dual-character accounts. This raises a question: might philosophical concepts also have a non-classical structure?<br><br>
 
 Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and Cultural Creation for the project <i>Philosophical Intuition and Non-Classical Conceptual Structure</i>, this workshop brings together researchers from philosophy and cognitive science for six talks on related questions, including:</p>
 
