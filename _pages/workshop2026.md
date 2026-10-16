@@ -2,7 +2,7 @@
 layout: default
 title: leonardo
 permalink: workshop/
-nav: true
+nav: false
 nav_order: 8
 ---
 
@@ -122,9 +122,9 @@ nav_order: 8
 
 <div class="workshop-meta">
   <p style="text-align: center;"><strong>Dates:</strong> Thursday 26<sup>th</sup> and Friday 27<sup>th</sup> of November 2026</p>
-  <p style="text-align: center;"><strong>Location:</strong> TBD <a href="https://carmendelavictoria.ugr.es/" target="_blank">Location</a>, University of Granada, Spain.
+  <p style="text-align: center;"><strong>Location:</strong> Faculty of Psychology, University of Granada, Spain.
     <span style="margin-left: 1em;"><small>
-      <a href="https://maps.app.goo.gl/rXzx385aCBZv5hmt5" target="_blank">
+      <a href="https://www.google.com/maps/place/Facultad+de+Psicolog%C3%ADa+.+Universidad+de+Granada+(UGR)/@37.1944643,-3.5969308,794m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd71fcdbc5871c09:0x310142868f5decc9!8m2!3d37.1944643!4d-3.5943505!16s%2Fg%2F12q4_5_g8?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
         <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
     </small></span>
   </p>
@@ -160,7 +160,7 @@ nav_order: 8
 <!-- ============ PROGRAM (with integrated speakers + abstracts) ============ -->
 <section id="program" class="workshop-section">
   <h2><b>Workshop Program</b></h2>
-  <p>The workshop will take place in the <a href="https://www.google.com/maps/place/Facultad+de+Psicolog%C3%ADa+.+Universidad+de+Granada+(UGR)/@37.1944643,-3.5969308,794m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd71fcdbc5871c09:0x310142868f5decc9!8m2!3d37.1944643!4d-3.5943505!16s%2Fg%2F12q4_5_g8?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D">Psychology Faculty</a>, in Campus Cartuja, the concrete location is to be determined.
+  <p>The workshop will take place in the Sala de Juntas,<a href="https://www.google.com/maps/place/Facultad+de+Psicolog%C3%ADa+.+Universidad+de+Granada+(UGR)/@37.1944643,-3.5969308,794m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd71fcdbc5871c09:0x310142868f5decc9!8m2!3d37.1944643!4d-3.5943505!16s%2Fg%2F12q4_5_g8?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D"> Psychology Faculty, in Campus Cartuja</a>.
 
   <h3>Thursday 26<sup>th</sup></h3>
 
@@ -224,11 +224,33 @@ nav_order: 8
 
   <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Lunch ~</i></h4>
 
+<div class="simple-item">
+  <strong>Free afternoon for speakers</strong>
+  <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
+    The afternoon will be free for conference speakers and open to discuss ongoing projects. 
+  </p>
+</div>
+
+  <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Workshop Dinner ~</i></h4>
+
+  <div class="simple-item">
+    <strong>20:00h</strong> Restaurant <i>(to be announced soon)</i>
+    <span style="margin-left: 1em;"><small>
+    </small></span>
+    <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
+      The venue will be announced closer to the date. Join us for an informal dinner to continue the conversations of the day.
+    </p>
+  </div>
+  
+  <hr>
+
+  <h3>Thursday 27<sup>th</sup></h3>
+
   <!-- Talk 4 -->
   <div class="talk">
     <div class="talk-photo">
       <img src="/assets/img/workshop/reuter2.jpg" alt="Kevin Reuter">
-      <div class="talk-time">15:00h</div>
+      <div class="talk-time">10:00h</div>
     </div>
     <div class="talk-body">
       <h4 class="talk-title">Truth intuitions and the structure of truth concepts</h4>
@@ -247,12 +269,12 @@ nav_order: 8
   <div class="talk">
     <div class="talk-photo">
       <img src="/assets/img/carme.png" alt="Carme Isern Mas">
-      <div class="talk-time">16:00h</div>
+      <div class="talk-time">11:00h</div>
     </div>
     <div class="talk-body">
       <h4 class="talk-title">Testing the prototype structure of philosophical concepts</h4>
       <div class="talk-speaker">
-        Carme Isern-Mas & Sandra Sasikumar (Universidad de las Islas Baleares & Universidad de Granada)
+        Carme Isern-Mas & Sandra Sasikumar · Universidad de las Islas Baleares & Universidad de Granada ·
         <a href="https://www.uib.es/es/personal/ABjIyMjIzNg/" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
       <div class="talk-abstract">
@@ -266,7 +288,7 @@ nav_order: 8
   <div class="talk">
     <div class="talk-photo">
       <img src="/assets/img/workshop/knobe.jpg" alt="Joshua Knobe">
-      <div class="talk-time">17:00h</div>
+      <div class="talk-time">12:00h</div>
     </div>
     <div class="talk-body">
       <h4 class="talk-title">Conflicting intuitions</h4>
@@ -276,25 +298,29 @@ nav_order: 8
       </div>
       <div class="talk-abstract">
         <!-- PASTE ABSTRACT HERE -->
-        <p><strong>Abstract:</strong> <em>TBA</em></p>
+        <p><strong>Abstract:</strong> <em>One striking fact about philosophical questions is that they tend to be confusing. Ask a room full of people about a philosophical question, and you will not find that they all converge on the exact same answer. Instead, you will find an array of different intuitions that seem to point toward different answers. One traditional explanation of this phenomenon is that different people have different intuitions. On this traditional explanation, the phenomenon is primarily a matter of interpersonal disagreement. I will be providing evidence for a very different explanation. On this alternative explanation, the thing that makes philosophical questions confusing is not that different people have different intuitions but that each individual person has conflicting intuitions. Thus, within a single individual, there can be an intuition pointing toward one answer and also an intuition pointing toward the exact opposite answer.</em></p>
       </div>
     </div>
   </div>
 
-  <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Workshop Dinner ~</i></h4>
+   <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Lunch ~</i></h4>
 
   <div class="simple-item">
-    <strong>20:00h</strong> Restaurant <i>(to be announced soon)</i>
-    <span style="margin-left: 1em;"><small>
-      <a href="https://maps.app.goo.gl/ZU3ww3CSYCZ1JzwC6" target="_blank">
-        <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
-    </small></span>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
-      The venue will be announced closer to the date. Join us for an informal dinner to continue the conversations of the day.
-    </p>
-  </div>
+  <strong>Free afternoon for speakers</strong>
+  <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
+    The afternoon will be free for conference speakers and open to discuss ongoing projects. 
+  </p>
+</div>
 
- <!-- ============ FRIDAY ============ -->
+<h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Closing Reception &amp; Farewell ~</i></h4>
+
+  <div class="simple-item">
+    <strong>20:00h</strong>
+<p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
+  The workshop will conclude at the
+  <a href="https://carmendelavictoria.ugr.es/" target="_blank">Carmen de la Victoria</a>
+  with a closing reception. We look forward to marking the end of two days of talks and
+  discussion together.
 
 {% comment %}
 
@@ -309,8 +335,6 @@ nav_order: 8
       working on, or ideas you would like to develop with others.
     </p>
   </div>
-
-  <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Lunch ~</i></h4>
 
   <div class="simple-item">
     <strong>15:00h Afternoon Working Group Meeting</strong>
