@@ -247,11 +247,30 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
 
   <h3>Thursday 27<sup>th</sup></h3>
 
+   <!-- Talk 4 -->
+  <div class="talk">
+    <div class="talk-photo">
+      <img src="/assets/img/workshop/Tomasz.jpeg" alt="Tomasz Żuradzki">
+      <div class="talk-time">9:30h</div>
+    </div>
+    <div class="talk-body">
+      <h4 class="talk-title">TBA</h4>
+      <div class="talk-speaker">
+        Tomasz Żuradzki · Jagiellonian University  ·
+        <a href="https://incet.uj.edu.pl/tomasz-zuradzki/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+      </div>
+      <div class="talk-abstract">
+        <!-- PASTE ABSTRACT HERE -->
+        <p><strong>Abstract:</strong> <em>TBA</em></p>
+      </div>
+    </div>
+  </div>
+
   <!-- Talk 4 -->
   <div class="talk">
     <div class="talk-photo">
       <img src="/assets/img/workshop/reuter2.jpg" alt="Kevin Reuter">
-      <div class="talk-time">10:00h</div>
+      <div class="talk-time">10:30h</div>
     </div>
     <div class="talk-body">
       <h4 class="talk-title">Truth intuitions and the structure of truth concepts</h4>
@@ -270,7 +289,7 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
   <div class="talk">
     <div class="talk-photo">
       <img src="/assets/img/carme.png" alt="Carme Isern Mas">
-      <div class="talk-time">11:00h</div>
+      <div class="talk-time">11:30h</div>
     </div>
     <div class="talk-body">
       <h4 class="talk-title">Testing the prototype structure of philosophical concepts</h4>
@@ -289,7 +308,7 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
   <div class="talk">
     <div class="talk-photo">
       <img src="/assets/img/workshop/knobe.jpg" alt="Joshua Knobe">
-      <div class="talk-time">12:00h</div>
+      <div class="talk-time">12:30h</div>
     </div>
     <div class="talk-body">
       <h4 class="talk-title">Conflicting intuitions</h4>
