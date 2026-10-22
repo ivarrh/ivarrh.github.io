@@ -335,7 +335,7 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
 <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Closing Reception &amp; Farewell ~</i></h4>
 
   <div class="simple-item">
-    <strong>20:00h</strong>
+    <strong>19:00h</strong>
 <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
   The workshop will conclude at the
   <a href="https://carmendelavictoria.ugr.es/" target="_blank">Carmen de la Victoria</a>
