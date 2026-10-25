@@ -5,7 +5,7 @@ title: people
 description: <h4>Lab members, past and present.</h4>
 nav: true
 nav_order: 3
-display_categories: [members, alumni]
+display_categories: [members, visitors, alumni]
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -46,8 +46,16 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <h4>Research Assistant</h4>
-  # alumni section
+  # visitors section
   - align: right
+    image: guilherme.jpeg
+    status: "visitor"
+    content: about_gui.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <h4>FAPESP Research Fellow</h4>
+  # alumni section
+  - align: left
     image: carme.png
     status: "alumni"
     name: "Carme"
@@ -56,7 +64,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <h4>Assistant Professor @ UIB</h4>
-  - align: left
+  - align: right
     image: paolo.png
     status: "alumni"
     name: "Paolo"
@@ -65,7 +73,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <h4>Research Assistant</h4>
-  - align: right
+  - align: left
     image: rosa.jpeg
     status: "alumni"
     name: "Rosa"

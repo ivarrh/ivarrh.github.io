@@ -1,4 +1,4 @@
-<h3> <a href= "https://www.danielmartinruiz.com"> Daniel MARTÍN</a> </h3>
+<h3> <a href= "https://www.danielmartinruiz.com" target="_blank"> Daniel MARTÍN</a> </h3>
 
 Hi! My name is Daniel Martín, and I am currently pursuing a PhD in Philosophy at the University of Granada. My academic journey began with a Bachelor’s degree in Philosophy here at Granada, followed by a Master’s degree in Applied Ethics at the Complutense University of Madrid. I have also recently completed a Master’s degree in Teaching and am simultaneously pursuing a degree in Psychology at the UNED.
 

@@ -9,7 +9,7 @@ layout: page
         <h2 class="section-title current-title">lab members</h2>
 
         {% for profile in page.profiles %}
-          {% if profile.status != 'alumni' %}
+          {% if profile.status != 'alumni' and profile.status != 'visitor' %}
             <div class="profile-container">
               <hr class="section-divider">
               <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
@@ -40,6 +40,59 @@ layout: page
           {% endif %}
         {% endfor %}
       </div>
+      <!-- Visitors section -->
+
+      {% assign has_visitors = false %}
+      {% for profile in page.profiles %}
+        {% if profile.status == 'visitor' %}
+          {% assign has_visitors = true %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign visitors = page.profiles | where: "status", "visitor" %}
+      {% if visitors.size > 0 %}
+        <div class="lab-section visitors-section">
+          <hr class="major-divider">
+          <h2 class="section-title visitors-title">visitors</h2>
+
+          {% for profile in page.profiles %}
+            {% if profile.status == 'visitor' %}
+              <div class="profile-container">
+                <div class="profile visitor float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+                  {% if profile.image %}
+                    {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                    {% if profile.image_circular %}
+                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                    {% else %}
+                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                    {% endif %}
+                    {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+                    {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                  {% endif %}
+                  {% if profile.more_info %}
+                    <div class="more-info">{{ profile.more_info }}</div>
+                  {% endif %}
+                </div>
+
+                <div class="clearfix visitor-content">
+                  {% if profile.content %}
+                    {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                    {{ profile_content | markdownify }}
+                  {% endif %}
+
+                  {% if profile.home_institution or profile.visit_period %}
+                    <p class="visitor-details">
+                      {% if profile.home_institution %}<strong>Visiting from {{ profile.home_institution }}</strong>{% endif %}
+                      {% if profile.visit_period %}<br>{{ profile.visit_period }}{% endif %}
+                    </p>
+                  {% endif %}
+                </div>
+                
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
 
       <!-- Alumni section -->
       {% assign has_alumni = false %}
@@ -102,7 +155,7 @@ layout: page
     margin-bottom: 3rem;
   }
 
-  .alumni-section {
+  .visitors-section, .alumni-section {
     margin-top: 3rem;
   }
 
@@ -119,14 +172,14 @@ layout: page
     text-shadow: 1px 1px 2px var(--card-shadow);
   }
 
-  .alumni-title {
+  .visitors-title, .alumni-title {
     color: var(--card-link);
     text-shadow: 1px 1px 2px var(--card-shadow);
   }
 
   .major-divider {
     border: 2px solid var(--card-link);
-    margin: 3.5rem 0;
+    margin: 3rem 0;
     opacity: 0.6;
   }
 
@@ -153,7 +206,7 @@ layout: page
     font-size: 1.2rem;
   }
 
-  .alumni-divider {
+  .visitor-divider, .alumni-divider {
     border-color: var(--input-border) !important;
     margin: 2rem 0;
   }
