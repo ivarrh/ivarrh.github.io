@@ -245,7 +245,7 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
   
   <hr>
 
-  <h3>Thursday 27<sup>th</sup></h3>
+  <h3>Friday 27<sup>th</sup></h3>
 
    <!-- Talk 4 -->
   <div class="talk">
@@ -254,7 +254,7 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
       <div class="talk-time">9:30h</div>
     </div>
     <div class="talk-body">
-      <h4 class="talk-title">TBA</h4>
+      <h4 class="talk-title">Risky choice framing effects, doing vs. allowing harm, and fairness in uncertain prospects</h4>
       <div class="talk-speaker">
         Tomasz Żuradzki · Jagiellonian University  ·
         <a href="https://incet.uj.edu.pl/tomasz-zuradzki/" target="_blank"><i class="fas fa-globe"></i> Website</a>
