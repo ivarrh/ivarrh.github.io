@@ -510,7 +510,6 @@ pre code {
 }
 
 .col,
-.col-12,
 .col-md-10,
 .col-md-12,
 .col-md-2,
@@ -545,12 +544,6 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%
-}
-
-.col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%
 }
 
 @media (min-width:576px) {
@@ -2126,6 +2119,10 @@ a.close.disabled {
 
 .p-3 {
     padding: 1rem !important
+}
+
+.mt-auto {
+    margin-top: auto !important
 }
 
 .ml-auto {
