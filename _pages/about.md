@@ -24,7 +24,7 @@ Welcome to our website! The Moral Science Lab is an interdisciplinary research l
 
 3. <b>Experimental Jurisprudence</b>: what people consider to be [law](https://onlinelibrary.wiley.com/doi/10.1111/cogs.13024), how they interpret rules, and how law and morality are [related](https://www.pnas.org/doi/full/10.1073/pnas.2406823121). Learn about experimental jurisprudence (<i>x-jur</i>) through the Stanford Encyclopedia of Philosophy [entry](https://plato.stanford.edu/entries/experimental-jurisprudence/).
 
-Our research is described in greater detail on the [projects](/projects/) page. You can also take some of our studies [here](/studies/)!
+Our research is described in greater detail on the [projects](/projects/) page. You can also take one of our studies [here](/studies/)!
 
 The Moral Science Lab is generously funded by a 2024 Knowledge Generation Grant (_Mental State Inference in the Moral Domain_; **PID2024-155143NB-I00**), awarded by the _Spanish Ministry of Science and Innovation_ (MICIU/AEI/10.13039/501100011033) and the _European Union NextGenerationEU/PRTR_, and by a 2025 Leonardo Grant for Scientific Research and Cultural Creation (_Philosophical Expertise and Non-Classical Conceptual Structure_), awarded by the _BBVA Foundation_.
 

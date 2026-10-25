@@ -1,66 +1,98 @@
 ---
 layout: page
+title: studies
 permalink: /studies/
-title: take a study
-nav: false
-nav_order: 9
-horizontal: true
+description: Take part in our research. Each study runs in your browser and takes just a few minutes.
+nav: true
+nav_order: 4
 ---
 
-<h1 style="text-align: center;"><b>Playing by the Rules</b></h1>
+{% assign open_studies = site.data.studies | where: "active", true %}
 
-<div class="row justify-content-center" style="max-width: 800px; margin: 0 auto;">
-    <div class="col-12">
-        <p style="font-size: 1.1em; text-align: center;">
-            In this study, you must decide whether someone broke a community rule.
+{% if open_studies.size > 0 %}
+
+<div class="row studies">
+  {% for study in open_studies %}
+  <div class="col-md-6 mb-4">
+    <a class="card study-card h-100" href="{{ study.url }}" target="_blank" rel="noopener">
+      {% if study.img %}
+      <img class="card-img-top{% if study.img_fit == "contain" %} fit-contain{% endif %}" src="{{ study.img | relative_url }}" alt="" loading="lazy">
+      {% endif %}
+      <div class="card-body d-flex flex-column">
+        <h3 class="card-title">{{ study.title }}</h3>
+        {% if study.language or study.duration %}
+        <p class="study-meta">
+          {% for lang in study.language %}<span class="study-badge">{{ lang }}</span>{% endfor %}
+          {% if study.duration %}<span class="study-duration">{{ study.duration }}</span>{% endif %}
         </p>
-    </div>
-</div>
-
-<div class="row justify-content-center">
-    <div class="col-sm" style="max-width: 400px; width: 100%; text-align: center;">
-        <a href="https://mscilab.com/studies/3/">
-            {% include figure.liquid loading="eager" path="assets/img/prohib.svg" title="Who will you save?" class="img-fluid rounded z-depth-1" %}
-        </a>
-        <h2><a href="https://mscilab.com/studies/3/">Take me to this study.</a></h2>
-    </div>
-</div>
-<br><br>
-
-<h1 style="text-align: center;"><b>Who will you save?</b></h1>
-
-<div class="row justify-content-center" style="max-width: 800px; margin: 0 auto;">
-    <div class="col-12">
-        <p style="font-size: 1.1em; text-align: center;">
-            In this study, you must imagine you are in an emergency where you have to decide to save one of two individuals from mortal danger. You will see pairs of individuals and decide who to save.
-        </p>
-    </div>
-</div>
-
-<div class="row justify-content-center">
-    <div class="col-sm" style="max-width: 600px; width: 100%; text-align: center;">
-    <a href="https://mscilab.com/studies/1/">
-        {% include figure.liquid loading="eager" path="assets/img/ad_header.jpg" title="Who will you save?" class="img-fluid rounded z-depth-1" %}
+        {% endif %}
+        <p class="card-text">{{ study.description }}</p>
+        <span class="study-cta mt-auto">Take part &rarr;</span>
+      </div>
     </a>
-        <h2><a href="https://mscilab.com/studies/1/">Take me to this study.</a></h2>
-    </div>
+  </div>
+  {% endfor %}
 </div>
-<br><br>
-<h1 style="text-align: center;"><b>Picking Sides</b></h1>
+{% else %}
+<p>There are no open studies right now. Please check back soon!</p>
+{% endif %}
 
-<div class="row justify-content-center" style="max-width: 800px; margin: 0 auto;">
-    <div class="col-12">
-        <p style="font-size: 1.1em; text-align: center;">
-            In this study, you will witness a disagreement between two social media users and your job is to decide who is right.
-        </p>
-    </div>
-</div>
+<p class="studies-note">
+  Our studies run on the lab's study platform, <a href="https://www.mscilab.com/">mscilab.com</a>.
+  Participation is voluntary and anonymous.
+</p>
 
-<div class="row justify-content-center">
-    <div class="col-sm" style="max-width: 600px; width: 100%; text-align: center;">
-        <a href="https://mscilab.com/studies/2/">
-        {% include figure.liquid loading="eager" path="assets/img/pickingsides.jpg" title="Picking Sides" class="img-fluid rounded z-depth-1" %}
-        </a>
-        <h2><a href="https://mscilab.com/studies/2/">Take me to this study.</a></h2>
-    </div>
-</div>
+<style>
+  .studies .study-card {
+    display: block;
+    overflow: hidden;
+    color: var(--global-text-color);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+  .studies .study-card:hover {
+    color: var(--global-text-color);
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .studies .card-img-top {
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  .studies .card-img-top.fit-contain {
+    object-fit: contain;
+    padding: 12px;
+    background-color: var(--global-bg-color);
+  }
+  .studies .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+  }
+  .studies .study-card:hover .card-title { color: var(--global-theme-color); }
+  .studies .study-meta { margin-bottom: 0.5rem; font-size: 0.8rem; }
+  .studies .study-badge {
+    display: inline-block;
+    margin-right: 6px;
+    padding: 1px 7px;
+    border-radius: 3px;
+    background-color: var(--global-theme-color);
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+  .studies .study-duration { color: var(--global-text-color-light); }
+  .studies .study-cta {
+    color: var(--global-theme-color);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .studies-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+</style>

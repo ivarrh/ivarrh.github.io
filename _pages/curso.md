@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Department of Philosophy I, University of Granada
+description: Recursos de enseñanza
 nav: true
 nav_order: 7
 ---

@@ -1,0 +1,86 @@
+# Studies advertised on moralsciencelab.com/studies/
+#
+# One entry per study. Set active: false to hide a study without deleting it.
+# Studies appear in the order listed here.
+#
+#   title        public name; use the same name in the study's own <title>
+#   description  one or two sentences, shown on the card
+#   url          the study's link on the study platform (www.mscilab.com)
+#   img          optional image in assets/img/
+#   img_fit      optional: contain = show the whole image (logos, icons)
+#                instead of filling the frame
+#   language     optional, e.g. EN, ES, AR (or a list: [EN, ES])
+#   duration     optional, e.g. "10 min"
+#   active       true = shown, false = hidden
+
+- title: Playing by the Rules
+  description: In this study, you must decide whether someone broke a community rule.
+  url: https://www.mscilab.com/studies/3/
+  img: assets/img/prohib.svg
+  img_fit: contain
+  language: EN
+  active: true
+
+- title: Who will you save?
+  description: >-
+    In this study, you must imagine you are in an emergency where you have to
+    decide to save one of two individuals from mortal danger. You will see pairs
+    of individuals and decide who to save.
+  url: https://www.mscilab.com/studies/1/
+  img: assets/img/ad_header.jpg
+  language: EN
+  active: true
+
+- title: Picking Sides
+  description: >-
+    In this study, you will witness a disagreement between two social media users
+    and your job is to decide who is right.
+  url: https://www.mscilab.com/studies/2/
+  img: assets/img/pickingsides.jpg
+  language: EN
+  active: true
+
+- title: Who do you trust?
+  description: >-
+    You will read everyday rules, like "No cars in the park", and see how
+    different people applied them in a series of situations. Your job is to
+    judge how they handled each case.
+  url: https://www.mscilab.com/studies/4/
+  language: EN
+  active: true
+
+# Working title: the study page is still called "AD3". Rename both if you like.
+- title: Which group would you save?
+  description: >-
+    You will see pairs of groups made up of people and animals, and decide
+    which group to save. The study takes about 30 decisions.
+  url: https://www.mscilab.com/studies/5/
+  language: EN
+  active: true
+
+- title: Decisiones en la clínica
+  description: >-
+    A study in Spanish. You will read fictional scenarios about medical
+    decisions where bodily autonomy is in tension with a potential life, and
+    say how you would respond.
+  url: https://www.mscilab.com/studies/7/
+  language: ES
+  active: true
+
+- title: القرارات في العيادة
+  description: >-
+    A study in Arabic. You will read fictional scenarios about medical
+    decisions where bodily autonomy is in tension with a potential life, and
+    say how you would respond.
+  url: https://www.mscilab.com/studies/8/
+  language: AR
+  active: true
+
+- title: The Rules of Figuria Island
+  description: >-
+    You will read about life in a fictional island society, including its
+    rules about pets, and answer questions about what you think. There are no
+    right or wrong answers.
+  url: https://www.mscilab.com/studies/9/
+  language: EN
+  active: true
