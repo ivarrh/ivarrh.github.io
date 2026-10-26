@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: <h4>A collection of the lab's ongoing and previous work.</h4>
 nav: true
-nav_order: 4
+nav_order: 3
 display_categories: [current, previous]
 horizontal: false
 ---

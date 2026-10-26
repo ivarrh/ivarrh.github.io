@@ -26,12 +26,12 @@
     In this study, you must imagine you are in an emergency where you have to
     decide to save one of two individuals from mortal danger. You will see pairs
     of individuals and decide who to save.
-  url: https://www.mscilab.com/studies/1/
+  url: https://www.mscilab.com/studies/5/
   img: assets/img/ad_header.jpg
   language: EN
   active: true
 
-- title: Picking Sides
+- title: Taking Sides
   description: >-
     In this study, you will witness a disagreement between two social media users
     and your job is to decide who is right.
@@ -50,11 +50,10 @@
   active: true
 
 # Working title: the study page is still called "AD3". Rename both if you like.
-- title: Which group would you save?
+- title: Analyzing Philosophical Problems
   description: >-
-    You will see pairs of groups made up of people and animals, and decide
-    which group to save. The study takes about 30 decisions.
-  url: https://www.mscilab.com/studies/5/
+    You will be presented with various philosophical thought experiments and asked to give an answer.
+  url: https://www.mscilab.com/studies/1/
   language: EN
   active: true
 

@@ -4,7 +4,7 @@ title: workshop
 description: Workshop on Philosophical Intuition and Conceptual Structure
 permalink: workshop/
 nav: true
-nav_order: 2
+nav_order: 4
 ---
 
 <style>

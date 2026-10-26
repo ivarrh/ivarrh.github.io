@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Recursos de enseñanza
 nav: true
-nav_order: 7
+nav_order: 5
 ---
 
 <head>

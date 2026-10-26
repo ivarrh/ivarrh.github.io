@@ -4,7 +4,7 @@ permalink: /intuitions/
 title: intuitions-study
 description: A study of philosophical intuitions
 nav: true
-nav_order: 7
+nav_order: 6
 ---
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
