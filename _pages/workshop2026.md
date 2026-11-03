@@ -235,11 +235,11 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
   <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Workshop Dinner ~</i></h4>
 
   <div class="simple-item">
-    <strong>20:00h</strong> Restaurant <i>(to be announced soon)</i>
+    <strong>20:00h</strong> <a href="https://mezzegranada.es/" target="_blank">Mezze Restaurant</a>
     <span style="margin-left: 1em;"><small>
     </small></span>
     <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
-      The venue will be announced closer to the date. Join us for an informal dinner to continue the conversations of the day.
+      We will have an informal vegan dinner to wrap up the first day of the workshop.
     </p>
   </div>
   
