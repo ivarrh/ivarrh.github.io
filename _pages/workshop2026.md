@@ -86,9 +86,8 @@ nav_order: 4
   }
 
   .funding-block {
-  max-width: 750px;
-  margin: 3rem auto 2rem auto;
-  text-align: center;
+  margin: 2rem auto 2rem auto;
+  text-align: left;
 }
 .funding-block p {
   margin-bottom: 1.5rem;
@@ -121,7 +120,7 @@ nav_order: 4
 
 <div class="workshop-meta">
   <p style="text-align: center;"><strong>Dates:</strong> Thursday 26<sup>th</sup> and Friday 27<sup>th</sup> of November 2026</p>
-  <p style="text-align: center;"><strong>Location:</strong> Faculty of Psychology, University of Granada, Spain.
+  <p style="text-align: center;"><strong>Location:</strong> Sala de Juntas, Faculty of Psychology, University of Granada, Spain.
     <span style="margin-left: 1em;"><small>
       <a href="https://www.google.com/maps/place/Facultad+de+Psicolog%C3%ADa+.+Universidad+de+Granada+(UGR)/@37.1944643,-3.5969308,794m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd71fcdbc5871c09:0x310142868f5decc9!8m2!3d37.1944643!4d-3.5943505!16s%2Fg%2F12q4_5_g8?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
         <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
@@ -140,9 +139,7 @@ nav_order: 4
 
 <div class="workshop-description" style="text-align: justify;">
 
-<p> Within analytic philosophy, there is a long tradition of appealing to intuitions about thought experiments to probe the structure of central philosophical concepts such as knowledge, free will, and truth. These thought experiments aim to clarify such concepts by testing proposed necessary and sufficient conditions against our intuitive judgments.<br><br>
-
-More recently, a growing body of empirical work in cognitive science has shown that many natural and social concepts lack this classical structure, and has proposed a range of alternatives, from prototypes and exemplars to dual-character accounts. This raises a question: might philosophical concepts also have a non-classical structure?<br><br>
+<p> Within analytic philosophy, there is a long tradition of appealing to intuitions about thought experiments to probe the structure of central philosophical concepts such as knowledge, free will, and truth. These thought experiments aim to clarify such concepts by testing proposed necessary and sufficient conditions against our intuitive judgments. More recently, a growing body of empirical work in cognitive science has shown that many natural and social concepts lack this classical structure, and has proposed a range of alternatives, from prototypes and exemplars to dual-character accounts. This raises a question: might philosophical concepts also have a non-classical structure?<br><br>
 
 Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and Cultural Creation for the project <i>Philosophical Intuition and Non-Classical Conceptual Structure</i>, this workshop brings together researchers from philosophy and cognitive science for six talks on related questions, including:</p>
 
@@ -161,7 +158,7 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
 <!-- ============ PROGRAM (with integrated speakers + abstracts) ============ -->
 <section id="program" class="workshop-section">
   <h2><b>Workshop Program</b></h2>
-  <p>The workshop will take place in the Sala de Juntas,<a href="https://www.google.com/maps/place/Facultad+de+Psicolog%C3%ADa+.+Universidad+de+Granada+(UGR)/@37.1944643,-3.5969308,794m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd71fcdbc5871c09:0x310142868f5decc9!8m2!3d37.1944643!4d-3.5943505!16s%2Fg%2F12q4_5_g8?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D"> Psychology Faculty, in Campus Cartuja</a>.
+  <p>The workshop will take place in the Sala de Juntas de Filosofía, at the <a href="https://www.google.com/maps/place/Facultad+de+Psicolog%C3%ADa+.+Universidad+de+Granada+(UGR)/@37.1944643,-3.5969308,794m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd71fcdbc5871c09:0x310142868f5decc9!8m2!3d37.1944643!4d-3.5943505!16s%2Fg%2F12q4_5_g8?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D"> Faculty of Psychology</a> (Cartuja University Campus).
 
   <h3>Thursday 26<sup>th</sup></h3>
 
@@ -223,26 +220,21 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
     </div>
   </div>
 
-  <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Lunch ~</i></h4>
-
 <div class="simple-item">
-  <strong>Free afternoon for speakers</strong>
+  <strong>Lunch and the afternoon off</strong>
   <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
     The afternoon will be free for conference speakers and open to discuss ongoing projects. 
   </p>
 </div>
-
-  <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Workshop Dinner ~</i></h4>
-
-  <div class="simple-item">
-    <strong>20:00h</strong> <a href="https://mezzegranada.es/" target="_blank">Mezze Restaurant</a>
-    <span style="margin-left: 1em;"><small>
-    </small></span>
+<br>
+<div class="simple-item">
+    <strong>20:00h</strong> Workshop Dinner at <a href="https://mezzegranada.es/" target="_blank">Mezze Restaurant</a>
+    <span style="margin-left: 1em;"></span>
     <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
       We will have an informal vegan dinner to wrap up the first day of the workshop.
     </p>
   </div>
-  
+  <br><br>
   <hr>
 
   <h3>Friday 27<sup>th</sup></h3>
@@ -261,7 +253,7 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
       </div>
       <div class="talk-abstract">
         <!-- PASTE ABSTRACT HERE -->
-        <p><strong>Abstract:</strong> <em>TBA</em></p>
+        <p><strong>Abstract:</strong> <em>In popular interpretations, risky choice framing effects are taken to reveal human irrationality. Even authors who argue that frames can sometimes highlight the reason-giving aspects of an outcome often treat the standard pattern of choices in canonical experiments, such as the Asian Disease Problem (ADP), as irrational. This paper proposes a new approach to studying risky choice framing effects, including those observed in the ADP, by interpreting them in terms of reasons: such effects occur when different frames highlight distinct reason-giving aspects of a situation and thereby shape how decision-makers represent and evaluate the available options, which in turn leads to systematic differences in choice. This reason-based approach has significant implications for debates about the apparent irrationality of choices in risky choice framing effects and about the supposed equivalence of the ADP options. It suggests that framing may influence not only how outcomes are valued, but also which considerations are taken to be relevant to the decision. Our central claim is that responsiveness to such reasons can, in some cases, be rational. To assess this proposal, we report a new experimental study examining the extent to which non-consequentialist moral reasons related to the doing/allowing distinction and fairness can explain choices in “sacrificial dilemmas” such as the ADP. Our findings suggest that participants’ choices are sensitive to these considerations, supporting the view that framing effects in moral contexts cannot be fully explained by standard outcome-based models.</em></p>
       </div>
     </div>
   </div>
@@ -323,70 +315,33 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
     </div>
   </div>
 
-   <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Lunch ~</i></h4>
-
-  <div class="simple-item">
-  <strong>Free afternoon for speakers</strong>
+<div class="simple-item">
+  <strong>Lunch and the afternoon off</strong>
   <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
-    The afternoon will be free for conference speakers and open to discuss ongoing projects. 
+    More free time to stroll around the city, catch up with colleagues, and discuss ongoing projects.
   </p>
 </div>
-
-<h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Closing Reception &amp; Farewell ~</i></h4>
-
-  <div class="simple-item">
-    <strong>19:00h</strong>
+<br>
+<div class="simple-item">
+    <strong>19:00h</strong> Closing Reception &amp; Farewell
 <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
   The workshop will conclude at the
   <a href="https://carmendelavictoria.ugr.es/" target="_blank">Carmen de la Victoria</a>
   with a closing reception. We look forward to marking the end of two days of talks and
   discussion together.
-
-{% comment %}
-
-  <hr style="margin: 2rem 0;">
-
-  <h3>Friday 27<sup>th</sup></h3>
-  <div class="simple-item">
-    <strong>10:00h Morning Working Group Meeting</strong>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
-      An open session for the speakers to discuss ongoing projects. We have reserved space for
-      informal talking, feedback, and potential collaborations, bring whatever you are currently
-      working on, or ideas you would like to develop with others.
     </p>
   </div>
-
-  <div class="simple-item">
-    <strong>15:00h Afternoon Working Group Meeting</strong>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
-      A continuation of the morning session, with further room for discussion of current and future
-      projects, emerging collaborations, and next steps arising from the workshop.
-    </p>
-  </div>
-
-  <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Closing Reception &amp; Farewell ~</i></h4>
-
-  <div class="simple-item">
-    <strong>20:00h</strong>
-<p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
-  The workshop will conclude at the
-  <a href="https://carmendelavictoria.ugr.es/" target="_blank">Carmen de la Victoria</a>
-  with a closing reception. We look forward to marking the end of two days of talks and
-  discussion together.
-
-<hr style="margin: 3rem 0;">
-
-{% endcomment %}
+  <br><br>
 
 <hr style="margin">
 
 <section class="registration-block">
-  <h2><i class="fas fa-user-plus"></i> Registration</h2>
+  <h3><i class="fas fa-user-plus"></i> Registration</h3>
   <p>
-    Attendance is free, but please let us know if you plan to come so we can plan accordingly.
+    Attendance is free, but please let us know if you are coming so we can plan accordingly.
     Just send a short email to
-    <a href="mailto:damartin@ugr.es?subject=Workshop%20Registration">damartin@ugr.es</a>
-    with your name and affiliation.
+    <a href="mailto:damartin@ugr.es?subject=2026%20Workshop%20Registration">Daniel Martín</a>
+    with your name and affiliation details.
   </p>
 </section>
 
@@ -436,7 +391,9 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
       </div>
     </div>
   </div>
+  <hr style="margin">
 <div class="funding-block">
+<h3>Sponsors</h3>
   <p>
     The workshop is generously funded by a 2025 Leonardo Grant for Scientific Research and
     Cultural Creation (<i>Philosophical Intuition and Non-Classical Conceptual Structure</i>),
@@ -449,7 +406,35 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
 </div>
 </section>
 
-<hr>
+{% comment %}
 
-<h2><i class="fas fa-envelope"></i> Contact Us</h2>
-<p>For any queries, feel free to contact <a href="mailto:damartin@ugr.es?subject=Workshop%20Inquiry">Daniel Martín</a>.</p>
+  <div class="simple-item">
+    <strong>10:00h Morning Working Group Meeting</strong>
+    <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
+      An open session for the speakers to discuss ongoing projects. We have reserved space for
+      informal talking, feedback, and potential collaborations, bring whatever you are currently
+      working on, or ideas you would like to develop with others.
+    </p>
+  </div>
+
+  <div class="simple-item">
+    <strong>15:00h Afternoon Working Group Meeting</strong>
+    <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
+      A continuation of the morning session, with further room for discussion of current and future
+      projects, emerging collaborations, and next steps arising from the workshop.
+    </p>
+  </div>
+
+  <h4 style="text-align:center; margin: 1.5rem 0;"><i>~ Closing Reception &amp; Farewell ~</i></h4>
+
+  <div class="simple-item">
+    <strong>20:00h</strong>
+<p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
+  The workshop will conclude at the
+  <a href="https://carmendelavictoria.ugr.es/" target="_blank">Carmen de la Victoria</a>
+  with a closing reception. We look forward to marking the end of two days of talks and
+  discussion together.
+
+<hr style="margin: 3rem 0;">
+
+{% endcomment %}
