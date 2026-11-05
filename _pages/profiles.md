@@ -41,13 +41,19 @@ profiles:
     more_info: >
       <h4>PhD Student</h4>
   - align: left
+    image: mikel2.png
+    content: about_mikel.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <h4>PhD Student @ UPV/EHU</h4>
+  - align: right
     image: sandra.jpg
     content: about_sandra.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <h4>Research Assistant</h4>
   # visitors section
-  - align: right
+  - align: left
     image: guilherme.jpeg
     status: "visitor"
     content: about_gui.md
@@ -55,7 +61,7 @@ profiles:
     more_info: >
       <h4>FAPESP Research Fellow</h4>
   # alumni section
-  - align: left
+  - align: right
     image: carme.png
     status: "alumni"
     name: "Carme"
@@ -64,7 +70,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <h4>Assistant Professor @ UIB</h4>
-  - align: right
+  - align: left
     image: paolo.png
     status: "alumni"
     name: "Paolo"
@@ -73,7 +79,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <h4>Research Assistant</h4>
-  - align: left
+  - align: right
     image: rosa.jpeg
     status: "alumni"
     name: "Rosa"

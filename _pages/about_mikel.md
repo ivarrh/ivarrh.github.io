@@ -1,0 +1,7 @@
+<h3> <a href= "https://ekoizpen-zientifikoa.ehu.eus/investigadores/1030561/detalle" target="_blank"> Mikel ASTEINZA</a> </h3>
+
+I'm a PhD student in philosophy of science at the University of the Basque Country (UPV/EHU), co-supervised by Jon Umerez and Ivar Hannikainen, and a member of the [IAS-Research](https://www.ias-research.net/) group. I did my BA in Philosophy at the UPV/EHU and my MA in Contemporary Philosophy at the University of Granada. I've been a visiting researcher at the Technical University of Munich with Sabina Leonelli and at the Institut d'Història de la Ciència (UAB, Barcelona) with Vincenzo Politi.
+
+My research combines philosophy of science and experimental philosophy to study how metaphors shape public understanding of emerging biotechnologies, using de-extinction as a case study. In a preregistered experiment with a nationally representative Spanish sample ([published in Synthese](https://link.springer.com/article/10.1007/s11229-026-05854-w) with Hugo Viciana and Ivar), promotional metaphors like "resurrection" left readers more misinformed about what de-extinction can actually achieve, while critical ones did the opposite. Neither changed how scientifically rigorous the text seemed, a dissociation we call _credibility without comprehension_.
+
+When I’m not thinking about misinformation, you’ll find me doing powerlifting or calisthenics, at the cinema or a concert, or out for drinks and pintxos in San Sebastián.
