@@ -113,6 +113,34 @@ nav_order: 4
   line-height: 2;
 }
 .registration-block p:last-child { margin-bottom: 0; }
+.info-pdf-block {
+  margin: 2rem auto;
+  font-size: 0.99rem;
+  line-height: 1.7;
+}
+.pdf-frame {
+  width: 90%;
+  max-width: 900px;
+  height: 550px;
+  margin: 1rem auto 0.75rem auto;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.pdf-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+.pdf-fallback {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .pdf-frame { width: 100%; height: 380px; }
+}
 </style>
 
 <h1 style="text-align: center;">The <strong>Philosophical Intuition and Conceptual Structure</strong> Workshop</h1>
@@ -342,6 +370,25 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
     Just send a short email to
     <a href="mailto:damartin@ugr.es?subject=2026%20Workshop%20Registration">Daniel Martín</a>
     with your name and affiliation details.
+  </p>
+</section>
+
+<hr style="margin">
+
+<!-- ============ PRACTICAL INFO (PDF) ============ -->
+<section class="info-pdf-block">
+  <h3><i class="fas fa-file-pdf"></i> Practical Information</h3>
+  <p>
+    Here you can find a document with all the information about the workshop, including the
+    full program, how to get to the venue, and some recommendations for things to see, eat,
+    and do during your stay in Granada.
+  </p>
+  <div class="pdf-frame">
+    <iframe src="/assets/pdf/workshop.pdf#view=FitH" title="Workshop information and Granada recommendations" loading="lazy"></iframe>
+  </div>
+  <p class="pdf-fallback">
+    Can't see the document?
+    <a href="/assets/pdf/workshop.pdf" target="_blank"><i class="fas fa-download"></i> Open or download the PDF</a>
   </p>
 </section>
 
