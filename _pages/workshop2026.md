@@ -141,6 +141,37 @@ nav_order: 4
 @media (max-width: 576px) {
   .pdf-frame { width: 100%; height: 380px; }
 }
+
+
+.profile-grid-workshop {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.profile-grid-workshop .profile-card {
+  width: auto;
+  min-width: 0;
+  text-align: center;
+}
+.profile-grid-workshop .profile-img-container img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.profile-grid-workshop h3 { font-size: 1.05rem; }
+.profile-grid-workshop .profile-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .profile-grid-workshop { grid-template-columns: repeat(2, 1fr); }
+}
 </style>
 
 <h1 style="text-align: center;">The <strong>Philosophical Intuition and Conceptual Structure</strong> Workshop</h1>
@@ -437,7 +468,21 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
         </div>
       </div>
     </div>
-  </div>
+        <!-- Organizer: Ivar R. Hannikainen -->
+    <div class="profile-card">
+      <div class="profile-img-container">
+        <img src="/assets/img/ivar3.png" alt="Ivar R. Hannikainen">
+      </div>
+      <div class="profile-content">
+        <h3>Ivar R. Hannikainen</h3>
+        <p class="affiliation">University of Granada</p>
+        <div class="profile-links">
+          <a href="/people/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+          <a href="mailto:ivar@ugr.es"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>  <!-- closes .profile-grid-workshop -->
   <hr style="margin">
 <div class="funding-block">
 <h3>Sponsors</h3>
