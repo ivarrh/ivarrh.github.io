@@ -287,7 +287,11 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
 </div>
 <br>
 <div class="simple-item">
-    <strong>20:00h</strong> Workshop Dinner at <a href="https://mezzegranada.es/" target="_blank">Mezze Restaurant</a>
+    <strong>20:00h</strong> Workshop Dinner at Mezze Restaurant
+      <span style="margin-left: 1em;"><small>
+      <a href="https://maps.app.goo.gl/US9wAsiCxLxN2Arb7" target="_blank">
+        <i class="fas fa-map-marker-alt"></i> [How to get to the Mezze]</a>
+    </small></span>
     <span style="margin-left: 1em;"></span>
     <p style="margin: 0.5rem 0 0 0; font-size: 0.92rem; color: #555;">
       We will have an informal vegan dinner to wrap up the first day of the workshop.
