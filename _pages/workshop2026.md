@@ -415,11 +415,11 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
     and do during your stay in Granada.
   </p>
   <div class="pdf-frame">
-    <iframe src="/assets/pdf/workshop.pdf#view=FitH" title="Workshop information and Granada recommendations" loading="lazy"></iframe>
+    <iframe src="/assets/pdf/workshop_updated.pdf#view=FitH" title="Workshop information and Granada recommendations" loading="lazy"></iframe>
   </div>
   <p class="pdf-fallback">
     Can't see the document?
-    <a href="/assets/pdf/workshop.pdf" target="_blank"><i class="fas fa-download"></i> Open or download the PDF</a>
+    <a href="/assets/pdf/workshop_updated.pdf" target="_blank"><i class="fas fa-download"></i> Open or download the PDF</a>
   </p>
 </section>
 
