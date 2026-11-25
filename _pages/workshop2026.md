@@ -411,7 +411,7 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
   <h3><i class="fas fa-file-pdf"></i> Practical Information</h3>
   <p>
     Here you can find a document with all the information about the workshop, including the
-    full program, how to get to the venue, and some recommendations for things to see, eat,
+    full program, how to get to the venue and some recommendations for things to see, eat,
     and do during your stay in Granada.
   </p>
   <div class="pdf-frame">
