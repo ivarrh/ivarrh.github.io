@@ -289,7 +289,7 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
 <div class="simple-item">
     <strong>20:00h</strong> Workshop Dinner at Mezze Restaurant
       <span style="margin-left: 1em;"><small>
-      <a href="https://maps.app.goo.gl/US9wAsiCxLxN2Arb7" target="_blank">
+      <a href="https://maps.app.goo.gl/siCAd7Ef8TrKZoLr9" target="_blank">
         <i class="fas fa-map-marker-alt"></i> [How to get to the Mezze]</a>
     </small></span>
     <span style="margin-left: 1em;"></span>
