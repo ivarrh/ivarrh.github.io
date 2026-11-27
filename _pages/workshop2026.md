@@ -179,7 +179,7 @@ nav_order: 4
 
 <div class="workshop-meta">
   <p style="text-align: center;"><strong>Dates:</strong> Thursday 26<sup>th</sup> and Friday 27<sup>th</sup> of November 2026</p>
-  <p style="text-align: center;"><strong>Location:</strong> Sala de Juntas, Faculty of Psychology, University of Granada, Spain.
+  <p style="text-align: center;"><strong>Location Thursday 26th:</strong> Sala de Juntas, Faculty of Psychology, University of Granada, Spain.
     <span style="margin-left: 1em;"><small>
       <a href="https://www.google.com/maps/place/Facultad+de+Psicolog%C3%ADa+.+Universidad+de+Granada+(UGR)/@37.1944643,-3.5969308,794m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd71fcdbc5871c09:0x310142868f5decc9!8m2!3d37.1944643!4d-3.5943505!16s%2Fg%2F12q4_5_g8?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
         <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
@@ -301,6 +301,12 @@ Supported by a 2025 BBVA Foundation Leonardo Grant for Scientific Research and C
   <hr>
 
   <h3>Friday 27<sup>th</sup></h3>
+  <p style="text-align: center;"><strong>Location Friday 27th:</strong> Auditorio VIII, Faculty of Psychology, University of Granada, Spain.
+    <span style="margin-left: 1em;"><small>
+      <a href="https://www.google.com/maps/place/Facultad+de+Psicolog%C3%ADa+.+Universidad+de+Granada+(UGR)/@37.1944643,-3.5969308,794m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd71fcdbc5871c09:0x310142868f5decc9!8m2!3d37.1944643!4d-3.5943505!16s%2Fg%2F12q4_5_g8?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <i class="fas fa-map-marker-alt"></i> [How to get there]</a>
+    </small></span>
+  </p>
 
    <!-- Talk 4 -->
   <div class="talk">
